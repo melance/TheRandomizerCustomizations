@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Grammar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		 xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+		 xsi:type="AssignmentGrammar">
+	<name>Kobold Victory Reaction</name>
+	<author>Mearls (converted by Lance Boudreaux)</author>
+	<description>If a kobold does manage to drop an adventurer, an intense (though invariably brief) celebration is in order.</description>
+	<url>http://mearls.livejournal.com/145866.html</url>
+	<tags>
+		<tag>Fantasy</tag>
+		<tag>Monster</tag>
+		<tag>D&amp;D</tag>
+	</tags>
+	<parameters />
+	<supportsMaxLength>false</supportsMaxLength>
+	<items>
+		<item name="Start" weight="10"><![CDATA[<b>No effect.</b><br />
+										The kobold lacks the imagination to do anything interesting. It might chitter or giggle, but it really doesn't know what to do when it defeats something.]]></item>
+		<item name="Start" weight="1"><![CDATA[<b>Kill things, take their stuff!</b><br />
+										The kobold picks an item off the fallen adventurer as its trophy. It spends a minor action next round dancing in celebration before running off.]]></item>
+		<item name="Start" weight="1"><![CDATA[<b>Ask not what the tribe can do for you...</b><br />
+										The kobold spends a round standing on the fallen adventurer's body, delivering a victory speech. All kobolds heal 5 hit points.]]></item>
+		<item name="Start" weight="1"><![CDATA[<b>I attribute my success solely to good fortune.</b><br />
+										The kobold immediately hides in its victim's backpack or under his unconscious/dead form.]]></item>
+		<item name="Start" weight="1"><![CDATA[<b>Whoah. Srsly?!?</b><br />
+										The kobold is stunned for one round, shocked by its own success.]]></item>
+		<item name="Start" weight="1"><![CDATA[<b>Who's yer daddy?!?</b><br />
+										The kobold marches off to challenge the tribe's chief to a duel for supremacy.]]></item>
+		<item name="Start" weight="1"><![CDATA[<b>C'mon guys, we can do this thing!</b><br />
+										The kobold lets out an inspiring whoop that grants all kobolds +1 on attacks for the rest of the fight.]]></item>
+		<item name="Start" weight="1"><![CDATA[<b>Who's next?!?</b><br />
+										The kobold gains an extra action.]]></item>
+		<item name="Start" weight="1"><![CDATA[<b>I worry this will only anger them.</b><br />
+										The kobold drops its weapon and runs away. It comes back to the fight in [=Roll(1,4)] rounds.]]></item>
+		<item name="Start" weight="1"><![CDATA[<b>I'm the Quidditch Hat Rack*!</b><br />
+										The kobold taps into the true nature of its draconic heritage. In time, he will grow to become a messiah amongst his people, a herald of a new race of draconic kobolds who shall rule the world. Unless, of course, the surviving adventurers squash him. In any case, he can now breath fire, blast 3, 1d8 + his level in fire damage.<br />
+										<span style="font-size:0.8em">*When I saw the movie version of Dune, before I read the novel, I thought this was what Paul called himself. I think it sounds like a neat title for a kobold messiah.</span>]]></item>
+		<item name="Start" weight="1"><![CDATA[<b>WHO'S A MINION NOW MOTHERFUCKER?!?!</b><br />
+										The kobold becomes blessed by Kurtulmak. He becomes size Large, gains 16 hit points and gets +2 on attacks, damage, and defenses.]]></item>
+	</items>
+</Grammar>

@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<library>
+	<!-- A library of the html known colors.  Use as follows:
+
+	<item name="Start">The barkeep is wearing a [Color] hat.</item> will return the name of a color
+	<item name="Start">The screen was flashing a message in [ColorBackground].</item> will return the name of the color with the background of that color
+	<item name="Start">Don't feed the [ColorForeground] dragon.</item> will return the name of the color in that color
+	<item name="Start"><![CDATA[<span style="color: [ColorHTML];">Don't do it!</span>]]></item> will return the color hex code such as #FFFFFF for white
+	<item name="Start">
+
+	-->
+
+	<item name="Color">alice blue</item>
+	<item name="Color">antique white</item>
+	<item name="Color">aqua</item>
+	<item name="Color">aquamarine</item>
+	<item name="Color">azure</item>
+	<item name="Color">beige</item>
+	<item name="Color">bisque</item>
+	<item name="Color">black</item>
+	<item name="Color">blanched almond</item>
+	<item name="Color">blue</item>
+	<item name="Color">blue violet</item>
+	<item name="Color">brown</item>
+	<item name="Color">burly wood</item>
+	<item name="Color">cadet blue</item>
+	<item name="Color">chartreuse</item>
+	<item name="Color">chocolate</item>
+	<item name="Color">coral</item>
+	<item name="Color">cornflower blue</item>
+	<item name="Color">cornsilk</item>
+	<item name="Color">crimson</item>
+	<item name="Color">cyan</item>
+	<item name="Color">dark blue</item>
+	<item name="Color">dark cyan</item>
+	<item name="Color">dark goldenrod</item>
+	<item name="Color">dark gray</item>
+	<item name="Color">dark green</item>
+	<item name="Color">dark khaki</item>
+	<item name="Color">dark magenta</item>
+	<item name="Color">dark olive green</item>
+	<item name="Color">dark orange</item>
+	<item name="Color">dark orchid</item>
+	<item name="Color">dark red</item>
+	<item name="Color">dark salmon</item>
+	<item name="Color">dark sea green</item>
+	<item name="Color">dark slate blue</item>
+	<item name="Color">dark slate gray</item>
+	<item name="Color">dark turquoise</item>
+	<item name="Color">dark violet</item>
+	<item name="Color">deep pink</item>
+	<item name="Color">deep sky blue</item>
+	<item name="Color">dim gray</item>
+	<item name="Color">dodger blue</item>
+	<item name="Color">firebrick</item>
+	<item name="Color">floral white</item>
+	<item name="Color">forest green</item>
+	<item name="Color">fuchsia</item>
+	<item name="Color">gainsboro</item>
+	<item name="Color">ghost white</item>
+	<item name="Color">gold</item>
+	<item name="Color">goldenrod</item>
+	<item name="Color">gray</item>
+	<item name="Color">green</item>
+	<item name="Color">green yellow</item>
+	<item name="Color">honeydew</item>
+	<item name="Color">hot pink</item>
+	<item name="Color">indian red</item>
+	<item name="Color">indigo</item>
+	<item name="Color">ivory</item>
+	<item name="Color">khaki</item>
+	<item name="Color">lavender</item>
+	<item name="Color">lavender blush</item>
+	<item name="Color">lawn green</item>
+	<item name="Color">lemon chiffon</item>
+	<item name="Color">light blue</item>
+	<item name="Color">light coral</item>
+	<item name="Color">light cyan</item>
+	<item name="Color">light goldenrod yellow</item>
+	<item name="Color">light gray</item>
+	<item name="Color">light green</item>
+	<item name="Color">light pink</item>
+	<item name="Color">light salmon</item>
+	<item name="Color">light sea green</item>
+	<item name="Color">light sky blue</item>
+	<item name="Color">light slate gray</item>
+	<item name="Color">light steel blue</item>
+	<item name="Color">light yellow</item>
+	<item name="Color">lime</item>
+	<item name="Color">lime green</item>
+	<item name="Color">linen</item>
+	<item name="Color">magenta</item>
+	<item name="Color">maroon</item>
+	<item name="Color">medium aquamarine</item>
+	<item name="Color">medium blue</item>
+	<item name="Color">medium orchid</item>
+	<item name="Color">medium purple</item>
+	<item name="Color">medium sea green</item>
+	<item name="Color">medium slate blue</item>
+	<item name="Color">medium spring green</item>
+	<item name="Color">medium turquoise</item>
+	<item name="Color">medium violet red</item>
+	<item name="Color">midnight blue</item>
+	<item name="Color">mint cream</item>
+	<item name="Color">misty rose</item>
+	<item name="Color">moccasin</item>
+	<item name="Color">navajo white</item>
+	<item name="Color">navy</item>
+	<item name="Color">old lace</item>
+	<item name="Color">olive</item>
+	<item name="Color">olive drab</item>
+	<item name="Color">orange</item>
+	<item name="Color">orange red</item>
+	<item name="Color">orchid</item>
+	<item name="Color">pale goldenrod</item>
+	<item name="Color">pale green</item>
+	<item name="Color">pale turquoise</item>
+	<item name="Color">pale violet red</item>
+	<item name="Color">papaya whip</item>
+	<item name="Color">peach puff</item>
+	<item name="Color">peru</item>
+	<item name="Color">pink</item>
+	<item name="Color">plum</item>
+	<item name="Color">powder blue</item>
+	<item name="Color">purple</item>
+	<item name="Color">red</item>
+	<item name="Color">rosy brown</item>
+	<item name="Color">royal blue</item>
+	<item name="Color">saddle brown</item>
+	<item name="Color">salmon</item>
+	<item name="Color">sandy brown</item>
+	<item name="Color">sea green</item>
+	<item name="Color">sea shell</item>
+	<item name="Color">sienna</item>
+	<item name="Color">silver</item>
+	<item name="Color">sky blue</item>
+	<item name="Color">slate blue</item>
+	<item name="Color">slate gray</item>
+	<item name="Color">snow</item>
+	<item name="Color">spring green</item>
+	<item name="Color">steel blue</item>
+	<item name="Color">tan</item>
+	<item name="Color">teal</item>
+	<item name="Color">thistle</item>
+	<item name="Color">tomato</item>
+	<item name="Color">turquoise</item>
+	<item name="Color">violet</item>
+	<item name="Color">wheat</item>
+	<item name="Color">white</item>
+	<item name="Color">white smoke</item>
+	<item name="Color">yellow</item>
+	<item name="Color">yellow green</item>
+	
+	<item name="ColorBackground"><![CDATA[<div style="background: #F0F8FF;">alice blue</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FAEBD7">antique white</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #00FFFF">aqua</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #7FFFD4">aquamarine</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #F0FFFF">azure</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #F5F5DC">beige</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFE4C4">bisque</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #000000">black</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFEBCD">blanched almond</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #0000FF">blue</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #8A2BE2">blue violet</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #A52A2A">brown</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #DEB887">burly wood</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #5F9EA0">cadet blue</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #7FFF00">chartreuse</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #D2691E">chocolate</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FF7F50">coral</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #6495ED">cornflower blue</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFF8DC">cornsilk</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #DC143C">crimson</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #00FFFF">cyan</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #00008B">dark blue</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #008B8B">dark cyan</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #B8860B">dark goldenrod</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #A9A9A9">dark gray</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #006400">dark green</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #BDB76B">dark khaki</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #8B008B">dark magenta</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #556B2F">dark olive green</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FF8C00">dark orange</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #9932CC">dark orchid</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #8B0000">dark red</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #E9967A">dark salmon</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #8FBC8B">dark sea green</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #483D8B">dark slate blue</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #2F4F4F">dark slate gray</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #00CED1">dark turquoise</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #9400D3">dark violet</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FF1493">deep pink</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #00BFFF">deep sky blue</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #696969">dim gray</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #1E90FF">dodger blue</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #B22222">firebrick</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFFAF0">floral white</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #228B22">forest green</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FF00FF">fuchsia</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #DCDCDC">gainsboro</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #F8F8FF">ghost white</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFD700">gold</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #DAA520">goldenrod</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #808080">gray</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #008000">green</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #ADFF2F">green yellow</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #F0FFF0">honeydew</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FF69B4">hot pink</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #CD5C5C">indian red</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #4B0082">indigo</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFFFF0">ivory</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #F0E68C">khaki</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #E6E6FA">lavender</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFF0F5">lavender blush</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #7CFC00">lawn green</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFFACD">lemon chiffon</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #ADD8E6">light blue</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #F08080">light coral</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #E0FFFF">light cyan</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FAFAD2">light goldenrod yellow</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #D3D3D3">light gray</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #90EE90">light green</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFB6C1">light pink</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFA07A">light salmon</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #20B2AA">light sea green</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #87CEFA">light sky blue</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #778899">light slate gray</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #B0C4DE">light steel blue</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFFFE0">light yellow</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #00FF00">lime</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #32CD32">lime green</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FAF0E6">linen</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FF00FF">magenta</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #800000">maroon</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #66CDAA">medium aquamarine</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #0000CD">medium blue</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #BA55D3">medium orchid</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #9370DB">medium purple</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #3CB371">medium sea green</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #7B68EE">medium slate blue</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #00FA9A">medium spring green</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #48D1CC">medium turquoise</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #C71585">medium violet red</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #191970">midnight blue</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #F5FFFA">mint cream</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFE4E1">misty rose</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFE4B5">moccasin</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFDEAD">navajo white</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #000080">navy</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FDF5E6">old lace</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #808000">olive</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #6B8E23">olive drab</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFA500">orange</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FF4500">orange red</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #DA70D6">orchid</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #EEE8AA">pale goldenrod</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #98FB98">pale green</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #AFEEEE">pale turquoise</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #DB7093">pale violet red</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFEFD5">papaya whip</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFDAB9">peach puff</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #CD853F">peru</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFC0CB">pink</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #DDA0DD">plum</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #B0E0E6">powder blue</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #800080">purple</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FF0000">red</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #BC8F8F">rosy brown</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #4169E1">royal blue</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #8B4513">saddle brown</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FA8072">salmon</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #F4A460">sandy brown</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #2E8B57">sea green</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFF5EE">sea shell</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #A0522D">sienna</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #C0C0C0">silver</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #87CEEB">sky blue</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #6A5ACD">slate blue</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #708090">slate gray</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFFAFA">snow</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #00FF7F">spring green</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #4682B4">steel blue</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #D2B48C">tan</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #008080">teal</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #D8BFD8">thistle</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FF6347">tomato</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #40E0D0">turquoise</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #EE82EE">violet</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #F5DEB3">wheat</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFFFFF">white</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #F5F5F5">white smoke</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #FFFF00">yellow</div>]]></item>
+	<item name="ColorBackground"><![CDATA[<div style="background: #9ACD32">yellow green</div>]]></item>
+
+	<item name="ColorForeground"><![CDATA[<div style="color: #F0F8FF">alice blue</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FAEBD7">antique white</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #00FFFF">aqua</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #7FFFD4">aquamarine</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #F0FFFF">azure</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #F5F5DC">beige</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFE4C4">bisque</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #000000">black</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFEBCD">blanched almond</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #0000FF">blue</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #8A2BE2">blue violet</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #A52A2A">brown</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #DEB887">burly wood</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #5F9EA0">cadet blue</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #7FFF00">chartreuse</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #D2691E">chocolate</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FF7F50">coral</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #6495ED">cornflower blue</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFF8DC">cornsilk</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #DC143C">crimson</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #00FFFF">cyan</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #00008B">dark blue</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #008B8B">dark cyan</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #B8860B">dark goldenrod</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #A9A9A9">dark gray</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #006400">dark green</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #BDB76B">dark khaki</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #8B008B">dark magenta</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #556B2F">dark olive green</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FF8C00">dark orange</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #9932CC">dark orchid</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #8B0000">dark red</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #E9967A">dark salmon</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #8FBC8B">dark sea green</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #483D8B">dark slate blue</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #2F4F4F">dark slate gray</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #00CED1">dark turquoise</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #9400D3">dark violet</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FF1493">deep pink</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #00BFFF">deep sky blue</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #696969">dim gray</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #1E90FF">dodger blue</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #B22222">firebrick</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFFAF0">floral white</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #228B22">forest green</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FF00FF">fuchsia</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #DCDCDC">gainsboro</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #F8F8FF">ghost white</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFD700">gold</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #DAA520">goldenrod</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #808080">gray</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #008000">green</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #ADFF2F">green yellow</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #F0FFF0">honeydew</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FF69B4">hot pink</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #CD5C5C">indian red</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #4B0082">indigo</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFFFF0">ivory</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #F0E68C">khaki</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #E6E6FA">lavender</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFF0F5">lavender blush</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #7CFC00">lawn green</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFFACD">lemon chiffon</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #ADD8E6">light blue</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #F08080">light coral</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #E0FFFF">light cyan</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FAFAD2">light goldenrod yellow</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #D3D3D3">light gray</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #90EE90">light green</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFB6C1">light pink</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFA07A">light salmon</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #20B2AA">light sea green</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #87CEFA">light sky blue</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #778899">light slate gray</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #B0C4DE">light steel blue</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFFFE0">light yellow</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #00FF00">lime</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #32CD32">lime green</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FAF0E6">linen</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FF00FF">magenta</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #800000">maroon</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #66CDAA">medium aquamarine</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #0000CD">medium blue</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #BA55D3">medium orchid</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #9370DB">medium purple</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #3CB371">medium sea green</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #7B68EE">medium slate blue</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #00FA9A">medium spring green</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #48D1CC">medium turquoise</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #C71585">medium violet red</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #191970">midnight blue</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #F5FFFA">mint cream</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFE4E1">misty rose</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFE4B5">moccasin</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFDEAD">navajo white</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #000080">navy</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FDF5E6">old lace</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #808000">olive</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #6B8E23">olive drab</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFA500">orange</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FF4500">orange red</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #DA70D6">orchid</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #EEE8AA">pale goldenrod</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #98FB98">pale green</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #AFEEEE">pale turquoise</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #DB7093">pale violet red</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFEFD5">papaya whip</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFDAB9">peach puff</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #CD853F">peru</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFC0CB">pink</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #DDA0DD">plum</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #B0E0E6">powder blue</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #800080">purple</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FF0000">red</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #BC8F8F">rosy brown</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #4169E1">royal blue</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #8B4513">saddle brown</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FA8072">salmon</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #F4A460">sandy brown</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #2E8B57">sea green</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFF5EE">sea shell</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #A0522D">sienna</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #C0C0C0">silver</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #87CEEB">sky blue</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #6A5ACD">slate blue</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #708090">slate gray</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFFAFA">snow</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #00FF7F">spring green</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #4682B4">steel blue</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #D2B48C">tan</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #008080">teal</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #D8BFD8">thistle</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FF6347">tomato</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #40E0D0">turquoise</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #EE82EE">violet</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #F5DEB3">wheat</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFFFFF">white</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #F5F5F5">white smoke</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #FFFF00">yellow</div>]]></item>
+	<item name="ColorForeground"><![CDATA[<div style="color: #9ACD32">yellow green</div>]]></item>
+
+	<item name="Color HTML">#F0F8FF</item>
+	<item name="Color HTML">#FAEBD7</item>
+	<item name="Color HTML">#00FFFF</item>
+	<item name="Color HTML">#7FFFD4</item>
+	<item name="Color HTML">#F0FFFF</item>
+	<item name="Color HTML">#F5F5DC</item>
+	<item name="Color HTML">#FFE4C4</item>
+	<item name="Color HTML">#000000</item>
+	<item name="Color HTML">#FFEBCD</item>
+	<item name="Color HTML">#0000FF</item>
+	<item name="Color HTML">#8A2BE2</item>
+	<item name="Color HTML">#A52A2A</item>
+	<item name="Color HTML">#DEB887</item>
+	<item name="Color HTML">#5F9EA0</item>
+	<item name="Color HTML">#7FFF00</item>
+	<item name="Color HTML">#D2691E</item>
+	<item name="Color HTML">#FF7F50</item>
+	<item name="Color HTML">#6495ED</item>
+	<item name="Color HTML">#FFF8DC</item>
+	<item name="Color HTML">#DC143C</item>
+	<item name="Color HTML">#00FFFF</item>
+	<item name="Color HTML">#00008B</item>
+	<item name="Color HTML">#008B8B</item>
+	<item name="Color HTML">#B8860B</item>
+	<item name="Color HTML">#A9A9A9</item>
+	<item name="Color HTML">#006400</item>
+	<item name="Color HTML">#BDB76B</item>
+	<item name="Color HTML">#8B008B</item>
+	<item name="Color HTML">#556B2F</item>
+	<item name="Color HTML">#FF8C00</item>
+	<item name="Color HTML">#9932CC</item>
+	<item name="Color HTML">#8B0000</item>
+	<item name="Color HTML">#E9967A</item>
+	<item name="Color HTML">#8FBC8B</item>
+	<item name="Color HTML">#483D8B</item>
+	<item name="Color HTML">#2F4F4F</item>
+	<item name="Color HTML">#00CED1</item>
+	<item name="Color HTML">#9400D3</item>
+	<item name="Color HTML">#FF1493</item>
+	<item name="Color HTML">#00BFFF</item>
+	<item name="Color HTML">#696969</item>
+	<item name="Color HTML">#1E90FF</item>
+	<item name="Color HTML">#B22222</item>
+	<item name="Color HTML">#FFFAF0</item>
+	<item name="Color HTML">#228B22</item>
+	<item name="Color HTML">#FF00FF</item>
+	<item name="Color HTML">#DCDCDC</item>
+	<item name="Color HTML">#F8F8FF</item>
+	<item name="Color HTML">#FFD700</item>
+	<item name="Color HTML">#DAA520</item>
+	<item name="Color HTML">#808080</item>
+	<item name="Color HTML">#008000</item>
+	<item name="Color HTML">#ADFF2F</item>
+	<item name="Color HTML">#F0FFF0</item>
+	<item name="Color HTML">#FF69B4</item>
+	<item name="Color HTML">#CD5C5C</item>
+	<item name="Color HTML">#4B0082</item>
+	<item name="Color HTML">#FFFFF0</item>
+	<item name="Color HTML">#F0E68C</item>
+	<item name="Color HTML">#E6E6FA</item>
+	<item name="Color HTML">#FFF0F5</item>
+	<item name="Color HTML">#7CFC00</item>
+	<item name="Color HTML">#FFFACD</item>
+	<item name="Color HTML">#ADD8E6</item>
+	<item name="Color HTML">#F08080</item>
+	<item name="Color HTML">#E0FFFF</item>
+	<item name="Color HTML">#FAFAD2</item>
+	<item name="Color HTML">#D3D3D3</item>
+	<item name="Color HTML">#90EE90</item>
+	<item name="Color HTML">#FFB6C1</item>
+	<item name="Color HTML">#FFA07A</item>
+	<item name="Color HTML">#20B2AA</item>
+	<item name="Color HTML">#87CEFA</item>
+	<item name="Color HTML">#778899</item>
+	<item name="Color HTML">#B0C4DE</item>
+	<item name="Color HTML">#FFFFE0</item>
+	<item name="Color HTML">#00FF00</item>
+	<item name="Color HTML">#32CD32</item>
+	<item name="Color HTML">#FAF0E6</item>
+	<item name="Color HTML">#FF00FF</item>
+	<item name="Color HTML">#800000</item>
+	<item name="Color HTML">#66CDAA</item>
+	<item name="Color HTML">#0000CD</item>
+	<item name="Color HTML">#BA55D3</item>
+	<item name="Color HTML">#9370DB</item>
+	<item name="Color HTML">#3CB371</item>
+	<item name="Color HTML">#7B68EE</item>
+	<item name="Color HTML">#00FA9A</item>
+	<item name="Color HTML">#48D1CC</item>
+	<item name="Color HTML">#C71585</item>
+	<item name="Color HTML">#191970</item>
+	<item name="Color HTML">#F5FFFA</item>
+	<item name="Color HTML">#FFE4E1</item>
+	<item name="Color HTML">#FFE4B5</item>
+	<item name="Color HTML">#FFDEAD</item>
+	<item name="Color HTML">#000080</item>
+	<item name="Color HTML">#FDF5E6</item>
+	<item name="Color HTML">#808000</item>
+	<item name="Color HTML">#6B8E23</item>
+	<item name="Color HTML">#FFA500</item>
+	<item name="Color HTML">#FF4500</item>
+	<item name="Color HTML">#DA70D6</item>
+	<item name="Color HTML">#EEE8AA</item>
+	<item name="Color HTML">#98FB98</item>
+	<item name="Color HTML">#AFEEEE</item>
+	<item name="Color HTML">#DB7093</item>
+	<item name="Color HTML">#FFEFD5</item>
+	<item name="Color HTML">#FFDAB9</item>
+	<item name="Color HTML">#CD853F</item>
+	<item name="Color HTML">#FFC0CB</item>
+	<item name="Color HTML">#DDA0DD</item>
+	<item name="Color HTML">#B0E0E6</item>
+	<item name="Color HTML">#800080</item>
+	<item name="Color HTML">#FF0000</item>
+	<item name="Color HTML">#BC8F8F</item>
+	<item name="Color HTML">#4169E1</item>
+	<item name="Color HTML">#8B4513</item>
+	<item name="Color HTML">#FA8072</item>
+	<item name="Color HTML">#F4A460</item>
+	<item name="Color HTML">#2E8B57</item>
+	<item name="Color HTML">#FFF5EE</item>
+	<item name="Color HTML">#A0522D</item>
+	<item name="Color HTML">#C0C0C0</item>
+	<item name="Color HTML">#87CEEB</item>
+	<item name="Color HTML">#6A5ACD</item>
+	<item name="Color HTML">#708090</item>
+	<item name="Color HTML">#FFFAFA</item>
+	<item name="Color HTML">#00FF7F</item>
+	<item name="Color HTML">#4682B4</item>
+	<item name="Color HTML">#D2B48C</item>
+	<item name="Color HTML">#008080</item>
+	<item name="Color HTML">#D8BFD8</item>
+	<item name="Color HTML">#FF6347</item>
+	<item name="Color HTML">#FFFFFF</item>
+	<item name="Color HTML">#40E0D0</item>
+	<item name="Color HTML">#EE82EE</item>
+	<item name="Color HTML">#F5DEB3</item>
+	<item name="Color HTML">#F5F5F5</item>
+	<item name="Color HTML">#FFFF00</item>
+	<item name="Color HTML">#9ACD32</item>
+</library>

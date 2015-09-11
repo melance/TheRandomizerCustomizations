@@ -1,0 +1,129 @@
+TR_Table
+GLOBAL
+<?xml version="1.0"?>
+<Grammar xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:type="LUAGrammar">
+	<name>$[![Grammar Name]!]</name>
+	<author>$[![Grammar Author]!]</author>
+	<description>$[![Grammar Description]!]</description>
+	<url>$[![URL]]</url>
+	<visible>true</visible>
+	<tags>
+		<tag>$[![Tag]!]</tag><?xml version="1.0"?>
+	</tags>
+	<parameters>
+	    <parameter name="$[![Parameter Name]!]" display="$[![Parameter Display]!]" type="List">
+			<option>$[![Option 1]!]</option>
+			<option>$[![Option 2]!]</option>
+		</parameter>
+	</parameters>
+	<supportsMaxLength>$[![(lis)true|false]!]</supportsMaxLength>
+	<tables>
+		<table name="$[![Table Name]!]" action="$[![(lis)Random|Loop|Select]!]" column="$[![Column]!]" delimiter="$[![|]!]"><![CDATA[
+		$[0[]0]
+		]]></table>
+	</tables>
+</Grammar>[>END<]!$[FingerTextData FingerTextData]@#
+TR_LUA
+GLOBAL
+<?xml version="1.0"?>
+<Grammar xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:type="LUAGrammar">
+	<name>Grammar Name</name>
+	<author>$[![Grammar Author]!]</author>
+	<description>$[![Grammar Description]!]</description>
+	<url>$[![URL]]</url>
+	<visible>true</visible>
+	<tags>
+		<tag>$[![Tag]!]</tag>
+	</tags>
+	<parameters>
+	    <parameter name="$[![Parameter Name]!]" display="$[![Parameter Display]!]" type="List">
+			<option>$[![Option 1]!]</option>
+			<option>$[![Option 2]!]</option>
+		</parameter>
+	</parameters>
+	<supportsMaxLength>$[![(lis)true|false]!]</supportsMaxLength>
+	<scriptPath>$[![Script Path]!]</scriptPath>
+	<script><![CDATA[
+	$[0[]0]
+	]]></script>
+</Grammar>[>END<]!$[FingerTextData FingerTextData]@#
+TR_Dice
+GLOBAL
+<?xml version="1.0"?>
+<Grammar xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:type="LUAGrammar">
+	<name>Grammar Name</name>
+	<author>$[![Grammar Author]!]</author>
+	<description>$[![Grammar Description]!]</description>
+	<url>$[![URL]]</url>
+	<visible>true</visible>
+	<tags>
+		<tag>$[![Tag]!]</tag>
+	</tags>
+	<parameters>
+	    <parameter name="$[![Parameter Name]!]" display="$[![Parameter Display]!]" type="List">
+			<option>$[![Option 1]!]</option>
+			<option>$[![Option 2]!]</option>
+		</parameter>
+	</parameters>
+	<supportsMaxLength>$[![(lis)true|false]!]</supportsMaxLength>
+	<function name="$[![Function Name]!]"><![CDATA[
+	$[0[]0]
+	]]></function>
+</Grammar>[>END<]!$[FingerTextData FingerTextData]@#
+TR_Assignment
+GLOBAL
+<?xml version="1.0"?>
+<Grammar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		 xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+		 xsi:type="AssignmentGrammar">
+	<name>Grammar Name</name>
+	<author>$[![Grammar Author]!]</author>
+	<description>$[![Grammar Description]!]</description>
+	<url>$[![URL]]</url>
+	<visible>true</visible>
+	<tags>
+		<tag>$[![Tag]!]</tag>
+	</tags>
+	<parameters>
+	    <parameter name="$[![Parameter Name]!]" display="$[![Parameter Display]!]" type="List">
+			<option>$[![Option 1]!]</option>
+			<option>$[![Option 2]!]</option>
+		</parameter>
+	</parameters>
+	<supportsMaxLength>$[![(lis)true|false]!]</supportsMaxLength>
+	<items>
+		<item name="Start"></item>
+	</items>
+	<imports>
+		<import>$[![Import]!]</import>
+	</import>
+</Grammar>[>END<]!$[FingerTextData FingerTextData]@#<?xml version="1.0"?>
+<Grammar xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:type="LUAGrammar">
+	<name>Grammar Name</name>
+	<author>$[![Grammar Author]!]</author>
+	<description>$[![Grammar Description]!]</description>
+	<visible>true</visible>
+	<tags>
+		<tag>$[![Tag]!]</tag>
+	</tags>
+	<parameters>
+	    <parameter name="$[![Parameter Name]!]" display="$[![Parameter Display]!]" type="List">
+			<option>$[![Option 1]!]</option>
+			<option>$[![Option 2]!]</option>
+		</parameter>
+	</parameters>
+	<supportsMaxLength>$[![(lis)true|false]!]</supportsMaxLength>
+	<tables>
+		<table name="$[![Table Name]!]" action="$[![(lis)Random|Loop|Select]!]" column="$[![Column]!]" delimiter="$[![|]!]"><![CDATA[
+		$[0[]0]
+		]]></table>
+	</tables>
+</Grammar>

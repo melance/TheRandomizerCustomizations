@@ -1,0 +1,75 @@
+<manifest>
+	<grammars>
+		<grammar>
+			<url>https://github.com/melance/TheRandomizerWPFCustomizations/blob/master/Grammars/Deities.zip?raw=true</url>
+			<name>Deities</name>
+			<description>Generates a deity name and domains. Includes libraries for deities based on 14 different cultures.</description>
+			<author>Lance Boudreaux</author>
+			<tags>
+				<tag>Deity</tag>
+				<tag>Name</tag>
+			</tags>
+		</grammar>
+		<grammar>
+			<url>https://raw.githubusercontent.com/melance/TheRandomizerWPFCustomizations/master/Grammars/adventure_hooks_(post_apocalyptic).rnd.xml</url>
+			<name>Adventure Hooks (Post Apocalyptic)</name>
+			<description>Generates adventure hooks for post-apocalyptic settings</description>
+			<author>Lance Boudreaux</author>
+			<tags>
+				<tag>Encounters</tag>
+				<tag>Post Apocalyptic</tag>
+			</tags>
+		</grammar>
+		<grammar>
+			<url>https://raw.githubusercontent.com/melance/TheRandomizerWPFCustomizations/master/Grammars/asian_pseudowords.rnd.xml</url>
+			<name>Asian Pseudowords</name>
+			<description>Uses the Asian phonemes library to construct random Asian sounding words. Requires all three of the following libraries: Chinese Phonemes, Japanese Phonemes, and Korean Phonemes.	</description>
+			<author>Lance Boudreaux</author>
+			<tags>
+				<tag>Asian</tag>
+				<tag>Word</tag>
+			</tags>
+			<requires>
+				<library>Chinese Phonemes</library>
+				<library>Japanese Phonemes</library>
+				<library>Korean Phonemes</library>
+			</requires>
+		</grammar>		
+	</grammars>
+	<libraries>
+		<library>
+			<url>https://raw.githubusercontent.com/melance/TheRandomizerWPFCustomizations/master/Libraries/chinese_phonemes.lib.xml</url>
+			<name>Chinese Phonemes</name>
+			<description>A list of Chinese language phonemes</description>
+			<author>/u/maxelliot</author>
+		</library>
+		<library>
+			<url>https://raw.githubusercontent.com/melance/TheRandomizerWPFCustomizations/master/Libraries/japanese_pheonome.lib.xml</url>
+			<name>Japanese Phonemes</name>
+			<description>A list of Japanese language phonemes</description>
+			<author>/u/maxelliot</author>
+		</library>
+		<library>
+			<url>https://raw.githubusercontent.com/melance/TheRandomizerWPFCustomizations/master/Libraries/known_colors_library.lib.xml</url>
+			<name>Known Colors</name>
+			<description>A list of known colors useful for populating colors or adding color to grammar output.</description>
+			<author>Lance Boudreaux</author>
+		</library>
+		<library>
+			<url>https://raw.githubusercontent.com/melance/TheRandomizerWPFCustomizations/master/Libraries/korean_pheonome.lib.xml</url>
+			<name>Korean Phonemes</name>
+			<description>A list of Korean language phonemes</description>
+			<author>/u/maxelliot</author>
+		</library>
+	</libraries>
+	<themes>
+	
+	</themes>
+	<templates>
+		<template>
+			<url>https://raw.githubusercontent.com/melance/TheRandomizerWPFCustomizations/master/Templates/The%20Randomizer%20Finger%20Text%20Snippets.ftd</url>
+			<name>Notepad++ Finger Text Grammar Templates</name>
+			<author>Lance Boudreaux</author>
+		</template>
+	</templates>
+</manifest>

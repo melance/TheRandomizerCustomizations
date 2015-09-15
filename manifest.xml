@@ -30,9 +30,9 @@
 				<tag>Word</tag>
 			</tags>
 			<requires>
-				<library>Chinese Phonemes</library>
-				<library>Japanese Phonemes</library>
-				<library>Korean Phonemes</library>
+				<import>Chinese Phonemes</import>
+				<import>Japanese Phonemes</import>
+				<import>Korean Phonemes</import>
 			</requires>
 		</grammar>		
 	</grammars>

@@ -1,0 +1,486 @@
+<?xml version="1.0"?>
+<Grammar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		 xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+		 xsi:type="AssignmentGrammar">
+	<name>Fantasy Inn Menu</name>
+	<author>Lance Boudreaux</author>
+	<description>Generates a menu for a fantasy inn</description>
+	<tags>
+		<tag>Environment</tag>
+		<tag>Other</tag>
+	</tags>
+	<parameters>
+		<parameter name="Cuisine" display="Cuisine" type="List">
+			<option>Any</option>
+			<option>Normal</option>
+			<option>Exotic</option>
+		</parameter>
+	</parameters>
+	<supportsMaxLength>false</supportsMaxLength>
+	<css><![CDATA[
+		div { border: 1px solid black; }
+		div.Even { background: #fffff0; padding: 1em; margin: 1em; }
+		div.Odd { background: #fffff0; padding: 1em; margin: 1em; }
+		h1 { text-align: center; }
+		h3 { margin: 1em 0 0 0; 
+			 text-align: center;}
+	]]></css>
+	<items>
+		<item name="Start">[Cuisine]</item>
+		
+		<!-- Menus -->
+		
+		<item name="Any"><![CDATA[<h1>Menu</h1>
+		<h3>Appetizers</h3>
+		<hr />
+		[Appetizer]<br />
+		[Appetizer]<br />
+		[Appetizer]<br />
+		[Appetizer]<br />
+		
+		<h3>Soups and Salads</h3>
+		<hr />
+		[SoupAndSalad]<br />
+		[SoupAndSalad]<br />
+		[SoupAndSalad]<br />
+		
+		<h3>Entr&eacute;es</h3>
+		<hr />
+		[Entree]<br />
+		[Entree]<br />
+		[Entree]<br />
+		[Entree]<br />
+		
+		<h3>Deserts</h3>
+		<hr />
+		[Desert]<br />
+		[Desert]<br />
+		
+		<h3>Beverages</h3>
+		<hr />
+		[Drink]<br />
+		[Drink]<br />
+		]]></item>
+		
+		<item name="Normal"><![CDATA[<h1>Menu</h1>
+		<h3>Appetizers</h3>
+		<hr />
+		[AppetizerNormal]<br />
+		[AppetizerNormal]<br />
+		[AppetizerNormal]<br />
+		[AppetizerNormal]<br />
+		
+		<h3>Soups and Salads</h3>
+		<hr />
+		[SAndSNormal]<br />
+		[SAndSNormal]<br />
+		[SAndSNormal]<br />
+		
+		<h3>Entr&eacute;es</h3>
+		<hr />
+		[EntreeNormal]<br />
+		[EntreeNormal]<br />
+		[EntreeNormal]<br />
+		[EntreeNormal]<br />
+		
+		<h3>Deserts</h3>
+		<hr />
+		[DesertNormal]<br />
+		[DesertNormal]<br />
+		
+		<h3>Beverages</h3>
+		<hr />
+		[Drink]<br />
+		[Drink]<br />
+		]]></item>
+		
+		<item name="Exotic"><![CDATA[<h1>Menu</h1>
+		<h3>Appetizers</h3>
+		<hr />
+		[AppetizerExotic]<br />
+		[AppetizerExotic]<br />
+		[AppetizerExotic]<br />
+		[AppetizerExotic]<br />
+		
+		<h3>Soups and Salads</h3>
+		<hr />
+		[SAndSExotic]<br />
+		[SAndSExotic]<br />
+		[SAndSExotic]<br />
+		
+		<h3>Entr&eacute;es</h3>
+		<hr />
+		[EntreeExotic]<br />
+		[EntreeExotic]<br />
+		[EntreeExotic]<br />
+		[EntreeExotic]<br />
+		
+		<h3>Deserts</h3>
+		<hr />
+		[DesertExotic]<br />
+		[DesertExotic]<br />
+		
+		<h3>Beverages</h3>
+		<hr />
+		[Drink]<br />
+		[Drink]<br />
+		]]></item>
+		
+		<!-- Menu Items -->
+		
+		<item name="Appetizer" weight="85">[AppetizerNormal]</item>
+		<item name="Appetizer" weight="5">[AppetizerExotic]</item>
+		<item name="Appetizer" weight="10"><![CDATA[[Appetizer]<br />[Appetizer]]]></item>
+		<item name="AppetizerExotic">Buffalo [Meat] with Fire Mephit Sauce</item>
+		<item name="AppetizerExotic">[ExoticMeat] Jerky Skewered on [=Pick('Cactus Spines','Needle Blights')] in a [Sauce]</item>
+		<item name="AppetizerExotic">[ExoticMeat] Sausage</item>
+		<item name="AppetizerExotic">[ExoticMeat] on a Stick</item>
+		<item name="AppetizerExotic">[ExoticVegetable] in a [Sauce]</item>
+		<item name="AppetizerExotic">[Method] [ExoticMeat] with a [Sauce]</item>
+		<item name="AppetizerExotic">[Method] [Spice] [ExoticMeat]</item>
+		<item name="AppetizerNormal">Dire Boar's Head cheese</item>
+		<item name="AppetizerNormal">Sea Cucumber Kimchee</item>
+		<item name="AppetizerNormal">[Flavor] Fire Mephit Cheese</item>
+		<item name="AppetizerNormal">[Meat] Jerky Skewered on [=Pick('Cactus Spines','Needle Blights')] in a [Sauce]</item>
+		<item name="AppetizerNormal">[Meat] Sausage</item>
+		<item name="AppetizerNormal">[Meat] on a Stick</item>
+		<item name="AppetizerNormal">[Spice] Dire Rat Bites</item>
+		<item name="AppetizerNormal">[Vegetable] in a [Sauce]</item>
+		
+		<item name="Sauce">[Flavor] [Spice] Sauce</item>
+		<item name="Sauce">Creamy Dipping Sauce</item>
+		<item name="Sauce">[Flavor] [Spice] [Ingredient] Sauce</item>
+		<item name="Sauce">[Ingredient] Sauce</item>
+		<item name="Sauce">[Spice] [Ingredient] Sauce</item>
+		<item name="Sauce">[Spice] and [Spice] [Ingredient] Sauce</item>
+		<item name="Sauce">[Ingredient] Reduction</item>
+		<item name="Sauce">[Flavor] [Ingredient] Sauce</item>
+		<item name="Sauce">[Spice] [Vegetable] Sauce</item>
+		
+		<item name="Dressing">[Flavor] Vinaigrette</item>
+		<item name="Dressing">[Ingredient] Dressing</item>
+		<item name="Dressing">[Ingredient] and [Ingredient] Dressing</item>
+		
+		<item name="SoupAndSalad" weight="10"><![CDATA[[SoupAndSalad]<br />[SoupAndSalad]]]></item>
+		<item name="SoupAndSalad" weight="5">[SAndSExotic]</item>
+		<item name="SoupAndSalad" weight="85">[SAndSNormal]</item>
+		<item name="SAndSExotic">Devourer Brain Stew</item>
+		<item name="SAndSExotic">[ExoticMeat] Soup</item>
+		<item name="SAndSExotic">[ExoticMeat] and [Vegetable|ExoticVegetable] Stew</item>
+		<item name="SAndSExotic">[Meat|ExoticMeat] and [ExoticVegetable] Stew</item>
+		<item name="SAndSExotic">[ExoticVegetable] Salad topped with [Spice] and a [Dressing]</item>
+		<item name="SAndSExotic">[ExoticVegetable] Salad with [Dressing]</item>
+		<item name="SAndSExotic">[ExoticVegetable] Salad</item>
+		<item name="SAndSExotic">[ExoticVegetable] Soup</item>
+		<item name="SAndSExotic">[ExoticVegetable] and Feta Salad</item>
+		<item name="SAndSExotic">[ExoticVegetable] Oil [ExoticMeat] Salad</item>
+		<item name="SAndSExotic">[ExoticVegetable] Salad topped with [Spice] and a [Dressing]</item>
+		<item name="SAndSExotic">[ExoticVegetable] Salad with [Dressing]</item>
+		<item name="SAndSExotic">[ExoticVegetable] Salad with [Dressing]</item>
+		<item name="SAndSExotic">[ExoticVegetable] Salad</item>
+		<item name="SAndSExotic">[ExoticVegetable] and Feta Salad</item>
+		<item name="SAndSExotic">[Meat] and [ExoticVegetable] Stew</item>
+		<item name="SAndSExotic">[Method] [ExoticVegetable] Soup</item>
+		<item name="SAndSExotic">Hallucinogenic Spore Soup</item>
+		<item name="SAndSNormal">[Meat] Soup</item>
+		<item name="SAndSNormal">[Meat] and [Vegetable] Stew</item>
+		<item name="SAndSNormal">[Method] [Vegetable] Soup</item>
+		<item name="SAndSNormal">[Vegetable] Oil [Meat] Salad</item>
+		<item name="SAndSNormal">[Vegetable] Salad topped with [Spice+Nut] and a [Dressing]</item>
+		<item name="SAndSNormal">[Vegetable] Salad with [Dressing]</item>
+		<item name="SAndSNormal">[Vegetable] Salad</item>
+		<item name="SAndSNormal">[Vegetable] Soup</item>
+		<item name="SAndSNormal">[Vegetable] and Feta Salad</item>
+		<item name="SAndSNormal">[Vegetable] Salad Topped with Crushed [Nut]</item>
+		
+		<item name="Entree" weight="85">[EntreeNormal]</item>
+		<item name="Entree" weight="5">[EntreeExotic]</item>
+		<item name="Entree" weight="10"><![CDATA[[Entree]<br />[Entree]]]></item>
+		<item name="EntreeExotic">Grilled [Meat] on a Treant Plank</item>
+		<item name="EntreeExotic">Mermaid Sashimi Platter</item>
+		<item name="EntreeExotic">[ExoticMeat] Shwarma with [Sauce]</item>
+		<item name="EntreeExotic">[ExoticMeat] in a [Sauce]</item>
+		<item name="EntreeExotic">[Method] Mind Flayer Tentacles</item>
+		<item name="EntreeExotic">[Method] Rubble Runner on the Half Shell</item>
+		<item name="EntreeExotic">[Method] [ExoticMeat] Ribs with [Sauce]</item>
+		<item name="EntreeExotic">[Method] [ExoticMeat] Strip Steak</item>
+		<item name="EntreeExotic">[Method] [ExoticMeat] with [Method] [Vegetable]</item>
+		<item name="EntreeExotic">[Method] [ExoticMeat] with a [Sauce]</item>
+		<item name="EntreeExotic">[Method] [ExoticMeat]</item>
+		<item name="EntreeNormal">Auroch's Cheeseburger with Dire Boar Bacon</item>
+		<item name="EntreeNormal">Chef's Special</item>
+		<item name="EntreeNormal">Fried [Meat]</item>
+		<item name="EntreeNormal">Giant Crab Leg Au Gratin</item>
+		<item name="EntreeNormal">Pan Fried [Meat] with [Sauce]</item>
+		<item name="EntreeNormal">Peppered [Meat] Kebabs with [Vegetable]</item>
+		<item name="EntreeNormal">Spice Rubbed Rotisserie [Meat]</item>
+		<item name="EntreeNormal">[Meat] and [Vegetable] Chowder Pie</item>
+		<item name="EntreeNormal">[Meat] in a [Sauce]</item>
+		<item name="EntreeNormal">[Method] [Meat] Steak Medium Rare with [Vegetable]</item>
+		<item name="EntreeNormal">[Method] [Meat] Steak</item>
+		<item name="EntreeNormal">[Method] [Meat] with [Spice] and [Spice]</item>
+		<item name="EntreeNormal">[Method] [Meat] with [Spice]</item>
+				
+		<item name="Desert" weight="85">[DesertNormal]</item>
+		<item name="Desert" weight="5">[DesertExotic]</item>
+		<item name="Desert" weight="10"><![CDATA[[Desert]<br />[Desert]]]></item>
+		<item name="DesertExotic">Candied Fairy Fruit</item>
+		<item name="DesertNormal">Candied [Fruit]</item>
+		<item name="DesertNormal">[Nut] [Alcohol] Bread Pudding</item>
+		<item name="DesertExotic">Black Pudding Sweetened with [Fruit]</item>
+		<item name="DesertNormal">Rice Pudding Sweetened with Dryad Dust</item>
+		
+		<!-- Ingredients -->
+		<item name="Drink">[Alcohol+Beverage]</item>
+		
+		<item name="Alcohol">Beer</item>
+		<item name="Alcohol">Mead</item>
+		<item name="Alcohol">Wine</item>
+		<item name="Alcohol">Vodka</item>
+		<item name="Alcohol">Ale</item>
+		<item name="Alcohol">Whiskey</item>
+		<item name="Alcohol">Scotch</item>
+		<item name="Alcohol">Dragon's Breath</item>
+		<item name="Alcohol">Fairy Tears</item>
+		<item name="Alcohol">Spiced Wine</item>
+		<item name="Alcohol">Rum</item>
+		<item name="Alcohol">Cider</item>
+		
+		<item name="Beverage">Tea</item>
+		<item name="Beverage">[Fruit] Juice</item>
+		<item name="Beverage">Fresh Spring Water</item>
+		<item name="Beverage">Milk</item>
+		<item name="Beverage">Goat Milk</item>
+		<item name="Beverage">Coffee</item>
+		
+		<item name="Nut">Pecan</item>
+		<item name="Nut">Peanut</item>
+		<item name="Nut">Walnut</item>
+		<item name="Nut">Chestnut</item>
+		<item name="Nut">Pistachio</item>
+		<item name="Nut">Cashew</item>
+		<item name="Nut">Brazilnut</item>
+		<item name="Nut">Almond</item>
+		<item name="Nut">Macadamia</item>
+		<item name="Nut">Pine Nut</item>
+				
+		<item name="Flavor">Acidic</item>
+		<item name="Flavor">Bitter</item>
+		<item name="Flavor">Sour</item>
+		<item name="Flavor">Spicy</item>
+		<item name="Flavor">Sweet</item>
+		<item name="Flavor">Tangy</item>
+		
+		<item name="Fruit">Prickleberry</item>
+		<item name="Fruit">Strawberry</item>
+		<item name="Fruit">Apple</item>
+		<item name="Fruit">Orange</item>
+		<item name="Fruit">Rasberry</item>
+		<item name="Fruit">Lemon</item>
+		<item name="Fruit">Raspberry</item>
+		<item name="Fruit">Grape</item>
+		<item name="Fruit">Raisin</item>
+		<item name="Fruit">Dragonfruit</item>
+		<item name="Fruit">Starfruit</item>
+		<item name="Fruit">Cantelope</item>
+		<item name="Fruit">Watermelon</item>
+		<item name="Fruit">Grapfruit</item>
+		<item name="Fruit">Pineapple</item>
+		
+		<item name="Ingredient">Apple Cider Vinegar</item>
+		<item name="Ingredient">Blood</item>
+		<item name="Ingredient">Blue Cheese</item>
+		<item name="Ingredient">Broth</item>
+		<item name="Ingredient">Butter</item>
+		<item name="Ingredient">Cheese</item>
+		<item name="Ingredient">Citrus</item>
+		<item name="Ingredient">Cream</item>
+		<item name="Ingredient">Mead</item>
+		<item name="Ingredient">Red Wine Vinegar</item>
+		<item name="Ingredient">Rice Vinegar</item>
+		<item name="Ingredient">Tomato</item>
+		<item name="Ingredient">Vodka</item>
+		<item name="Ingredient">White Vinegar</item>
+		<item name="Ingredient">Wine</item>
+		
+		<item name="Meat">Goat</item>
+		<item name="Meat">Beef</item>
+		<item name="Meat">Steak</item>
+		<item name="Meat">Pork</item>
+		<item name="Meat">Boar</item>
+		<item name="Meat">Dire Boar</item>
+		<item name="Meat">Dire Rat</item>
+		<item name="Meat">Rat</item>
+		<item name="Meat">Bat</item>
+		<item name="Meat">Chicken</item>
+		<item name="Meat">Duck</item>
+		<item name="Meat">Lizard</item>
+		<item name="Meat">Turtle</item>
+		<item name="Meat">Frog</item>
+		<item name="Meat">Crab Legs</item>
+		<item name="Meat">Giant Crab Legs</item>
+		<item name="Meat">Salmon</item>
+		<item name="Meat">Tuna</item>
+		<item name="Meat">Catfish</item>
+		<item name="Meat">Rock Crab Meat</item>
+		<item name="Meat">Giant Elk</item>
+		<item name="Meat">Elk</item>
+		<item name="Meat">Deer</item>
+		<item name="Meat">Giant Dear</item>
+		<item name="Meat">Hawk</item>
+		
+		<item name="ExoticMeat">Ankheg</item>
+		<item name="ExoticMeat">Basilisk</item>
+		<item name="ExoticMeat">Beholder Eyes</item>
+		<item name="ExoticMeat">Blink Dog</item>
+		<item name="ExoticMeat">Blood Hawk</item>
+		<item name="ExoticMeat">Bugbear</item>
+		<item name="ExoticMeat">Devourer</item>
+		<item name="ExoticMeat">Displacer Beast</item>
+		<item name="ExoticMeat">Dragon Turtle</item>
+		<item name="ExoticMeat">Fire Mephit</item>
+		<item name="ExoticMeat">Giant Spider Legs</item>
+		<item name="ExoticMeat">Goblin</item>
+		<item name="ExoticMeat">Lizardfolk</item>
+		<item name="ExoticMeat">Naga</item>
+		<item name="ExoticMeat">Owlbear</item>
+		<item name="ExoticMeat">Pegasus</item>
+		<item name="ExoticMeat">Rust Monster Tail</item>
+		<item name="ExoticMeat">Stirge</item>
+		<item name="ExoticMeat">Troll Goat</item>
+		<item name="ExoticMeat">Umber Hulk</item>
+		<item name="ExoticMeat">Unicorn</item>
+		<item name="ExoticMeat">Wyrmling</item>
+						
+		<item name="Method">Baked</item>
+		<item name="Method">Barbecued</item>
+		<item name="Method">Blanched</item>
+		<item name="Method">Boiled</item>
+		<item name="Method">Braised</item>
+		<item name="Method">Broiled</item>
+		<item name="Method">Deep Fried</item>
+		<item name="Method">Fresh</item>
+		<item name="Method">Grilled</item>
+		<item name="Method">Pan Fried</item>
+		<item name="Method">Pickled</item>
+		<item name="Method">Poached</item>
+		<item name="Method">Roasted</item>
+		<item name="Method"><![CDATA[Saut&eacute;ed]]></item>
+		<item name="Method">Seared</item>
+		<item name="Method">Simmered</item>
+		<item name="Method">Slow Cooked</item>
+		<item name="Method">Smoked</item>
+		<item name="Method">Steamed</item>
+		<item name="Method">Stewed</item>
+		<item name="Method">Stir Fried</item>
+		
+		<item name="Spice">Allspice</item>
+		<item name="Spice">Anise</item>
+		<item name="Spice">Basil</item>
+		<item name="Spice">Black Pepper</item>
+		<item name="Spice">Caraway</item>
+		<item name="Spice">Cayenne</item>
+		<item name="Spice">Celery Seed</item>
+		<item name="Spice">Chili</item>
+		<item name="Spice">Chive</item>
+		<item name="Spice">Cilantro</item>
+		<item name="Spice">Cinnamon</item>
+		<item name="Spice">Clove</item>
+		<item name="Spice">Cumin</item>
+		<item name="Spice">Curry</item>
+		<item name="Spice">Dill</item>
+		<item name="Spice">File</item>
+		<item name="Spice">Fennel</item>
+		<item name="Spice">Garlic</item>
+		<item name="Spice">Ginger</item>
+		<item name="Spice">Horseradish</item>
+		<item name="Spice"><![CDATA[Jalape&ntilde;o]]></item>
+		<item name="Spice">Lemon</item>
+		<item name="Spice">Lime</item>
+		<item name="Spice">Marjoram</item>
+		<item name="Spice">Mustard</item>
+		<item name="Spice">Nutmeg</item>
+		<item name="Spice">Onion</item>
+		<item name="Spice">Orange</item>
+		<item name="Spice">Oregano</item>
+		<item name="Spice">Paprika</item>
+		<item name="Spice">Parsley</item>
+		<item name="Spice">Pink Pepper</item>
+		<item name="Spice">Poppy Seed</item>
+		<item name="Spice">Red Pepper</item>
+		<item name="Spice">Rosemary</item>
+		<item name="Spice">Saffron</item>
+		<item name="Spice">Sage</item>
+		<item name="Spice">Sea Salt</item>
+		<item name="Spice">Sesame</item>
+		<item name="Spice">Sichuan</item>
+		<item name="Spice">Tarragon</item>
+		<item name="Spice">Thyme</item>
+		<item name="Spice">Turmeric</item>
+		<item name="Spice">Vanilla</item>
+		<item name="Spice">White Pepper</item>
+		
+		<item name="Vegetable">Artichoke</item>
+		<item name="Vegetable">Asparagus</item>
+		<item name="Vegetable">Avocado</item>
+		<item name="Vegetable">Baby Carrots</item>
+		<item name="Vegetable">Baby Onions</item>
+		<item name="Vegetable">Beets</item>
+		<item name="Vegetable">Black Beans</item>
+		<item name="Vegetable">Black Eyed Peas</item>
+		<item name="Vegetable">Broccoli</item>
+		<item name="Vegetable">Brussels Sprouts</item>
+		<item name="Vegetable">Button Mushrooms</item>
+		<item name="Vegetable">Cabbage</item>
+		<item name="Vegetable">Carrots</item>
+		<item name="Vegetable">Cauliflower</item>
+		<item name="Vegetable">Chickpeas</item>
+		<item name="Vegetable">Corn</item>
+		<item name="Vegetable">Eggplant</item>
+		<item name="Vegetable">Field Peas</item>
+		<item name="Vegetable">Green Beans</item>
+		<item name="Vegetable">Kale</item>
+		<item name="Vegetable">Leeks</item>
+		<item name="Vegetable">Lentils</item>
+		<item name="Vegetable">Lima Beans</item>
+		<item name="Vegetable">Navy Beans</item>
+		<item name="Vegetable">Okra</item>
+		<item name="Vegetable">Olives</item>
+		<item name="Vegetable">Onions</item>
+		<item name="Vegetable">Parsnips</item>
+		<item name="Vegetable">Potatoes</item>
+		<item name="Vegetable">Pumpkin</item>
+		<item name="Vegetable">Radishes</item>
+		<item name="Vegetable">Red Beans</item>
+		<item name="Vegetable">Rutabagas</item>
+		<item name="Vegetable">Shallots</item>
+		<item name="Vegetable">Snow Peas</item>
+		<item name="Vegetable">Soybeans</item>
+		<item name="Vegetable">Spinach</item>
+		<item name="Vegetable">Squash</item>
+		<item name="Vegetable">Sweet Peas</item>
+		<item name="Vegetable">Sweet Potatoes</item>
+		<item name="Vegetable">Taro Roots</item>
+		<item name="Vegetable">Tomatoes</item>
+		<item name="Vegetable">Turnips</item>
+		<item name="Vegetable">Watercrest</item>
+		<item name="Vegetable">Waxbeans</item>
+		<item name="Vegetable">Yams</item>
+		<item name="Vegetable">Zucchini</item>
+		
+		<item name="ExoticVegetable">[Method] Assassin Vine</item>
+		<item name="ExoticVegetable">[Method] Carnivorous Plant Petals</item>
+		<item name="ExoticVegetable">[Method] Deep Mountain Potato</item>
+		<item name="ExoticVegetable">[Method] Fairy Flowers</item>
+		<item name="ExoticVegetable">[Method] Flowering Death Petals</item>
+		<item name="ExoticVegetable">[Method] Green Wood Root</item>
+		<item name="ExoticVegetable">[Method] Hallucinogenic Spores</item>
+		<item name="ExoticVegetable">[Method] Nightshade</item>
+		<item name="ExoticVegetable">[Method] Psilocybin Mushrooms</item>
+		<item name="ExoticVegetable">[Method] Sea Cucumber</item>
+		<item name="ExoticVegetable">[Method] Treant Root</item>
+		<item name="ExoticVegetable">[Method] Treant Sapling</item>
+		<item name="ExoticVegetable">[Method] Vine Blight Limbs</item>
+		<item name="ExoticVegetable">[Method] Witchroot</item>
+	</items>
+</Grammar>

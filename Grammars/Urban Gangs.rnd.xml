@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<Grammar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		 xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+		 xsi:type="AssignmentGrammar">
+	<name>Urban Gangs</name>
+	<author>Lance Boudreaux</author>
+	<description>Generates gangs for urban adventures.</description>
+	<url>https://www.reddit.com/r/DnDBehindTheScreen/comments/3l3ra7/random_tables_urban_gangs/</url>
+	<tags>
+		<tag>Gang</tag>
+		<tag>Encounter</tag>
+	</tags>
+	<parameters>
+	</parameters>
+	<supportsMaxLength>false</supportsMaxLength>
+	<items>
+		<item name="Start">This gang of [recruits], led by a [leader] who has [leaderFeature], makes its living [schemes].  The leader's long term goal is [goals].  
+		You can spot the gang members by their matching [matching], the gang's color [colors], and sporting their symbol: [symbol].  They make their home [=Pick('near','inside')] 
+		[headquarters].  When in a ruckus, they use [tactics] along with their favored weapons [weapons]. They are [=Pick('feared','admired')] by [admirers].</item>
+		
+		<!-- The gang makes its living -->
+		<item name="schemes">distributing [=Pick('smokeleaf','a hallucinogenic mushroom','sleepysalt (a downer)','sharpsugar (an upper)','opium')]</item>
+		<item name="schemes">[=Pick('running heists','fencing stolen gems and precious metals')]</item>
+		<item name="schemes">[=Pick('Petty theft','burglary','pickpocketing')]</item>
+		<item name="schemes">performing assassinations that look like accidents or that frame someone else</item>
+		<item name="schemes">running [=Pick('exotic','low-end','high-class')] brothels</item>
+		<item name="schemes">shaking down legitimate local businesses and/or city officials</item>
+		<item name="schemes">serving as muscle for shady [=Pick('merchants','brothel-keepers','pimps')].</item>
+		<item name="schemes">holding up outgoing [=Pick('ships','wagons')]</item>
+		<item name="schemes">fencing counterfeit [=Pick('art','coinage')]</item>
+		
+		<!-- The gang's colors are -->
+		<item name="colors">[=Pick('black','gray','charcoal','white')]</item>
+		<item name="colors">[=Pick('red','scarlet','crimson','burgandy','maroon')]</item>
+		<item name="colors">[=Pick('gold','silver','bronze','copper','platinum','steel')]</item>
+		<item name="colors">[=Pick('forest green','hunter green','dark green','green','olive')]</item>
+		<item name="colors">[=Pick('blue','royal blue','navy','sky blue')]</item>
+		<item name="colors">[=Pick('violet','purple','pink')]</item>
+		<item name="colors">[=Pick('tan','khaki','brown','umber','chocolate')]</item>
+
+		<!-- The gang's symbol is -->
+		<item name="symbol">[=Pick('a skull','crossbones','a drop of blood')]</item>
+		<item name="symbol">a ghost</item>
+		<item name="symbol">[=Pick('an open hand','a clenched fist','an eye','a finger','a foot')]</item>
+		<item name="symbol">[=Pick('an arrow','a dagger','a sword','a hammer','a sickle','an axe')]</item>
+		<item name="symbol">[=Pick('a goblet','a crown','a tower','a ring')]</item>
+		<item name="symbol">[=Pick('a moon','a sun','a star','a comet','a cloud','a lightning bolt')]</item>
+		<item name="symbol">[=Pick('a fish','a bird','a snake','a rat','a badger','a spider','a wolf','a bear','a bird of prey','a lizard')]</item>
+
+		<!-- Gangmembers often sport matching -->
+		<item name="matching">shirts</item>
+		<item name="matching">jackets</item>
+		<item name="matching">scarves</item>
+		<item name="matching">vests</item>
+		<item name="matching">bandanas</item>
+		<item name="matching">boots</item>
+		<item name="matching">tattoos</item>
+		<item name="matching">hats</item>
+		<item name="matching">scars</item>
+		<item name="matching">hair styles</item>
+		<item name="matching">rings</item>
+		<item name="matching">necklaces</item>
+		<item name="matching">bracelets</item>
+		
+		<!-- The gang's leader is -->
+		<item name="leader">[leaderAdj] [leaderNoun]</item>
+		<item name="leaderAdj">a dangerous</item>
+		<item name="leaderAdj">a charismatic</item>
+		<item name="leaderAdj">a mysterious</item>
+		<item name="leaderAdj">a ruthless</item>
+		<item name="leaderAdj">a charming</item>
+		<item name="leaderAdj">a dashing</item>
+		<item name="leaderAdj">a brutish</item>
+		<item name="leaderAdj">an aloof</item>
+		<item name="leaderAdj">a deadly</item>
+		<item name="leaderAdj">a sharp</item>
+		<item name="leaderAdj">a calculating</item>
+		
+		<item name="leaderNoun">megalomaniac</item>
+		<item name="leaderNoun">demagogue</item>
+		<item name="leaderNoun">foreigner</item>
+		<item name="leaderNoun">killer</item>
+		<item name="leaderNoun">rogue</item>
+		<item name="leaderNoun">swashbuckler</item>
+		<item name="leaderNoun">thug</item>
+		<item name="leaderNoun">cultist</item>
+		
+		<!-- For recruitment, the gang targets individuals who are -->
+		<item name="recruits">artisans</item>
+		<item name="recruits">relocated peasants</item>
+		<item name="recruits">sailors</item>
+		<item name="recruits">drunks</item>
+		<item name="recruits">beggars</item>
+		<item name="recruits">thieves</item>
+		<item name="recruits">servants and slaves</item>
+		<item name="recruits">combat veterans</item>
+		<item name="recruits">young children</item>
+		<item name="recruits">[=Pick('circus','street')] performers</item>
+		<item name="recruits">addicts</item>
+		<item name="recruits">foreigners</item>
+		
+		<!-- The gang's goals include (leadership and rank-and-file members could have different goals) -->
+		<item name="goals">domination of the city's [=Pick('politics','trade','merchants')]</item>
+		<item name="goals">revenge against a rival gang in [=Pick('the same','another')] city</item>
+		<item name="goals">[=Pick('revenge','rebellion')] against the city's elite</item>
+
+		<!-- Gangmembers typically arm themselves with -->
+		<item name="weapons">wooden clubs</item>
+		<item name="weapons">throwing knives</item>
+		<item name="weapons">over-sized daggers</item>
+		<item name="weapons">serrated daggers</item>
+		<item name="weapons">daggers and crossbows</item>
+		<item name="weapons">hammers and daggers</item>
+		<item name="weapons">sticks and stones</item>
+		<item name="weapons">shortswords</item>
+		<item name="weapons">brass knuckles</item>
+		<item name="weapons">bare fists</item>
+		<item name="weapons">saps</item>
+		<item name="weapons">improvised weapons</item>
+		<item name="weapons">quarterstaffs</item>
+		
+		<!-- Gangmembers typically fight with -->
+		<item name="tactics">swarm tactics</item>
+		<item name="tactics">hit-and-run tactics</item>
+		<item name="tactics">ambush tactics</item>
+		<item name="tactics">choreographed maneuvers</item>
+		<item name="tactics">unpredictable maneuvers</item>
+		<item name="tactics">lots of smiles and jokes</item>
+		<item name="tactics">lots of fancy footwork</item>
+		<item name="tactics">lots of screaming and shouting</item>
+		<item name="tactics">kicking and stomping</item>
+		<item name="tactics">lots of head-butting</item>
+		<item name="tactics">dirty fighting</item>
+		<item name="tactics">dance numbers</item>
+
+		<!-- The gang's headquarters is hidden in or near -->
+		<item name="headquarters">the residence of =Pick('the leader','a senior gangmember')]</item>
+		<item name="headquarters">an artisan's shop</item>
+		<item name="headquarters">a guildhall</item>
+		<item name="headquarters">a merchant's office</item>
+		<item name="headquarters">a tavern</item>
+		<item name="headquarters">a brothel</item>
+		<item name="headquarters">a wharehouse</item>
+		<item name="headquarters">a shipyard</item>
+		<item name="headquarters">a temple</item>
+		<item name="headquarters">a temple complex</item>
+		<item name="headquarters">the city's sewers</item>
+		<item name="headquarters">the town hall</item>
+		<item name="headquarters">an abandoned [=Pick('guildhall','wharehouse','residence')]</item>
+		<item name="headquarters">a shantytown</item>
+		<item name="headquarters">the residence of a wealthy individual</item>
+		<item name="headquarters">a house boat</item>
+		
+		<!-- The gang is feared or respected by -->
+		<item name="admirers">fishermen and sailors</item>
+		<item name="admirers">beggars and thieves</item>
+		<item name="admirers">merchants and moneychangers</item>
+		<item name="admirers">jewelers and gemcutters</item>
+		<item name="admirers">politics and magistrates</item>
+		<item name="admirers">guards and sheriffs</item>
+		<item name="admirers">soldiers and warriors</item>
+		<item name="admirers">gladiators and pugilists</item>
+		<item name="admirers">servants and slaves</item>
+		<item name="admirers">priests and sages</item>
+		<item name="admirers">women and children</item>
+		<item name="admirers">working men</item>
+		<item name="admirers">farmers and hunters</item>
+
+		<!-- Distinguishing feature for an individual: The gangmember has -->
+		<item name="leaderFeature">a nose ring</item>
+		<item name="leaderFeature">shiney leather boots</item>
+		<item name="leaderFeature">a hole in the toe of one boot</item>
+		<item name="leaderFeature">a dagger in each boot</item>
+		<item name="leaderFeature">a heavy gold chain necklace</item>
+		<item name="leaderFeature">a wide-brimmed hat</item>
+		<item name="leaderFeature">a dagger tattoo on the forearm</item>
+		<item name="leaderFeature">a snake tattoo on the neck</item>
+		<item name="leaderFeature">a maniacal laugh</item>
+		<item name="leaderFeature">a soft voice</item>
+		<item name="leaderFeature">a long, crooked nose</item>
+		<item name="leaderFeature">an open shirt and hairy chest</item>
+		<item name="leaderFeature">an extravagant mustache</item>
+	</items>
+</Grammar>

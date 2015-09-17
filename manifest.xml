@@ -9,52 +9,9 @@
 				<tag>Deity</tag>
 				<tag>Name</tag>
 			</tags>
-		</grammar>
-		<grammar>
-			<url>https://raw.githubusercontent.com/melance/TheRandomizerWPFCustomizations/master/Grammars/adventure_hooks_(post_apocalyptic).rnd.xml</url>
-			<name>Adventure Hooks (Post Apocalyptic)</name>
-			<description>Generates adventure hooks for post-apocalyptic settings</description>
-			<author>Lance Boudreaux</author>
-			<tags>
-				<tag>Encounters</tag>
-				<tag>Post Apocalyptic</tag>
-			</tags>
-		</grammar>
-		<grammar>
-			<url>https://raw.githubusercontent.com/melance/TheRandomizerWPFCustomizations/master/Grammars/asian_pseudowords.rnd.xml</url>
-			<name>Asian Pseudowords</name>
-			<description>Uses the Asian phonemes library to construct random Asian sounding words. Requires all three of the following libraries: Chinese Phonemes, Japanese Phonemes, and Korean Phonemes.	</description>
-			<author>Lance Boudreaux</author>
-			<tags>
-				<tag>Asian</tag>
-				<tag>Word</tag>
-			</tags>
-			<requires>
-				<import>Chinese Phonemes</import>
-				<import>Japanese Phonemes</import>
-				<import>Korean Phonemes</import>
-			</requires>
 		</grammar>		
 	</grammars>
 	<libraries>
-		<library>
-			<url>https://raw.githubusercontent.com/melance/TheRandomizerWPFCustomizations/master/Libraries/chinese_phonemes.lib.xml</url>
-			<name>Chinese Phonemes</name>
-			<description>A list of Chinese language phonemes</description>
-			<author>/u/maxelliot</author>
-		</library>
-		<library>
-			<url>https://raw.githubusercontent.com/melance/TheRandomizerWPFCustomizations/master/Libraries/japanese_pheonome.lib.xml</url>
-			<name>Japanese Phonemes</name>
-			<description>A list of Japanese language phonemes</description>
-			<author>/u/maxelliot</author>
-		</library>
-		<library>
-			<url>https://raw.githubusercontent.com/melance/TheRandomizerWPFCustomizations/master/Libraries/known_colors_library.lib.xml</url>
-			<name>Known Colors</name>
-			<description>A list of known colors useful for populating colors or adding color to grammar output.</description>
-			<author>Lance Boudreaux</author>
-		</library>
 		<library>
 			<url>https://raw.githubusercontent.com/melance/TheRandomizerWPFCustomizations/master/Libraries/korean_pheonome.lib.xml</url>
 			<name>Korean Phonemes</name>

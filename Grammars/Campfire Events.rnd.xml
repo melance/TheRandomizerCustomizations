@@ -205,6 +205,6 @@
 		<item name="Statues">[Monster]s</item>
 	</items>
 	<imports>
-		<import>monsters by type</import>
+		<import>monsters by type.lib.xml</import>
 	</imports>
 </Grammar>

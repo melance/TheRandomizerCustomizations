@@ -44,20 +44,20 @@
     <item name="AnyName" weight="1">[RomanDeity]</item>
     <item name="AnyName" weight="1">[SlavicDeity]</item>
     <item name="AnyName" weight="1">[VoodooDeity]</item>
-    <item name="AztecDeity" weight="1">[=Generate('DeityAztec', 15)]</item>
-    <item name="BalticDeity" weight="1">[=Generate('DeityBaltic', 15)]</item>
-    <item name="CelticDeity" weight="1">[=Generate('DeityCeltic',15)]</item>
-    <item name="ChineseDeity" weight="1">[=Generate('DeityChinese',15)]</item>
-    <item name="EgyptianDeity" weight="1">[=Generate('DeityEgyptian',15)]</item>
-    <item name="GreekDeity" weight="1">[=Generate('DeityGreek',15)]</item>
-    <item name="IndianDeity" weight="1">[=Generate('DeityIndia',15)]</item>
-    <item name="JapaneseDeity" weight="1">[=Generate('DeityJapanese',15)]</item>
-    <item name="MayanDeity" weight="1">[=Generate('DeityMayan',15)]</item>
-    <item name="NativeAmericanDeity" weight="1">[=Generate('DeityNativeAmerican',15)]</item>
-    <item name="NorseDeity" weight="1">[=Generate('DeityNorse',15)]</item>
-    <item name="RomanDeity" weight="1">[=Generate('DeityRoman',15)]</item>
-    <item name="SlavicDeity" weight="1">[=Generate('DeitySlavic',15)]</item>
-    <item name="VoodooDeity" weight="1">[=Generate('DeityVoodoo',15)]</item>
+    <item name="AztecDeity" weight="1">[=Generate('DeityAztec', 'MaxLength', _maxLength)]</item>
+    <item name="BalticDeity" weight="1">[=Generate('DeityBaltic', 'MaxLength', _maxLength)]</item>
+    <item name="CelticDeity" weight="1">[=Generate('DeityCeltic', 'MaxLength', _maxLength)]</item>
+    <item name="ChineseDeity" weight="1">[=Generate('DeityChinese', 'MaxLength', _maxLength)]</item>
+    <item name="EgyptianDeity" weight="1">[=Generate('DeityEgyptian', 'MaxLength', _maxLength)]</item>
+    <item name="GreekDeity" weight="1">[=Generate('DeityGreek', 'MaxLength', _maxLength)]</item>
+    <item name="IndianDeity" weight="1">[=Generate('DeityIndia', 'MaxLength', _maxLength)]</item>
+    <item name="JapaneseDeity" weight="1">[=Generate('DeityJapanese', 'MaxLength', _maxLength)]</item>
+    <item name="MayanDeity" weight="1">[=Generate('DeityMayan', 'MaxLength', _maxLength)]</item>
+    <item name="NativeAmericanDeity" weight="1">[=Generate('DeityNativeAmerican', 'MaxLength', _maxLength)]</item>
+    <item name="NorseDeity" weight="1">[=Generate('DeityNorse', 'MaxLength', _maxLength)]</item>
+    <item name="RomanDeity" weight="1">[=Generate('DeityRoman', 'MaxLength', _maxLength)]</item>
+    <item name="SlavicDeity" weight="1">[=Generate('DeitySlavic', 'MaxLength', _maxLength)]</item>
+    <item name="VoodooDeity" weight="1">[=Generate('DeityVoodoo', 'MaxLength', _maxLength)]</item>
     <item name="Domains" weight="1">[Domain]</item>
     <item name="Domains" weight="1">[Domain] and [Domain]</item>
     <item name="Domains" weight="1">[Domain], [Domain], and [Domain]</item>

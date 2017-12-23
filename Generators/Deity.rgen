@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
+  <name>Deities</name>
+  <author>Lance Boudreaux</author>
+  <description>Generates a deity name and domains</description>
+  <tags>
+    <tag>Name</tag>
+    <tag>Deity</tag>
+  </tags>
+  <supportsMaxLength>false</supportsMaxLength>
+  <parameters>
+    <parameter name="Name" value="AnyName" display="Name Type" type="List">
+      <option display="Any">AnyName</option>
+      <option display="Aztec">AztecDeity</option>
+      <option display="Baltic">BalticDeity</option>
+      <option display="Celtic">CelticDeity</option>
+      <option display="Chinese">ChineseDeity</option>
+      <option display="Egyptian">EgyptianDeity</option>
+      <option display="Greek">GreekDeity</option>
+      <option display="Indian">IndianDeity</option>
+      <option display="Japanese">JapaneseDeity</option>
+      <option display="Mayan">MayanDeity</option>
+      <option display="Native American">NativeAmericanDeity</option>
+      <option display="Norse">NorseDeity</option>
+      <option display="Roman">RomanDeity</option>
+      <option display="Slavic">SlavicDeity</option>
+      <option display="Voodoo">VoodooDeity</option>
+    </parameter>
+  </parameters>
+  <isLibrary>false</isLibrary>
+  <items>
+    <item name="Start" weight="1">[Name], the [=Pick('goddess','god','deity','demigod','demigoddess')] of [Domains].</item>
+    <item name="AnyName" weight="1">[AztecDeity]</item>
+    <item name="AnyName" weight="1">[BalticDeity]</item>
+    <item name="AnyName" weight="1">[CelticDeity]</item>
+    <item name="AnyName" weight="1">[ChineseDeity]</item>
+    <item name="AnyName" weight="1">[EgyptianDeity]</item>
+    <item name="AnyName" weight="1">[GreekDeity]</item>
+    <item name="AnyName" weight="1">[IndianDeity]</item>
+    <item name="AnyName" weight="1">[JapaneseDeity]</item>
+    <item name="AnyName" weight="1">[MayanDeity]</item>
+    <item name="AnyName" weight="1">[NativeAmericanDeity]</item>
+    <item name="AnyName" weight="1">[NorseDeity]</item>
+    <item name="AnyName" weight="1">[RomanDeity]</item>
+    <item name="AnyName" weight="1">[SlavicDeity]</item>
+    <item name="AnyName" weight="1">[VoodooDeity]</item>
+    <item name="AztecDeity" weight="1">[=Generate('DeityAztec', 15)]</item>
+    <item name="BalticDeity" weight="1">[=Generate('DeityBaltic', 15)]</item>
+    <item name="CelticDeity" weight="1">[=Generate('DeityCeltic',15)]</item>
+    <item name="ChineseDeity" weight="1">[=Generate('DeityChinese',15)]</item>
+    <item name="EgyptianDeity" weight="1">[=Generate('DeityEgyptian',15)]</item>
+    <item name="GreekDeity" weight="1">[=Generate('DeityGreek',15)]</item>
+    <item name="IndianDeity" weight="1">[=Generate('DeityIndia',15)]</item>
+    <item name="JapaneseDeity" weight="1">[=Generate('DeityJapanese',15)]</item>
+    <item name="MayanDeity" weight="1">[=Generate('DeityMayan',15)]</item>
+    <item name="NativeAmericanDeity" weight="1">[=Generate('DeityNativeAmerican',15)]</item>
+    <item name="NorseDeity" weight="1">[=Generate('DeityNorse',15)]</item>
+    <item name="RomanDeity" weight="1">[=Generate('DeityRoman',15)]</item>
+    <item name="SlavicDeity" weight="1">[=Generate('DeitySlavic',15)]</item>
+    <item name="VoodooDeity" weight="1">[=Generate('DeityVoodoo',15)]</item>
+    <item name="Domains" weight="1">[Domain]</item>
+    <item name="Domains" weight="1">[Domain] and [Domain]</item>
+    <item name="Domains" weight="1">[Domain], [Domain], and [Domain]</item>
+    <item name="Domain" weight="1">Acrobats</item>
+    <item name="Domain" weight="1">Agility</item>
+    <item name="Domain" weight="1">Agriculture</item>
+    <item name="Domain" weight="1">Air</item>
+    <item name="Domain" weight="1">Alchemy</item>
+    <item name="Domain" weight="1">Alcohol</item>
+    <item name="Domain" weight="1">Ancestors</item>
+    <item name="Domain" weight="1">Anger</item>
+    <item name="Domain" weight="1">Animals</item>
+    <item name="Domain" weight="1">Archers</item>
+    <item name="Domain" weight="1">Astrology</item>
+    <item name="Domain" weight="1">Autumn</item>
+    <item name="Domain" weight="1">Battle</item>
+    <item name="Domain" weight="1">Beauty</item>
+    <item name="Domain" weight="1">Beer</item>
+    <item name="Domain" weight="1">Bravery</item>
+    <item name="Domain" weight="1">Brides</item>
+    <item name="Domain" weight="1">Cats</item>
+    <item name="Domain" weight="1">Cattle</item>
+    <item name="Domain" weight="1">Cavalry</item>
+    <item name="Domain" weight="1">Celebration</item>
+    <item name="Domain" weight="1">Chance</item>
+    <item name="Domain" weight="1">Change</item>
+    <item name="Domain" weight="1">Chaos</item>
+    <item name="Domain" weight="1">Children</item>
+    <item name="Domain" weight="1">Choice</item>
+    <item name="Domain" weight="1">Cities</item>
+    <item name="Domain" weight="1">Clouds</item>
+    <item name="Domain" weight="1">Clowns</item>
+    <item name="Domain" weight="1">Cowards</item>
+    <item name="Domain" weight="1">Creation</item>
+    <item name="Domain" weight="1">Creativity</item>
+    <item name="Domain" weight="1">Crops</item>
+    <item name="Domain" weight="1">Dancers</item>
+    <item name="Domain" weight="1">Darkness</item>
+    <item name="Domain" weight="1">Dawn</item>
+    <item name="Domain" weight="1">Day</item>
+    <item name="Domain" weight="1">Death</item>
+    <item name="Domain" weight="1">Desert</item>
+    <item name="Domain" weight="1">Desire</item>
+    <item name="Domain" weight="1">Destiny</item>
+    <item name="Domain" weight="1">Disease</item>
+    <item name="Domain" weight="1">Dogs</item>
+    <item name="Domain" weight="1">Dragons</item>
+    <item name="Domain" weight="1">Dreams</item>
+    <item name="Domain" weight="1">Drink</item>
+    <item name="Domain" weight="1">Dusk</item>
+    <item name="Domain" weight="1">Earth</item>
+    <item name="Domain" weight="1">Entertainers</item>
+    <item name="Domain" weight="1">Everything</item>
+    <item name="Domain" weight="1">Evil</item>
+    <item name="Domain" weight="1">Fate</item>
+    <item name="Domain" weight="1">Fear</item>
+    <item name="Domain" weight="1">Fertility</item>
+    <item name="Domain" weight="1">Fire</item>
+    <item name="Domain" weight="1">Fish</item>
+    <item name="Domain" weight="1">Food</item>
+    <item name="Domain" weight="1">Fools</item>
+    <item name="Domain" weight="1">Gambling</item>
+    <item name="Domain" weight="1">Games</item>
+    <item name="Domain" weight="1">Gold</item>
+    <item name="Domain" weight="1">Good</item>
+    <item name="Domain" weight="1">Grooms</item>
+    <item name="Domain" weight="1">Handmaidens</item>
+    <item name="Domain" weight="1">Happiness</item>
+    <item name="Domain" weight="1">Hate</item>
+    <item name="Domain" weight="1">Healing</item>
+    <item name="Domain" weight="1">Health</item>
+    <item name="Domain" weight="1">The Hearth</item>
+    <item name="Domain" weight="1">Hell</item>
+    <item name="Domain" weight="1">Hills</item>
+    <item name="Domain" weight="1">Home</item>
+    <item name="Domain" weight="1">Hunting</item>
+    <item name="Domain" weight="1">Hurricanes</item>
+    <item name="Domain" weight="1">Husbands</item>
+    <item name="Domain" weight="1">Illusion</item>
+    <item name="Domain" weight="1">Innocence</item>
+    <item name="Domain" weight="1">Inspiration</item>
+    <item name="Domain" weight="1">Intellect</item>
+    <item name="Domain" weight="1">Jesters</item>
+    <item name="Domain" weight="1">Jewelers</item>
+    <item name="Domain" weight="1">Justice</item>
+    <item name="Domain" weight="1">Knights</item>
+    <item name="Domain" weight="1">Knowledge</item>
+    <item name="Domain" weight="1">Land</item>
+    <item name="Domain" weight="1">Lava</item>
+    <item name="Domain" weight="1">Law</item>
+    <item name="Domain" weight="1">Life</item>
+    <item name="Domain" weight="1">Light</item>
+    <item name="Domain" weight="1">Lightning</item>
+    <item name="Domain" weight="1">Loss</item>
+    <item name="Domain" weight="1">Love</item>
+    <item name="Domain" weight="1">Magic</item>
+    <item name="Domain" weight="1">Magma</item>
+    <item name="Domain" weight="1">Maidens</item>
+    <item name="Domain" weight="1">Marriage</item>
+    <item name="Domain" weight="1">Marshes</item>
+    <item name="Domain" weight="1">Medicine</item>
+    <item name="Domain" weight="1">Messengers</item>
+    <item name="Domain" weight="1">Mischief</item>
+    <item name="Domain" weight="1">Mothers</item>
+    <item name="Domain" weight="1">Mountains</item>
+    <item name="Domain" weight="1">Music</item>
+    <item name="Domain" weight="1">Musicians</item>
+    <item name="Domain" weight="1">Nature</item>
+    <item name="Domain" weight="1">Night</item>
+    <item name="Domain" weight="1">Nightmares</item>
+    <item name="Domain" weight="1">Nobility</item>
+    <item name="Domain" weight="1">Oceans</item>
+    <item name="Domain" weight="1">Peace</item>
+    <item name="Domain" weight="1">Peasants</item>
+    <item name="Domain" weight="1">Performers</item>
+    <item name="Domain" weight="1">Pestilence</item>
+    <item name="Domain" weight="1">Poetry</item>
+    <item name="Domain" weight="1">Prairies</item>
+    <item name="Domain" weight="1">Prophecy</item>
+    <item name="Domain" weight="1">Rainbows</item>
+    <item name="Domain" weight="1">Rebirth</item>
+    <item name="Domain" weight="1">Revenge</item>
+    <item name="Domain" weight="1">Rivers</item>
+    <item name="Domain" weight="1">Roads</item>
+    <item name="Domain" weight="1">Rocks</item>
+    <item name="Domain" weight="1">Rogues</item>
+    <item name="Domain" weight="1">Royalty</item>
+    <item name="Domain" weight="1">Science</item>
+    <item name="Domain" weight="1">Seas</item>
+    <item name="Domain" weight="1">Serendipity</item>
+    <item name="Domain" weight="1">Serpents</item>
+    <item name="Domain" weight="1">Sex</item>
+    <item name="Domain" weight="1">Silver</item>
+    <item name="Domain" weight="1">Soldiers</item>
+    <item name="Domain" weight="1">Sorrow</item>
+    <item name="Domain" weight="1">Speed</item>
+    <item name="Domain" weight="1">Spring</item>
+    <item name="Domain" weight="1">Stars</item>
+    <item name="Domain" weight="1">Steppes</item>
+    <item name="Domain" weight="1">Stone</item>
+    <item name="Domain" weight="1">Storms</item>
+    <item name="Domain" weight="1">Strength</item>
+    <item name="Domain" weight="1">Summer</item>
+    <item name="Domain" weight="1">Swamps</item>
+    <item name="Domain" weight="1">Technology</item>
+    <item name="Domain" weight="1">The Afterlife</item>
+    <item name="Domain" weight="1">The Forge</item>
+    <item name="Domain" weight="1">The Harvest</item>
+    <item name="Domain" weight="1">The Heavens</item>
+    <item name="Domain" weight="1">The Moon</item>
+    <item name="Domain" weight="1">The Seasons</item>
+    <item name="Domain" weight="1">The Sky</item>
+    <item name="Domain" weight="1">The Sun</item>
+    <item name="Domain" weight="1">The Underworld</item>
+    <item name="Domain" weight="1">The Unknown</item>
+    <item name="Domain" weight="1">Thieves</item>
+    <item name="Domain" weight="1">Thunder</item>
+    <item name="Domain" weight="1">Time</item>
+    <item name="Domain" weight="1">Tornadoes</item>
+    <item name="Domain" weight="1">Tournaments</item>
+    <item name="Domain" weight="1">Towns</item>
+    <item name="Domain" weight="1">Treasure</item>
+    <item name="Domain" weight="1">Trees</item>
+    <item name="Domain" weight="1">Trickery</item>
+    <item name="Domain" weight="1">Truth</item>
+    <item name="Domain" weight="1">Villages</item>
+    <item name="Domain" weight="1">Void</item>
+    <item name="Domain" weight="1">Volcanoes</item>
+    <item name="Domain" weight="1">War</item>
+    <item name="Domain" weight="1">Warriors</item>
+    <item name="Domain" weight="1">Water</item>
+    <item name="Domain" weight="1">Wealth</item>
+    <item name="Domain" weight="1">Weapons</item>
+    <item name="Domain" weight="1">Weather</item>
+    <item name="Domain" weight="1">Wilderness</item>
+    <item name="Domain" weight="1">Wine</item>
+    <item name="Domain" weight="1">Winter</item>
+    <item name="Domain" weight="1">Wisdom</item>
+    <item name="Domain" weight="1">Wives</item>
+    <item name="Domain" weight="1">Woodlands</item>
+    <item name="Domain" weight="1">Youth</item>
+  </items>
+  <imports />
+</generator>

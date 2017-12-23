@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Phonotactics" version="2">
+  <name>Phonotactics Sample</name>
+  <author>Lance Boudreaux</author>
+  <description>A sample Phonotactics Generator</description>
+  <outputFormat>Html</outputFormat>
+  <tags>
+    <tag>Test</tag>
+  </tags>
+  <supportsMaxLength>false</supportsMaxLength>
+  <parameters />
+  <textCase>None</textCase>
+  <definitions>
+    <item key="C" delimiter=",">B,C,D,F,G,H,J,K,L,M,N,P,Q,R,S,T,V,W,X,Y,Z</item>
+    <item key="V" delimiter=",">A,E,I,O,U</item>
+  </definitions>
+  <patterns>
+    <item weight="1">CVC</item>
+    <item weight="1">CVCCV</item>
+  </patterns>
+</generator>

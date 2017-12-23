@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="List" version="2">
+  <name>The Sorting Hat</name>
+  <author>Lance Boudreaux</author>
+  <description>Randomly chooses a Harry Potter House</description>
+  <tags>
+    <tag>Fantasy</tag>
+  </tags>
+  <keepWhiteSpace>False</keepWhiteSpace>
+  <items>
+  Gryffindor
+  Hufflepuff
+  Ravenclaw
+  Slytherin
+  </items>
+</generator>

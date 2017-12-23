@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
+  <name>Corporation Names</name>
+  <author>Lance Boudreaux</author>
+  <description>Generates corporation names.</description>
+  <tags>
+    <tag>Name</tag>
+  </tags>
+  <supportsMaxLength>false</supportsMaxLength>
+  <isLibrary>false</isLibrary>
+  <items>
+    <item name="Start" weight="1">[Adjective] [Noun] [Type]</item>
+    <item name="Start" weight="1">[Noun] [Adjective] [Type]</item>
+    <item name="Start" weight="1">[Name] [Noun] [Type]</item>
+    <item name="Start" weight="1">[Name] [Type]</item>
+    <item name="Start" weight="1">[Noun] [TechnoPrefix][TechnoSuffix]</item>
+    <item name="Start" weight="1">[Name] [TechnoPrefix][TechnoSuffix]</item>
+    <item name="Start" weight="1">[TechnoPrefix][TechnoSuffix] [Type]</item>
+    <item name="Start" weight="1">[TechnoPrefix][TechnoSuffix] [Noun] [Type]</item>
+    <item name="Type" weight="1">Inc.</item>
+    <item name="Type" weight="1">Corporation</item>
+    <item name="Type" weight="1">LLC</item>
+    <item name="Type" weight="1">Unlimited</item>
+    <item name="Type" weight="1">Corp.</item>
+    <item name="Type" weight="1">Partners</item>
+    <item name="Type" weight="1">LLP</item>
+    <item name="Type" weight="1">Ltd.</item>
+    <item name="Type" weight="1">Company</item>
+    <item name="Type" weight="1">Association</item>
+    <item name="Type" weight="1">Incorporated</item>
+    <item name="Type" weight="1">Society</item>
+    <item name="Type" weight="1">Foundation</item>
+    <item name="Type" weight="1">Institution</item>
+    <item name="Type" weight="1">Union</item>
+    <item name="Type" weight="1">Syndicate</item>
+    <item name="Type" weight="1">Services</item>
+    <item name="Type" weight="1">Specialties</item>
+    <item name="Noun" weight="1">Agriculture</item>
+    <item name="Noun" weight="1">Apex</item>
+    <item name="Noun" weight="1">Application</item>
+    <item name="Noun" weight="1">Automation</item>
+    <item name="Noun" weight="1">Automotive</item>
+    <item name="Noun" weight="1">Biology</item>
+    <item name="Noun" weight="1">Computer</item>
+    <item name="Noun" weight="1">Data</item>
+    <item name="Noun" weight="1">Development</item>
+    <item name="Noun" weight="1">Engineering</item>
+    <item name="Noun" weight="1">Entertainment</item>
+    <item name="Noun" weight="1">Equipment</item>
+    <item name="Noun" weight="1">Exploration</item>
+    <item name="Noun" weight="1">Fuel</item>
+    <item name="Noun" weight="1">Gas</item>
+    <item name="Noun" weight="1">Gene</item>
+    <item name="Noun" weight="1">Group</item>
+    <item name="Noun" weight="1">Hardware</item>
+    <item name="Noun" weight="1">Health</item>
+    <item name="Noun" weight="1">Horizon</item>
+    <item name="Noun" weight="1">Information</item>
+    <item name="Noun" weight="1">Instrument</item>
+    <item name="Noun" weight="1">Logistic</item>
+    <item name="Noun" weight="1">Machine</item>
+    <item name="Noun" weight="1">Manufacturing</item>
+    <item name="Noun" weight="1">Mechanics</item>
+    <item name="Noun" weight="1">Media</item>
+    <item name="Noun" weight="1">Mining</item>
+    <item name="Noun" weight="1">Motor</item>
+    <item name="Noun" weight="1">Network</item>
+    <item name="Noun" weight="1">Photographic</item>
+    <item name="Noun" weight="1">Radio</item>
+    <item name="Noun" weight="1">Science</item>
+    <item name="Noun" weight="1">Service</item>
+    <item name="Noun" weight="1">Software</item>
+    <item name="Noun" weight="1">Space</item>
+    <item name="Noun" weight="1">Spark</item>
+    <item name="Noun" weight="1">Sport</item>
+    <item name="Noun" weight="1">System</item>
+    <item name="Noun" weight="1">Terraforming</item>
+    <item name="Noun" weight="1">Tools</item>
+    <item name="Noun" weight="1">Training</item>
+    <item name="Noun" weight="1">Vista</item>
+    <item name="Noun" weight="1">World</item>
+    <item name="Adjective" weight="1">Air</item>
+    <item name="Adjective" weight="1">Alternative</item>
+    <item name="Adjective" weight="1">American</item>
+    <item name="Adjective" weight="1">Atomic</item>
+    <item name="Adjective" weight="1">British</item>
+    <item name="Adjective" weight="1">Brown</item>
+    <item name="Adjective" weight="1">Calibrated</item>
+    <item name="Adjective" weight="1">Canadian</item>
+    <item name="Adjective" weight="1">Chemical</item>
+    <item name="Adjective" weight="1">Digital</item>
+    <item name="Adjective" weight="1">Earth</item>
+    <item name="Adjective" weight="1">Eastern</item>
+    <item name="Adjective" weight="1">Electric</item>
+    <item name="Adjective" weight="1">Electronic</item>
+    <item name="Adjective" weight="1">Financial</item>
+    <item name="Adjective" weight="1">Foreign</item>
+    <item name="Adjective" weight="1">Future</item>
+    <item name="Adjective" weight="1">General</item>
+    <item name="Adjective" weight="1">Genetic</item>
+    <item name="Adjective" weight="1">Imperial</item>
+    <item name="Adjective" weight="1">Integrated</item>
+    <item name="Adjective" weight="1">Liquid</item>
+    <item name="Adjective" weight="1">Medical</item>
+    <item name="Adjective" weight="1">Mexican</item>
+    <item name="Adjective" weight="1">Mutual</item>
+    <item name="Adjective" weight="1">Networked</item>
+    <item name="Adjective" weight="1">Northern</item>
+    <item name="Adjective" weight="1">Official</item>
+    <item name="Adjective" weight="1">Open</item>
+    <item name="Adjective" weight="1">Royal</item>
+    <item name="Adjective" weight="1">Solar</item>
+    <item name="Adjective" weight="1">Southern</item>
+    <item name="Adjective" weight="1">Space</item>
+    <item name="Adjective" weight="1">Tactical</item>
+    <item name="Adjective" weight="1">Technological</item>
+    <item name="Adjective" weight="1">Western</item>
+    <item name="Adjective" weight="1">Wholesale</item>
+    <item name="TechnoPrefix" weight="1">Psycho</item>
+    <item name="TechnoPrefix" weight="1">Cyber</item>
+    <item name="TechnoPrefix" weight="1">Chemo</item>
+    <item name="TechnoPrefix" weight="1">Dyno</item>
+    <item name="TechnoPrefix" weight="1">Atonomo</item>
+    <item name="TechnoPrefix" weight="1">Techno</item>
+    <item name="TechnoPrefix" weight="1">Gene</item>
+    <item name="TechnoPrefix" weight="1">Geo</item>
+    <item name="TechnoPrefix" weight="1">Astro</item>
+    <item name="TechnoPrefix" weight="1">Aero</item>
+    <item name="TechnoPrefix" weight="1">Auto</item>
+    <item name="TechnoSuffix" weight="1">tronics</item>
+    <item name="TechnoSuffix" weight="1">nautics</item>
+    <item name="TechnoSuffix" weight="1">graphic</item>
+    <item name="TechnoSuffix" weight="1">dynamics</item>
+    <item name="TechnoSuffix" weight="1">soft</item>
+    <item name="TechnoSuffix" weight="1">mantics</item>
+    <item name="TechnoSuffix" weight="1">logistics</item>
+    <item name="TechnoSuffix" weight="1">netics</item>
+    <item name="TechnoSuffix" weight="1">mation</item>
+    <item name="Name" weight="80">[USLastName]</item>
+    <item name="Name" weight="10">[UpperCase][UpperCase]</item>
+    <item name="Name" weight="10">[UpperCase][UpperCase][UpperCase]</item>
+  </items>
+  <imports>
+    <import>LettersAndDigits.rgen</import>
+    <import>USNames.rgen</import>
+  </imports>
+</generator>

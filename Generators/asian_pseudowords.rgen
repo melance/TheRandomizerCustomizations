@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
+  <name>Asian Pseudoword</name>
+  <author>Lance Boudreaux</author>
+  <description>Uses the Asian phonemes library to construct random Asian sounding words</description>
+  <tags>
+    <tag>Asian</tag>
+    <tag>Word</tag>
+  </tags>
+  <supportsMaxLength>true</supportsMaxLength>
+  <parameters>
+    <parameter name="Language" value="Any" display="Language" type="List">
+      <option display="Any">Any</option>
+      <option display="Chinese">Chinese</option>
+      <option display="Korean">Korean</option>
+      <option display="Japanese">Japanese</option>
+    </parameter>
+  </parameters>
+  <isLibrary>false</isLibrary>
+  <items>
+    <item name="Start" weight="1">[Language]</item>
+    <item name="Any" weight="1">[japanesepheonome|chinesepheonome|koreanphenome][Any]</item>
+    <item name="Any" next="" weight="1">[japanesepheonome|chinesepheonome|koreanphenome]</item>
+    <item name="Chinese" weight="1">[chinesepheonome][Chinese]</item>
+    <item name="Chinese" next="" weight="1">[chinesepheonome]</item>
+    <item name="Korean" weight="1">[koreanphenome][Korean]</item>
+    <item name="Korean" next="" weight="1">[koreanphenome]</item>
+    <item name="Japanese" weight="1">[japanesepheonome][Japanese]</item>
+    <item name="Japanese" next="" weight="1">[japanesepheonome]</item>
+  </items>
+  <imports>
+    <import>japanese_pheonome.rgen</import>
+    <import>chinese_pheonome.rgen</import>
+    <import>korean_pheonome.rgen</import>
+  </imports>
+</generator>

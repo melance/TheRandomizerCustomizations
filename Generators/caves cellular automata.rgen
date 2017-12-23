@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Lua" version="2">
+  <name>Caves (Cellular Automata Method)</name>
+  <author>Lance Boudreaux</author>
+  <description>Generates a random cave using the cellular automata method.  Be aware that large maps may take a long time to generate.  Also, copying and pasting may cause the grid to stretch vertically.</description>
+  <url>http://www.futuredatalab.com/proceduraldungeon/</url>
+  <tags>
+    <tag>Map</tag>
+  </tags>
+  <css>
+	table {
+		width:90%;
+	}
+	td {
+		width:30%;
+		position:relative;
+	}
+	td:after{
+		content:'';
+		display:block;
+		margin-top:100%;
+	}
+	td .content {
+		position:absolute;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+		background:gold;
+	}
+	</css>
+  <parameters>
+    <parameter name="xsize" display="Width" type="Text" value="20" />
+    <parameter name="ysize" display="Height" type="Text" value="20" />
+    <parameter name="fill" display="Clear" type="Text" value="60" />
+    <parameter name="csize" display="Cell Size" type="Text" value="6" />
+    <parameter name="gridlines" display="Show Grid Lines" type="Boolean" value="false" />
+  </parameters>
+  <scriptPath>Scripts\CellularAutomataCaves.lua</scriptPath>
+</generator>

@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
+  <supportsMaxLength>false</supportsMaxLength>
+  <isLibrary>true</isLibrary>
+  <items>
+    <item name="Monster" weight="1">[Dimunitive]</item>
+    <item name="Monster" weight="1">[Tiny]</item>
+    <item name="Monster" weight="1">[Small]</item>
+    <item name="Monster" weight="1">[Medium]</item>
+    <item name="Monster" weight="1">[Large]</item>
+    <item name="Monster" weight="1">[Huge]</item>
+    <item name="Monster" weight="1">[Gargantuan]</item>
+    <item name="Monster" weight="1">[Colossal]</item>
+    <item name="Dimunitive" weight="1">[DimunitiveAnimal]</item>
+    <item name="DimunitiveAnimal" weight="1">bat</item>
+    <item name="DimunitiveAnimal" weight="1">toad</item>
+    <item name="Tiny" weight="1">quasit</item>
+    <item name="Tiny" weight="1">imp</item>
+    <item name="Tiny" weight="1">[TinyDragon]</item>
+    <item name="Tiny" weight="1">homunculus</item>
+    <item name="Tiny" weight="1">psuedodragon</item>
+    <item name="Tiny" weight="1">tiny skeleton</item>
+    <item name="Tiny" weight="1">grig</item>
+    <item name="Tiny" weight="1">stirge</item>
+    <item name="Tiny" weight="1">tiny zombie</item>
+    <item name="Tiny" weight="1">[TinyAnimal]</item>
+    <item name="Tiny" weight="1">[TinyVermin]</item>
+    <item name="TinyAnimal" weight="1">badger</item>
+    <item name="TinyAnimal" weight="1">cat</item>
+    <item name="TinyAnimal" weight="1">hawk</item>
+    <item name="TinyAnimal" weight="1">lizard</item>
+    <item name="TinyAnimal" weight="1">monkey</item>
+    <item name="TinyAnimal" weight="1">owl</item>
+    <item name="TinyAnimal" weight="1">rat</item>
+    <item name="TinyAnimal" weight="1">raven</item>
+    <item name="TinyAnimal" weight="1">tiny viper snake</item>
+    <item name="TinyAnimal" weight="1">weasel</item>
+    <item name="TinyDragon" weight="1">wyrmling black dragon</item>
+    <item name="TinyDragon" weight="1">wyrmling white dragon</item>
+    <item name="TinyDragon" weight="1">wyrmling brass dragon</item>
+    <item name="TinyDragon" weight="1">wyrmling copper dragon</item>
+    <item name="TinyVermin" weight="1">tiny monstrous centipede</item>
+    <item name="TinyVermin" weight="1">tiny monstrous scorpion</item>
+    <item name="TinyVermin" weight="1">tiny monstrous spider</item>
+    <item name="Small" weight="1">juvenile arrowhawk</item>
+    <item name="Small" weight="1">lantern archon celestial</item>
+    <item name="Small" weight="1">choker</item>
+    <item name="Small" weight="1">cockatrice</item>
+    <item name="Small" weight="1">darkmantle</item>
+    <item name="Small" weight="1">dretch</item>
+    <item name="Small" weight="1">dire rat</item>
+    <item name="Small" weight="1">[SmallDragon]</item>
+    <item name="Small" weight="1">[SmallElemental]</item>
+    <item name="Small" weight="1">formian worker</item>
+    <item name="Small" weight="1">gnome</item>
+    <item name="Small" weight="1">goblin</item>
+    <item name="Small" weight="1">halfling</item>
+    <item name="Small" weight="1">kobold</item>
+    <item name="Small" weight="1">magmin</item>
+    <item name="Small" weight="1">[SmallMephit]</item>
+    <item name="Small" weight="1">flamebrother</item>
+    <item name="Small" weight="1">shocker lizard</item>
+    <item name="Small" weight="1">small skeleton</item>
+    <item name="Small" weight="1">nixie</item>
+    <item name="Small" weight="1">pixie</item>
+    <item name="Small" weight="1">juvenile tojanida</item>
+    <item name="Small" weight="1">vargouille</item>
+    <item name="Small" weight="1">will-o'-wisp</item>
+    <item name="Small" weight="1">minor xorn</item>
+    <item name="Small" weight="1">small zombie</item>
+    <item name="Small" weight="1">[SmallAnimal]</item>
+    <item name="Small" weight="1">[SmallVermin]</item>
+    <item name="SmallAnimal" weight="1">dog</item>
+    <item name="SmallAnimal" weight="1">eagle</item>
+    <item name="SmallAnimal" weight="1">octopus</item>
+    <item name="SmallAnimal" weight="1">small viper snake</item>
+    <item name="SmallDragon" weight="1">very young black dragon</item>
+    <item name="SmallDragon" weight="1">wyrmling blue dragon</item>
+    <item name="SmallDragon" weight="1">wyrmling green dragon</item>
+    <item name="SmallDragon" weight="1">very young white dragon</item>
+    <item name="SmallDragon" weight="1">very young brass dragon</item>
+    <item name="SmallDragon" weight="1">wyrmling bronze dragon</item>
+    <item name="SmallDragon" weight="1">very young copper dragon</item>
+    <item name="SmallDragon" weight="1">wyrmling silver dragon</item>
+    <item name="SmallElemental" weight="1">small air elemental</item>
+    <item name="SmallElemental" weight="1">small earth elemental</item>
+    <item name="SmallElemental" weight="1">small fire elemental</item>
+    <item name="SmallElemental" weight="1">small water elemental</item>
+    <item name="SmallMephit" weight="1">air mephit</item>
+    <item name="SmallMephit" weight="1">dust mephit</item>
+    <item name="SmallMephit" weight="1">earth mephit</item>
+    <item name="SmallMephit" weight="1">fire mephit</item>
+    <item name="SmallMephit" weight="1">ice mephit</item>
+    <item name="SmallMephit" weight="1">magma mephit</item>
+    <item name="SmallMephit" weight="1">ooze mephit</item>
+    <item name="SmallMephit" weight="1">salt mephit</item>
+    <item name="SmallMephit" weight="1">steam mephit</item>
+    <item name="SmallMephit" weight="1">water mephit</item>
+    <item name="SmallVermin" weight="1">giant fire beetle</item>
+    <item name="SmallVermin" weight="1">small monstrous centipede</item>
+    <item name="SmallVermin" weight="1">small monstrous scorpion</item>
+    <item name="SmallVermin" weight="1">small monstrous spider</item>
+    <item name="Medium" weight="1">adult arrowhawk</item>
+    <item name="Medium" weight="1">azer</item>
+    <item name="Medium" weight="1">barghest</item>
+    <item name="Medium" weight="1">aranea</item>
+    <item name="Medium" weight="1">allip</item>
+    <item name="Medium" weight="1">bodak</item>
+    <item name="Medium" weight="1">blink dog</item>
+    <item name="Medium" weight="1">bugbear</item>
+    <item name="Medium" weight="1">basilisk</item>
+    <item name="Medium" weight="1">hound archon celestial</item>
+    <item name="Medium" weight="1">avoral celestial</item>
+    <item name="Medium" weight="1">ghaele celestial</item>
+    <item name="Medium" weight="1">trumper archon celestial</item>
+    <item name="Medium" weight="1">astral deva celestial</item>
+    <item name="Medium" weight="1">chaos beast</item>
+    <item name="Medium" weight="1">succubus</item>
+    <item name="Medium" weight="1">lemure</item>
+    <item name="Medium" weight="1">kyton</item>
+    <item name="Medium" weight="1">barbazu</item>
+    <item name="Medium" weight="1">erinyes</item>
+    <item name="Medium" weight="1">hamatula</item>
+    <item name="Medium" weight="1">digester</item>
+    <item name="Medium" weight="1">dire weasel</item>
+    <item name="Medium" weight="1">dire badger</item>
+    <item name="Medium" weight="1">[MediumDragon]</item>
+    <item name="Medium" weight="1">dryad</item>
+    <item name="Medium" weight="1">dwarf</item>
+    <item name="Medium" weight="1">[MediumElemental]</item>
+    <item name="Medium" weight="1">elf</item>
+    <item name="Medium" weight="1">ethereal filcher</item>
+    <item name="Medium" weight="1">ethereal marauder</item>
+    <item name="Medium" weight="1">ettercap</item>
+    <item name="Medium" weight="1">formian warrior</item>
+    <item name="Medium" weight="1">formian taskmaster</item>
+    <item name="Medium" weight="1">shrieker</item>
+    <item name="Medium" weight="1">violet fungus</item>
+    <item name="Medium" weight="1">gargoyle</item>
+    <item name="Medium" weight="1">janni</item>
+    <item name="Medium" weight="1">ghoul</item>
+    <item name="Medium" weight="1">ghast</item>
+    <item name="Medium" weight="1">gibbering mound</item>
+    <item name="Medium" weight="1">gnoll</item>
+    <item name="Medium" weight="1">grick</item>
+    <item name="Medium" weight="1">grimlock</item>
+    <item name="Medium" weight="1">green hag</item>
+    <item name="Medium" weight="1">harpy</item>
+    <item name="Medium" weight="1">hell hound</item>
+    <item name="Medium" weight="1">hobgoblin</item>
+    <item name="Medium" weight="1">krenshar</item>
+    <item name="Medium" weight="1">kuo-toa</item>
+    <item name="Medium" weight="1">lamia</item>
+    <item name="Medium" weight="1">lizardfolk</item>
+    <item name="Medium" weight="1">locathah</item>
+    <item name="Medium" weight="1">medusa</item>
+    <item name="Medium" weight="1">merfolk</item>
+    <item name="Medium" weight="1">mind flayer</item>
+    <item name="Medium" weight="1">mohrg</item>
+    <item name="Medium" weight="1">mummy</item>
+    <item name="Medium" weight="1">night hag</item>
+    <item name="Medium" weight="1">nymph</item>
+    <item name="Medium" weight="1">grey ooze</item>
+    <item name="Medium" weight="1">orc</item>
+    <item name="Medium" weight="1">phantom fungus</item>
+    <item name="Medium" weight="1">phasm</item>
+    <item name="Medium" weight="1">aasimar</item>
+    <item name="Medium" weight="1">tiefling</item>
+    <item name="Medium" weight="1">rahshasa</item>
+    <item name="Medium" weight="1">rast</item>
+    <item name="Medium" weight="1">ravid</item>
+    <item name="Medium" weight="1">rust monster</item>
+    <item name="Medium" weight="1">sahuagin</item>
+    <item name="Medium" weight="1">average salamander</item>
+    <item name="Medium" weight="1">satyr</item>
+    <item name="Medium" weight="1">shadow</item>
+    <item name="Medium" weight="1">shadow mastiff</item>
+    <item name="Medium" weight="1">medium skeleton</item>
+    <item name="Medium" weight="1">skum</item>
+    <item name="Medium" weight="1">[MediumSlaad]</item>
+    <item name="Medium" weight="1">spectre</item>
+    <item name="Medium" weight="1">thoqqua</item>
+    <item name="Medium" weight="1">adult tojanida</item>
+    <item name="Medium" weight="1">triton</item>
+    <item name="Medium" weight="1">troglodyte</item>
+    <item name="Medium" weight="1">vamire spawn</item>
+    <item name="Medium" weight="1">wight</item>
+    <item name="Medium" weight="1">worg</item>
+    <item name="Medium" weight="1">wraith</item>
+    <item name="Medium" weight="1">xill</item>
+    <item name="Medium" weight="1">average xorn</item>
+    <item name="Medium" weight="1">yeth hound</item>
+    <item name="Medium" weight="1">pureblood yuan-ti</item>
+    <item name="Medium" weight="1">halfblood yuan-ti</item>
+    <item name="Medium" weight="1">medium zombie</item>
+    <item name="Medium" weight="1">[MediumAnimal]</item>
+    <item name="Medium" weight="1">[MediumVermin]</item>
+    <item name="MediumAnimal" weight="1">black bear</item>
+    <item name="MediumAnimal" weight="1">baboon</item>
+    <item name="MediumAnimal" weight="1">boar</item>
+    <item name="MediumAnimal" weight="1">cheetah</item>
+    <item name="MediumAnimal" weight="1">crocodile</item>
+    <item name="MediumAnimal" weight="1">riding dog</item>
+    <item name="MediumAnimal" weight="1">donkey</item>
+    <item name="MediumAnimal" weight="1">leopard</item>
+    <item name="MediumAnimal" weight="1">giant lizard</item>
+    <item name="MediumAnimal" weight="1">pony</item>
+    <item name="MediumAnimal" weight="1">war pony</item>
+    <item name="MediumAnimal" weight="1">porpoise</item>
+    <item name="MediumAnimal" weight="1">medium shark</item>
+    <item name="MediumAnimal" weight="1">constrictor snake</item>
+    <item name="MediumAnimal" weight="1">medium viper snake</item>
+    <item name="MediumAnimal" weight="1">squid</item>
+    <item name="MediumAnimal" weight="1">wolf</item>
+    <item name="MediumAnimal" weight="1">wolverine</item>
+    <item name="MediumDragon" weight="1">young black dragon</item>
+    <item name="MediumDragon" weight="1">juvenile black dragon</item>
+    <item name="MediumDragon" weight="1">very young blue dragon</item>
+    <item name="MediumDragon" weight="1">young blue dragon</item>
+    <item name="MediumDragon" weight="1">very young green dragon</item>
+    <item name="MediumDragon" weight="1">young green dragon</item>
+    <item name="MediumDragon" weight="1">wyrmling red dragon</item>
+    <item name="MediumDragon" weight="1">young white dragon</item>
+    <item name="MediumDragon" weight="1">juvenile white dragon</item>
+    <item name="MediumDragon" weight="1">young brass dragon</item>
+    <item name="MediumDragon" weight="1">juvenile brass dragon</item>
+    <item name="MediumDragon" weight="1">very young bronze dragon</item>
+    <item name="MediumDragon" weight="1">young bronze dragon</item>
+    <item name="MediumDragon" weight="1">young copper dragon</item>
+    <item name="MediumDragon" weight="1">juvenile copper dragon</item>
+    <item name="MediumDragon" weight="1">wyrmling gold dragon</item>
+    <item name="MediumDragon" weight="1">very young silver dragon</item>
+    <item name="MediumDragon" weight="1">young silver dragon</item>
+    <item name="MediumElemental" weight="1">medium air elemental</item>
+    <item name="MediumElemental" weight="1">medium earth elemental</item>
+    <item name="MediumElemental" weight="1">medium fire elemental</item>
+    <item name="MediumElemental" weight="1">medium water elemental</item>
+    <item name="MediumSlaad" weight="1">gray slaad</item>
+    <item name="MediumSlaad" weight="1">death slaad</item>
+    <item name="MediumVermin" weight="1">giant worker ant</item>
+    <item name="MediumVermin" weight="1">giant soldier ant</item>
+    <item name="MediumVermin" weight="1">giant bee</item>
+    <item name="MediumVermin" weight="1">giant bombadier beetle</item>
+    <item name="MediumVermin" weight="1">medium giant centipede</item>
+    <item name="MediumVermin" weight="1">medium monstrous scorpion</item>
+    <item name="MediumVermin" weight="1">medium monstrous spider</item>
+    <item name="Large" weight="1">achaierai</item>
+    <item name="Large" weight="1">ankheg</item>
+    <item name="Large" weight="1">beholder</item>
+    <item name="Large" weight="1">belker</item>
+    <item name="Large" weight="1">elder arrowhawk</item>
+    <item name="Large" weight="1">greater barghest</item>
+    <item name="Large" weight="1">assassin vine</item>
+    <item name="Large" weight="1">carrion crawler</item>
+    <item name="Large" weight="1">planetar celestial</item>
+    <item name="Large" weight="1">solar celestial</item>
+    <item name="Large" weight="1">centaur</item>
+    <item name="Large" weight="1">chimera</item>
+    <item name="Large" weight="1">chuul</item>
+    <item name="Large" weight="1">cloaker</item>
+    <item name="Large" weight="1">couatl</item>
+    <item name="Large" weight="1">vrock</item>
+    <item name="Large" weight="1">hezrou</item>
+    <item name="Large" weight="1">marilith</item>
+    <item name="Large" weight="1">balor</item>
+    <item name="Large" weight="1">destrachan</item>
+    <item name="Large" weight="1">osyluth</item>
+    <item name="Large" weight="1">hellcat</item>
+    <item name="Large" weight="1">cornugon</item>
+    <item name="Large" weight="1">gelugon</item>
+    <item name="Large" weight="1">pit fiend</item>
+    <item name="Large" weight="1">devourer</item>
+    <item name="Large" weight="1">deinonychus</item>
+    <item name="Large" weight="1">dire bat</item>
+    <item name="Large" weight="1">dire ape</item>
+    <item name="Large" weight="1">dire wolvering</item>
+    <item name="Large" weight="1">dire wolf</item>
+    <item name="Large" weight="1">dire boar</item>
+    <item name="Large" weight="1">dire lion</item>
+    <item name="Large" weight="1">dire bear</item>
+    <item name="Large" weight="1">displacer beast</item>
+    <item name="Large" weight="1">[LargeDragon]</item>
+    <item name="Large" weight="1">dragonne</item>
+    <item name="Large" weight="1">drider</item>
+    <item name="Large" weight="1">[LargeElemental]</item>
+    <item name="Large" weight="1">ettin</item>
+    <item name="Large" weight="1">formian myrmarch</item>
+    <item name="Large" weight="1">formian queen</item>
+    <item name="Large" weight="1">djinni</item>
+    <item name="Large" weight="1">efreeti</item>
+    <item name="Large" weight="1">[LargeGiant]</item>
+    <item name="Large" weight="1">giant eagle</item>
+    <item name="Large" weight="1">giant owl</item>
+    <item name="Large" weight="1">girallon</item>
+    <item name="Large" weight="1">[LargeGolem]</item>
+    <item name="Large" weight="1">gorgon</item>
+    <item name="Large" weight="1">gray render</item>
+    <item name="Large" weight="1">griffon</item>
+    <item name="Large" weight="1">sea hag</item>
+    <item name="Large" weight="1">annis hag</item>
+    <item name="Large" weight="1">hippogriff</item>
+    <item name="Large" weight="1">howler</item>
+    <item name="Large" weight="1">invisible stalker</item>
+    <item name="Large" weight="1">lammasu</item>
+    <item name="Large" weight="1">lillend</item>
+    <item name="Large" weight="1">mimic</item>
+    <item name="Large" weight="1">minotaur</item>
+    <item name="Large" weight="1">[LargeNaga]</item>
+    <item name="Large" weight="1">nightmare</item>
+    <item name="Large" weight="1">ogre</item>
+    <item name="Large" weight="1">ogre mage</item>
+    <item name="Large" weight="1">ochre jelly</item>
+    <item name="Large" weight="1">otyugh</item>
+    <item name="Large" weight="1">owlbear</item>
+    <item name="Large" weight="1">pegasus</item>
+    <item name="Large" weight="1">phase spider</item>
+    <item name="Large" weight="1">roper</item>
+    <item name="Large" weight="1">noble salamander</item>
+    <item name="Large" weight="1">sea lion</item>
+    <item name="Large" weight="1">shambling mound</item>
+    <item name="Large" weight="1">shield guardian</item>
+    <item name="Large" weight="1">large skeleton</item>
+    <item name="Large" weight="1">[LargeSlaad]</item>
+    <item name="Large" weight="1">[LargeSphinx]</item>
+    <item name="Large" weight="1">elder tojanida</item>
+    <item name="Large" weight="1">troll</item>
+    <item name="Large" weight="1">umberhulk</item>
+    <item name="Large" weight="1">unicorn</item>
+    <item name="Large" weight="1">winter wolf</item>
+    <item name="Large" weight="1">elder xorn</item>
+    <item name="Large" weight="1">abomination yuan-ti</item>
+    <item name="Large" weight="1">large zombie</item>
+    <item name="Large" weight="1">[LargeAnimal]</item>
+    <item name="Large" weight="1">[LargeVermin]</item>
+    <item name="LargeAnimal" weight="1">ape</item>
+    <item name="LargeAnimal" weight="1">brown bear</item>
+    <item name="LargeAnimal" weight="1">polar bear</item>
+    <item name="LargeAnimal" weight="1">bison</item>
+    <item name="LargeAnimal" weight="1">camel</item>
+    <item name="LargeAnimal" weight="1">heavy horse</item>
+    <item name="LargeAnimal" weight="1">heavy war horse</item>
+    <item name="LargeAnimal" weight="1">light horse</item>
+    <item name="LargeAnimal" weight="1">light war horse</item>
+    <item name="LargeAnimal" weight="1">lion</item>
+    <item name="LargeAnimal" weight="1">mule</item>
+    <item name="LargeAnimal" weight="1">giant octopus</item>
+    <item name="LargeAnimal" weight="1">rhinoceros</item>
+    <item name="LargeAnimal" weight="1">large shark</item>
+    <item name="LargeAnimal" weight="1">large viper snake</item>
+    <item name="LargeAnimal" weight="1">tiger</item>
+    <item name="LargeDragon" weight="1">adult black dragon</item>
+    <item name="LargeDragon" weight="1">mature adult black dragon</item>
+    <item name="LargeDragon" weight="1">juvenile blue dragon</item>
+    <item name="LargeDragon" weight="1">young adult blue dragon</item>
+    <item name="LargeDragon" weight="1">juvenile green dragon</item>
+    <item name="LargeDragon" weight="1">young adult green dragon</item>
+    <item name="LargeDragon" weight="1">young adult white dragon</item>
+    <item name="LargeDragon" weight="1">adult white dragon</item>
+    <item name="LargeDragon" weight="1">young adult brass dragon</item>
+    <item name="LargeDragon" weight="1">adult brass dragon</item>
+    <item name="LargeDragon" weight="1">juvenile bronze dragon</item>
+    <item name="LargeDragon" weight="1">young adult bronze dragon</item>
+    <item name="LargeDragon" weight="1">young adult copper dragon</item>
+    <item name="LargeDragon" weight="1">adult copper dragon</item>
+    <item name="LargeDragon" weight="1">very young gold dragon</item>
+    <item name="LargeDragon" weight="1">young gold dragon</item>
+    <item name="LargeDragon" weight="1">juvenile gold dragon</item>
+    <item name="LargeDragon" weight="1">juvenile silver dragon</item>
+    <item name="LargeDragon" weight="1">young adult dragon</item>
+    <item name="LargeElemental" weight="1">large air elemental</item>
+    <item name="LargeElemental" weight="1">large earth elemental</item>
+    <item name="LargeElemental" weight="1">large fire elemental</item>
+    <item name="LargeElemental" weight="1">large water elemental</item>
+    <item name="LargeGiant" weight="1">hill giant</item>
+    <item name="LargeGiant" weight="1">stone giant</item>
+    <item name="LargeGiant" weight="1">frost giant</item>
+    <item name="LargeGiant" weight="1">fire giant</item>
+    <item name="LargeGolem" weight="1">flesh golem</item>
+    <item name="LargeGolem" weight="1">clay golem</item>
+    <item name="LargeGolem" weight="1">stone golem</item>
+    <item name="LargeGolem" weight="1">iron golem</item>
+    <item name="LargeNaga" weight="1">water naga</item>
+    <item name="LargeNaga" weight="1">spirit naga</item>
+    <item name="LargeNaga" weight="1">dark naga</item>
+    <item name="LargeSlaad" weight="1">red slaad</item>
+    <item name="LargeSlaad" weight="1">blue slaad</item>
+    <item name="LargeSlaad" weight="1">green slaad</item>
+    <item name="LargeSphinx" weight="1">androsphinx</item>
+    <item name="LargeSphinx" weight="1">criosphinx</item>
+    <item name="LargeSphinx" weight="1">gynosphinx</item>
+    <item name="LargeSphinx" weight="1">hieracosphinx</item>
+    <item name="LargeVermin" weight="1">giant queen ant</item>
+    <item name="LargeVermin" weight="1">giant stag beelte</item>
+    <item name="LargeVermin" weight="1">giant praying mantis</item>
+    <item name="LargeVermin" weight="1">giant wasp</item>
+    <item name="LargeVermin" weight="1">large monstrous centipede</item>
+    <item name="LargeVermin" weight="1">large monstrous scoprion</item>
+    <item name="LargeVermin" weight="1">large monstrous spider</item>
+    <item name="Huge" weight="1">aboleth</item>
+    <item name="Huge" weight="1">athach</item>
+    <item name="Huge" weight="1">behir</item>
+    <item name="Huge" weight="1">bulette</item>
+    <item name="Huge" weight="1">delver</item>
+    <item name="Huge" weight="1">bebilith</item>
+    <item name="Huge" weight="1">retriever demon</item>
+    <item name="Huge" weight="1">glabrezue</item>
+    <item name="Huge" weight="1">nalfeshnee</item>
+    <item name="Huge" weight="1">elasmosaurus</item>
+    <item name="Huge" weight="1">megaraptor</item>
+    <item name="Huge" weight="1">triceratops</item>
+    <item name="Huge" weight="1">tyrannosaurus</item>
+    <item name="Huge" weight="1">dire tiger</item>
+    <item name="Huge" weight="1">dire shark</item>
+    <item name="Huge" weight="1">[HugeDragon]</item>
+    <item name="Huge" weight="1">dragon turtle</item>
+    <item name="Huge" weight="1">[HugeElemental]</item>
+    <item name="Huge" weight="1">frost worm</item>
+    <item name="Huge" weight="1">[HugeGiant]</item>
+    <item name="Huge" weight="1">[HugeHyrda]</item>
+    <item name="Huge" weight="1">manticore</item>
+    <item name="Huge" weight="1">[HugeNightshade]</item>
+    <item name="Huge" weight="1">gelatinous cube</item>
+    <item name="Huge" weight="1">black pudding</item>
+    <item name="Huge" weight="1">remorhaz</item>
+    <item name="Huge" weight="1">huge skeleton</item>
+    <item name="Huge" weight="1">spider eater</item>
+    <item name="Huge" weight="1">tendriculos</item>
+    <item name="Huge" weight="1">titan</item>
+    <item name="Huge" weight="1">treant</item>
+    <item name="Huge" weight="1">wyvern</item>
+    <item name="Huge" weight="1">yrthak</item>
+    <item name="Huge" weight="1">huge zombie</item>
+    <item name="Huge" weight="1">[HugeAnimal]</item>
+    <item name="Huge" weight="1">[HugeVermin]</item>
+    <item name="HugeAnimal" weight="1">giant crocodile</item>
+    <item name="HugeAnimal" weight="1">elephant</item>
+    <item name="HugeAnimal" weight="1">huge shark</item>
+    <item name="HugeAnimal" weight="1">huge viper snake</item>
+    <item name="HugeAnimal" weight="1">giant squid</item>
+    <item name="HugeAnimal" weight="1">giant constrictor snake</item>
+    <item name="HugeAnimal" weight="1">orca</item>
+    <item name="HugeDragon" weight="1">old black dragon</item>
+    <item name="HugeDragon" weight="1">very old black dragon</item>
+    <item name="HugeDragon" weight="1">ancient black dragon</item>
+    <item name="HugeDragon" weight="1">adult blue dragon</item>
+    <item name="HugeDragon" weight="1">mature adult blue dragon</item>
+    <item name="HugeDragon" weight="1">old blue dragon</item>
+    <item name="HugeDragon" weight="1">very old blue dragon</item>
+    <item name="HugeDragon" weight="1">adult green dragon</item>
+    <item name="HugeDragon" weight="1">mature adult green dragon</item>
+    <item name="HugeDragon" weight="1">old green dragon</item>
+    <item name="HugeDragon" weight="1">very old green dragon</item>
+    <item name="HugeDragon" weight="1">mature adult white dragon</item>
+    <item name="HugeDragon" weight="1">old white dragon</item>
+    <item name="HugeDragon" weight="1">very old white dragon</item>
+    <item name="HugeDragon" weight="1">ancient white dragon</item>
+    <item name="HugeDragon" weight="1">mature adult brass dragon</item>
+    <item name="HugeDragon" weight="1">old brass dragon</item>
+    <item name="HugeDragon" weight="1">very old brass dragon</item>
+    <item name="HugeDragon" weight="1">ancient brass dragon</item>
+    <item name="HugeDragon" weight="1">adult bronze dragon</item>
+    <item name="HugeDragon" weight="1">mature adult bronze dragon</item>
+    <item name="HugeDragon" weight="1">old bronze dragon</item>
+    <item name="HugeDragon" weight="1">very old bronze dragon</item>
+    <item name="HugeDragon" weight="1">mature adult copper dragon</item>
+    <item name="HugeDragon" weight="1">old copper dragon</item>
+    <item name="HugeDragon" weight="1">very old copper dragon</item>
+    <item name="HugeDragon" weight="1">ancient copper dragon</item>
+    <item name="HugeDragon" weight="1">young adult gold dragon</item>
+    <item name="HugeDragon" weight="1">adult gold dragon</item>
+    <item name="HugeDragon" weight="1">mature adult gold dragon</item>
+    <item name="HugeDragon" weight="1">adult silver dragon</item>
+    <item name="HugeDragon" weight="1">mature adult silver dragon</item>
+    <item name="HugeDragon" weight="1">old silver dragon</item>
+    <item name="HugeDragon" weight="1">very old silver dragon</item>
+    <item name="HugeElemental" weight="1">huge air elemental</item>
+    <item name="HugeElemental" weight="1">greater air elemental</item>
+    <item name="HugeElemental" weight="1">elder air elemental</item>
+    <item name="HugeElemental" weight="1">huge earth elemental</item>
+    <item name="HugeElemental" weight="1">greater earth elemental</item>
+    <item name="HugeElemental" weight="1">elder earth elemental</item>
+    <item name="HugeElemental" weight="1">huge fire elemental</item>
+    <item name="HugeElemental" weight="1">greater fire elemental</item>
+    <item name="HugeElemental" weight="1">elder fire elemental</item>
+    <item name="HugeElemental" weight="1">huge water elemental</item>
+    <item name="HugeElemental" weight="1">greater water elemental</item>
+    <item name="HugeElemental" weight="1">elder water elemental</item>
+    <item name="HugeGiant" weight="1">cloud giant</item>
+    <item name="HugeGiant" weight="1">storm giant</item>
+    <item name="HugeHydra" weight="1">five-headed hydra</item>
+    <item name="HugeHydra" weight="1">six-headed hydra</item>
+    <item name="HugeHydra" weight="1">seven-headed hydra</item>
+    <item name="HugeHydra" weight="1">eight-headed hydra</item>
+    <item name="HugeHydra" weight="1">nine-headed hydra</item>
+    <item name="HugeHydra" weight="1">ten-headed hydra</item>
+    <item name="HugeHydra" weight="1">eleven-headed hydra</item>
+    <item name="HugeHydra" weight="1">twelve-headed hydra</item>
+    <item name="HugeVermin" weight="1">huge monstrous centipede</item>
+    <item name="HugeVermin" weight="1">huge monstrous scorpion</item>
+    <item name="HugeVermin" weight="1">huge monstrous spider</item>
+    <item name="NightShade" weight="1">nightwing</item>
+    <item name="NightShade" weight="1">nightwalker</item>
+    <item name="NightShade" weight="1">nightcrawler</item>
+    <item name="Gargantuan" weight="1">[GargantuanDragon]</item>
+    <item name="Gargantuan" weight="1">kraken</item>
+    <item name="Gargantuan" weight="1">purple worm</item>
+    <item name="Gargantuan" weight="1">roc</item>
+    <item name="Gargantuan" weight="1">gargantuan skeleton</item>
+    <item name="Gargantuan" weight="1">gargantuan zombie</item>
+    <item name="Gargantuan" weight="1">[GargantuanAnimal]</item>
+    <item name="Gargantuan" weight="1">[GargantuanVermin]</item>
+    <item name="GargantuanAnimal" weight="1">baleen whale</item>
+    <item name="GargantuanAnimal" weight="1">cachalot whale</item>
+    <item name="GargantuanDragon" weight="1">wyrm black dragon</item>
+    <item name="GargantuanDragon" weight="1">great wyrm black dragon</item>
+    <item name="GargantuanDragon" weight="1">ancient blue dragon</item>
+    <item name="GargantuanDragon" weight="1">wyrm blue dragon</item>
+    <item name="GargantuanDragon" weight="1">great wyrm blue dragon</item>
+    <item name="GargantuanDragon" weight="1">ancient green dragon</item>
+    <item name="GargantuanDragon" weight="1">wyrm green dragon</item>
+    <item name="GargantuanDragon" weight="1">great wyrm green dragon</item>
+    <item name="GargantuanDragon" weight="1">wyrm white dragon</item>
+    <item name="GargantuanDragon" weight="1">great wyrm white dragon</item>
+    <item name="GargantuanDragon" weight="1">wyrm brass dragon</item>
+    <item name="GargantuanDragon" weight="1">great wyrm brass dragon</item>
+    <item name="GargantuanDragon" weight="1">ancient bronze dragon</item>
+    <item name="GargantuanDragon" weight="1">wyrm bronze dragon</item>
+    <item name="GargantuanDragon" weight="1">great wyrm bronze dragon</item>
+    <item name="GargantuanDragon" weight="1">wyrm copper dragon</item>
+    <item name="GargantuanDragon" weight="1">great wyrm copper dragon</item>
+    <item name="GargantuanDragon" weight="1">old gold dragon</item>
+    <item name="GargantuanDragon" weight="1">very old gold dragon</item>
+    <item name="GargantuanDragon" weight="1">ancient gold dragon</item>
+    <item name="GargantuanDragon" weight="1">ancient silver dragon</item>
+    <item name="GargantuanDragon" weight="1">wyrm silver dragon</item>
+    <item name="GargantuanVermin" weight="1">gargantuan monstrous centipede</item>
+    <item name="GargantuanVermin" weight="1">gargantuan monstrous scorpion</item>
+    <item name="GargantuanVermin" weight="1">gargantuan monstrous spider</item>
+    <item name="Colossal" weight="1">[ColossalDragon]</item>
+    <item name="Colossal" weight="1">colossal skeleton</item>
+    <item name="Colossal" weight="1">tarrasque</item>
+    <item name="Colossal" weight="1">colossal zombie</item>
+    <item name="Colossal" weight="1">[ColossalVermin]</item>
+    <item name="ColossalDragon" weight="1">wyrm gold dragon</item>
+    <item name="ColossalDragon" weight="1">great wyrm gold dragon</item>
+    <item name="ColossalDragon" weight="1">great wyrm silver dragon</item>
+    <item name="ColossalVermin" weight="1">colossal monstrous centipede</item>
+    <item name="ColossalVermin" weight="1">colossal monstrous scorpion</item>
+    <item name="ColossalVermin" weight="1">colossal monstrous spider</item>
+  </items>
+  <imports />
+</generator>

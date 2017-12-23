@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Table" version="2">
+  <name>Town Generator (D&amp;D 3e)</name>
+  <author>Lance Boudreaux</author>
+  <description>A town generator based on the D&amp;D 3e DMG.</description>
+  <outputFormat>Html</outputFormat>
+  <tags>
+    <tag>Environment</tag>
+    <tag>D&amp;D</tag>
+    <tag>Fantasy</tag>
+  </tags>
+  <supportsMaxLength>false</supportsMaxLength>
+  <parameters />
+  <css />
+  <tables>
+    <randomTable column="Roll" name="Town Size" delimiter="|">
+		Roll |Town Size  |Population         |GP Limit |PCA|CM 
+		10   |Thorp      |=Rnd(20,80)        |40 gp    |-1 |-3         
+		30   |Hamlet     |=Rnd(81,400)       |100 gp   |0  |-2 
+		50   |Village    |=Rnd(401,900)      |200 gp   |+1 |-1 
+		70   |Small Town |=Rnd(901,2000)     |800 gp   |+2 |0  
+		85   |Large Town |=Rnd(2001,5000)    |3000 gp  |+3 |+3 
+		95   |Small City |=Rnd(5001,12000)   |15000 gp |+4 |+6 
+		99   |Large City |=Rnd(12001,25000)  |40000 gp |+5 |+9 
+		100  |Metropolis |=Rnd(25001,100000) |100000 gp|+6 |+12
+		</randomTable>
+    <randomTable column="Roll" name="Power Center" delimiter="|" randomModifier="=[Town Size.PCA]">
+		Roll |Power Center
+		13   |Conventional
+		18   |Nonstandard 
+		20   |Magical     
+		</randomTable>
+    <randomTable column="Roll" name="Power Center Alignment" delimiter="|">
+		Roll |Alignment       
+		35   |Lawful Good     
+		39   |Neutral Good    
+		41   |Chaotic Good    
+		61   |Lawful Neutral  
+		63   |True Neutral    
+		64   |Chaotic Neutral 
+		90   |Lawful Evil     
+		98   |Neutral Evil    
+		100  |Chaotic Evil    
+		</randomTable>
+    <randomTable column="Roll" name="Community Authorities" delimiter="|">
+		Roll |Rank                         
+		60   |Highest level warrior        
+		80   |Second highest level fighter 
+		100  |Highest level fighter        
+		</randomTable>
+    <loopTable column="Class" name="Highest-level locals" delimiter="|">
+		Class      |Level                
+		Barbarian  |=ToOrdinal(Max(Roll(1,4)+[Town Size.CM],0))
+		Bard       |=ToOrdinal(Max(Roll(1,6)+[Town Size.CM],0))
+		Cleric     |=ToOrdinal(Max(Roll(1,6)+[Town Size.CM],0))
+		Druid      |=ToOrdinal(Max(Roll(1,6)+[Town Size.CM],0))
+		Fighter    |=ToOrdinal(Max(Roll(1,8)+[Town Size.CM],0))
+		Monk       |=ToOrdinal(Max(Roll(1,4)+[Town Size.CM],0))
+		Paladin    |=ToOrdinal(Max(Roll(1,3)+[Town Size.CM],0))
+		Ranger     |=ToOrdinal(Max(Roll(1,3)+[Town Size.CM],0))
+		Rogue      |=ToOrdinal(Max(Roll(1,8)+[Town Size.CM],0))
+		Sorceror   |=ToOrdinal(Max(Roll(1,4)+[Town Size.CM],0))
+		Wizard     |=ToOrdinal(Max(Roll(1,4)+[Town Size.CM],0))
+		Adept      |=ToOrdinal(Max(Roll(1,6)+[Town Size.CM],0))
+		Aristocrat |=ToOrdinal(Max(Roll(1,4)+[Town Size.CM],0))
+		Commoner   |=ToOrdinal(Max(Roll(4,4)+[Town Size.CM],0))
+		Expert     |=ToOrdinal(Max(Roll(3,4)+[Town Size.CM],0))
+		Warrior    |=ToOrdinal(Max(Roll(2,4)+[Town Size.CM],0))
+		</loopTable>
+  </tables>
+  <output>
+	&lt;h3 style="border-bottom:1px solid black"&gt;Town Info&lt;/h3&gt;
+	&lt;b&gt;Town Size:&lt;/b&gt;             [Town Size.Town Size] &lt;br /&gt;
+	&lt;b&gt;Population:&lt;/b&gt;            [Town Size.Population] &lt;br /&gt;
+	&lt;b&gt;GP Limit: &lt;/b&gt;             [Town Size.GP Limit] &lt;br /&gt;
+	&lt;b&gt;Power Center: &lt;/b&gt;         [Power Center.Power Center]&lt;br /&gt;
+	&lt;b&gt;Power Center Alignment:&lt;/b&gt;[Power Center Alignment.Alignment]&lt;br /&gt;
+	&lt;b&gt;Community Authorities:&lt;/b&gt; [Community Authorities.Rank]&lt;br /&gt;
+	&lt;h3 style="border-bottom:1px solid black"&gt;Highest-level locals:&lt;/h3&gt;
+	&lt;b&gt;Adept:&lt;/b&gt;                 [Highest-level locals.Adept.Level]&lt;br /&gt;
+	&lt;b&gt;Aristocrat:&lt;/b&gt;            [Highest-level locals.Aristocrat.Level]&lt;br /&gt;	
+	&lt;b&gt;Barbarian:&lt;/b&gt;             [Highest-level locals.Barbarian.Level]&lt;br /&gt;
+	&lt;b&gt;Bard:&lt;/b&gt;                  [Highest-level locals.Bard.Level]&lt;br /&gt;
+	&lt;b&gt;Cleric:&lt;/b&gt;                [Highest-level locals.Cleric.Level]&lt;br /&gt;
+	&lt;b&gt;Commoner:&lt;/b&gt;              [Highest-level locals.Commoner.Level]&lt;br /&gt;
+	&lt;b&gt;Druid:&lt;/b&gt;                 [Highest-level locals.Druid.Level]&lt;br /&gt;
+	&lt;b&gt;Expert:&lt;/b&gt;                [Highest-level locals.Expert.Level]&lt;br /&gt;
+	&lt;b&gt;Fighter:&lt;/b&gt;               [Highest-level locals.Fighter.Level]&lt;br /&gt;
+	&lt;b&gt;Monk:&lt;/b&gt;                  [Highest-level locals.Monk.Level]&lt;br /&gt;
+	&lt;b&gt;Paladin:&lt;/b&gt;               [Highest-level locals.Paladin.Level]&lt;br /&gt;
+	&lt;b&gt;Ranger:&lt;/b&gt;                [Highest-level locals.Ranger.Level]&lt;br /&gt;
+	&lt;b&gt;Rogue:&lt;/b&gt;                 [Highest-level locals.Rogue.Level]&lt;br /&gt;
+	&lt;b&gt;Sorceror:&lt;/b&gt;              [Highest-level locals.Sorceror.Level]&lt;br /&gt;	
+	&lt;b&gt;Warrior:&lt;/b&gt;               [Highest-level locals.Warrior.Level]&lt;br /&gt;
+	&lt;b&gt;Wizard:&lt;/b&gt;                [Highest-level locals.Wizard.Level]&lt;br /&gt;
+	</output>
+</generator>

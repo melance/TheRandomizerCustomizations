@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
+  <name>Adventure Hooks (Post Apocalyptic)</name>
+  <author>Lance Boudreaux</author>
+  <description>Generates adventure hooks for post-apocalyptic settings</description>
+  <tags>
+    <tag>Encounters</tag>
+    <tag>Post Apocalyptic</tag>
+  </tags>
+  <supportsMaxLength>false</supportsMaxLength>
+  <isLibrary>false</isLibrary>
+  <items>
+    <item name="Start" weight="1">Your [Settlement] is overrun by [EnemyGroup].</item>
+    <item name="Start" weight="1">You're running low on [Supplies] and must get more soon.</item>
+    <item name="Start" weight="1">Supplies are being used to quickly because [SupplySap].</item>
+    <item name="Start" weight="1">The local [Utility] has stopped working.</item>
+    <item name="Start" weight="1">You hear [RadioGroup] over [Radio].</item>
+    <item name="Start" weight="1">You come across a [RaidLocation] and [RaidLocationState].</item>
+    <item name="Start" weight="1">A [ExtortionGroup] is demanding tribute in exchange for protection.</item>
+    <item name="Start" weight="1">[Outbreak] has broken out in your group.</item>
+    <item name="Start" weight="1">One of your group went out to [MissingPersonJob] and has not returned.</item>
+    <item name="Start" weight="1">While [SettlementJob] one of your group [WorkerMishap].</item>
+    <item name="SettlementJob" weight="1">building a food store</item>
+    <item name="SettlementJob" weight="1">reinforcing the doors</item>
+    <item name="SettlementJob" weight="1">reinforcing windows</item>
+    <item name="SettlementJob" weight="1">standing guard</item>
+    <item name="SettlementJob" weight="1">taking a break from working</item>
+    <item name="SettlementJob" weight="1">cutting down a tree</item>
+    <item name="SettlementJob" weight="1">gathering fire wood</item>
+    <item name="SettlementJob" weight="1">setting up camp</item>
+    <item name="SettlementJob" weight="1">scouting the area</item>
+    <item name="SettlementJob" weight="1">hunting</item>
+    <item name="WorkerMishap" weight="1">passed out</item>
+    <item name="WorkerMishap" weight="1">was attacked by an unknown assailant</item>
+    <item name="WorkerMishap" weight="1">disappeared</item>
+    <item name="WorkerMishap" weight="1">broke a bone in their [=Pick('leg','arm','hand','foot')]</item>
+    <item name="WorkerMishap" weight="1">injured their [=Pick('neck','back','leg','arm','hand','foot')]</item>
+    <item name="WorkerMishap" weight="1">was attacked by a [=Pick('rabid','wild')] animal</item>
+    <item name="WorkerMishap" weight="1">broke a rib</item>
+    <item name="WorkerMishap" weight="1">was approached by a member of a cult</item>
+    <item name="WorkerMishap" weight="1">killed a [=Pick('person','zombie')]</item>
+    <item name="WorkerMishap" weight="1">cut themselves with a rusted tool</item>
+    <item name="WorkerMishap" weight="1">received a large cut</item>
+    <item name="WorkerMishap" weight="1">ran away</item>
+    <item name="WorkerMishap" weight="1">saw a car drive by</item>
+    <item name="WorkerMishap" weight="1">saw another group of survivors in the distance</item>
+    <item name="WorkerMishap" weight="1">saw a pack of wolves staring them down</item>
+    <item name="WorkerMishap" weight="1">saw a pack of zombies</item>
+    <item name="WorkerMishap" weight="1">saw some mutated wildlife</item>
+    <item name="WorkerMishap" weight="1">received radiation poisoning</item>
+    <item name="WorkerMishap" weight="1">was shot by a stray bullet</item>
+    <item name="WorkerMishap" weight="1">was shot by someone who ran away</item>
+    <item name="WorkerMishap" weight="1">saw a plane fly over head</item>
+    <item name="WorkerMishap" weight="1">saw a helicopter over head</item>
+    <item name="WorkerMishap" weight="1">thought they heard a train whistle</item>
+    <item name="MissingPersonJob" weight="1">scavenge for supplies</item>
+    <item name="MissingPersonJob" weight="1">scavenge for food</item>
+    <item name="MissingPersonJob" weight="1">hunt for food</item>
+    <item name="MissingPersonJob" weight="1">fish for food</item>
+    <item name="MissingPersonJob" weight="1">trade with a nearby [Settlement]</item>
+    <item name="MissingPersonJob" weight="1">scout the area</item>
+    <item name="MissingPersonJob" weight="1">scout ahead</item>
+    <item name="MissingPersonJob" weight="1">spy on a nearby [Settlement]</item>
+    <item name="MissingPersonJob" weight="1">look for other survivors</item>
+    <item name="MissingPersonJob" weight="1">collect fire wood</item>
+    <item name="Settlement" weight="1">camp</item>
+    <item name="Settlement" weight="1">town</item>
+    <item name="Settlement" weight="1">city</item>
+    <item name="Settlement" weight="1">stronghold</item>
+    <item name="Settlement" weight="1">encampment</item>
+    <item name="Settlement" weight="1">village</item>
+    <item name="Settlement" weight="1">home</item>
+    <item name="Settlement" weight="1">house</item>
+    <item name="EnemyGroup" weight="1">zombies</item>
+    <item name="EnemyGroup" weight="1">a band of raiders</item>
+    <item name="EnemyGroup" weight="1">a group of anarchists</item>
+    <item name="EnemyGroup" weight="1">a militia</item>
+    <item name="EnemyGroup" weight="1">an insect swarm</item>
+    <item name="EnemyGroup" weight="1">an unknown group striking at night</item>
+    <item name="EnemyGroup" weight="1">rats</item>
+    <item name="EnemyGroup" weight="1">scorpions</item>
+    <item name="EnemyGroup" weight="1">snakes</item>
+    <item name="ExtortionGroup" weight="1">group of bandits</item>
+    <item name="ExtortionGroup" weight="1">militia</item>
+    <item name="ExtortionGroup" weight="1">band of gypsies</item>
+    <item name="ExtortionGroup" weight="1">band of mutants</item>
+    <item name="ExtortionGroup" weight="1">cult</item>
+    <item name="Supplies" weight="1">food</item>
+    <item name="Supplies" weight="1">medical supplies</item>
+    <item name="Supplies" weight="1">medication</item>
+    <item name="Supplies" weight="1">clean water</item>
+    <item name="Supplies" weight="1">ammunition</item>
+    <item name="Supplies" weight="1">tools</item>
+    <item name="Supplies" weight="1">morale</item>
+    <item name="Supplies" weight="1">wood</item>
+    <item name="Supplies" weight="1">fuel</item>
+    <item name="SupplySap" weight="1">there are too many survivors unable to pull their weight</item>
+    <item name="SupplySap" weight="1">someone is stealing them</item>
+    <item name="SupplySap" weight="1">something is stealing them</item>
+    <item name="SupplySap" weight="1">some survivors are being wasteful</item>
+    <item name="SupplySap" weight="1">pets are being provided with them</item>
+    <item name="Utility" weight="1">power plant</item>
+    <item name="Utility" weight="1">water station</item>
+    <item name="Utility" weight="1">sewage station</item>
+    <item name="RadioGroup" weight="1">another group of survivors who sound like they can help you</item>
+    <item name="RadioGroup" weight="1">another group of survivors and they are in trouble</item>
+    <item name="RadioGroup" weight="1">a garbled message</item>
+    <item name="RadioGroup" weight="1">someone screaming</item>
+    <item name="RadioGroup" weight="1">someone speaking in a language you do not understand</item>
+    <item name="RadioGroup" weight="1">wild animal sounds</item>
+    <item name="RadioGroup" weight="1">inhuman sounds</item>
+    <item name="RadioGroup" weight="1">a voice discernible through the static</item>
+    <item name="RadioGroup" weight="1">a voice say, "Help me" through the static</item>
+    <item name="RadioGroup" weight="1">music</item>
+    <item name="RadioGroup" weight="1">faint music through the static</item>
+    <item name="RadioGroup" weight="1">silence</item>
+    <item name="Radio" weight="1">an FM radio</item>
+    <item name="Radio" weight="1">an AM radio</item>
+    <item name="Radio" weight="1">a HAM radio</item>
+    <item name="Radio" weight="1">a CB</item>
+    <item name="Radio" weight="1">a walkie-talkie</item>
+    <item name="Radio" weight="1">a shortwave radio</item>
+    <item name="Radio" weight="1">a police scanner</item>
+    <item name="Radio" weight="1">a cell phone</item>
+    <item name="Radio" weight="1">a telephone</item>
+    <item name="RaidLocation" weight="1">gas station</item>
+    <item name="RaidLocation" weight="1">grocery store</item>
+    <item name="RaidLocation" weight="1">hospital</item>
+    <item name="RaidLocation" weight="1">hospice</item>
+    <item name="RaidLocation" weight="1">nursing home</item>
+    <item name="RaidLocation" weight="1">funeral home</item>
+    <item name="RaidLocation" weight="1">farm house</item>
+    <item name="RaidLocation" weight="1">suburban neighborhood</item>
+    <item name="RaidLocation" weight="1">prison</item>
+    <item name="RaidLocation" weight="1">police station</item>
+    <item name="RaidLocation" weight="1">hotel</item>
+    <item name="RaidLocation" weight="1">motel</item>
+    <item name="RaidLocation" weight="1">YMCA</item>
+    <item name="RaidLocation" weight="1">gym</item>
+    <item name="RaidLocation" weight="1">factory</item>
+    <item name="RaidLocation" weight="1">warehouse</item>
+    <item name="RaidLocation" weight="1">cabin</item>
+    <item name="RaidLocation" weight="1">apartment complex</item>
+    <item name="RaidLocation" weight="1">apartment building</item>
+    <item name="RaidLocationState" weight="1">it appears completely abandoned</item>
+    <item name="RaidLocationState" weight="1">it appears to have been recently occupied</item>
+    <item name="RaidLocationState" weight="1">it is in ruins</item>
+    <item name="RaidLocationState" weight="1">it appears to be occupied</item>
+    <item name="RaidLocationState" weight="1">is being overgrown by plants</item>
+    <item name="RaidLocationState" weight="1">you can hear a low humming noise from within</item>
+    <item name="RaidLocationState" weight="1">you can hear talking</item>
+    <item name="RaidLocationState" weight="1">you hear someone inside scream</item>
+    <item name="RaidLocationState" weight="1">the doors and windows are boarded up</item>
+    <item name="RaidLocationState" weight="1">a single warning shot lands near you</item>
+    <item name="RaidLocationState" weight="1">several doors are open</item>
+    <item name="RaidLocationState" weight="1">you hear an unrecognizable noise from within</item>
+    <item name="Outbreak" weight="1">The flu</item>
+    <item name="Outbreak" weight="1">A plague</item>
+    <item name="Outbreak" weight="1">Tuberculous</item>
+    <item name="Outbreak" weight="1">Mutiny</item>
+    <item name="Outbreak" weight="1">Mutation</item>
+    <item name="Outbreak" weight="1">An unknown disease</item>
+    <item name="Outbreak" weight="1">Hysteria</item>
+    <item name="Outbreak" weight="1">Mass delusion</item>
+    <item name="Outbreak" weight="1">Dysentery</item>
+    <item name="Outbreak" weight="1">Mad cow disease</item>
+    <item name="Outbreak" weight="1">Food poisoning</item>
+    <item name="Outbreak" weight="1">Typhoid fever</item>
+    <item name="Outbreak" weight="1">Chickenpox</item>
+    <item name="Outbreak" weight="1">Shingles</item>
+    <item name="Outbreak" weight="1">Panic</item>
+    <item name="Outbreak" weight="1">Low morale</item>
+    <item name="Outbreak" weight="1">Depression</item>
+    <item name="Outbreak" weight="1">Cheerfulness</item>
+  </items>
+  <imports />
+</generator>

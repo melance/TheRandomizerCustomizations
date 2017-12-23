@@ -1,0 +1,304 @@
+<?xml version="1.0"?>
+<Grammar xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:type="TableGrammar">
+	<name>Low-Level Magic Items (D&amp;D 5E)</name>
+	<author>Len Pellitier (converted by Lance Boudreaux)</author>
+	<description>Creates a low-level magic item for use in D&amp;D 5th edition</description>
+	<url>http://www.lordbyng.net/inspiration/</url>
+	<tags>
+		<tag>D&amp;D</tag>
+		<tag>D&amp;D 5e</tag>
+		<tag>Treasure</tag>
+	</tags>
+	<parameters>
+	    <parameter name="properties" display="Number of Properties" type="List">
+			<option display="One">1</option>
+			<option display="Two">2</option>
+		</parameter>
+	</parameters>
+	<supportsMaxLength>false</supportsMaxLength>
+	<tables>
+		<table name="Prefix" action="Random" column="Roll" delimiter="|"><![CDATA[
+		Roll|Title      	|Description
+		001 |Acolyte\'s  	|The bearer gains a +1 bonus to Wisdom (Religion) checks.
+		002 |Adamantine 	|The item is indestructible.
+		003 |Adroit			|The bearer gains a +1 bonus to Intelligence saving throws.
+		004 |Arctic			|The bearer suffers no harm in temperature as cold as -20°F (-28°C).
+		005 |Inquisitor\'s  |The bearer gains a +1 bonus to Intelligence (Investigation) checks.
+		006 |Amethyst		|Grants psychic resistance to the bearer.
+		007 |Arcadian		|Treat as a +1 weapon when attacking Demons and Devils.
+		008 |Arresting		|Once per day, the bearer may use their reaction to gain advantage on one Dexterity (Acrobatics) roll
+		009 |Assassin\'s    |The bearer may add their proficiency bonus to damage rolls dealt during surprise rounds.
+		010 |Barbarian\'s   |The bearer gains a +1 bonus to Strength (Athletics) checks.
+		011 |Barbed			|After an attack roll, the bearer may add 1d4 to the damage roll.
+		012 |Bard\'s		|The bearer gains +1 to Charisma (Performance) checks.
+		013 |Binding		|When you hit a creature with this weapon, it slows its speed by 5 feet until the end of its next turn.
+		014 |Blessed		|Whenever the bearer of this item receives divine healing, they gain an additional 1d4 hit points.
+		015 |Bloodthirsty	|The bearer of this weapon can expend a hit die to turn this weapon into a +1 weapon for 1d4 turns.
+		016 |Booming		|The bearer may replace the damage type of this weapon with Thunder, and its damage roll gains +1 bonus.
+		017 |Burglar\'s     |The bearer gains +1 to Dexterity (Sleight of Hand) checks.
+		018 |Capricious		|Treat this as a +1 weapon if it is attuned to a Chaotic aligned character adn the attack roll ws an even number.
+		019 |Cardinal		|The wielder can use an action to learn which way is north.
+		020 |Caustic		|The bearer may replace the damage type of this weapon with Acid, and its damage roll gains a +1 bonus.
+		021 |Cleaving		|The bearer may choose to do slashing damage with this weapon instead of its other damage types.
+		022 |Channeling		|Once per day, the bearer may ignore the Verbal and/or Somatic components of a spell they are casting.
+		023 |Charged		|The bearer may replace the damage type of this weapon with Lightning, and its damage roll gains a +1 bonus.
+		024 |Consecrated    |Treat as a +1 weapon when attacking Undead.
+		025 |Cruel			|The bearer may re-roll damage from critical hits scored with this weapon and take the second result.
+		026 |Crushing		|The bearer may choose to do Bludgeoning damage with this weapon instead of its other damage types.
+		027 |Dancer\'s		|The bearer gains a +1 bonus to Dexterity (Acrobatics) checks.
+		028 |Dark			|The bearer may replace the damage of this weapon with Necrotic, and its damage roll gains a +1 bonus.
+		029 |Defensive		|Whenver the bearer tkes a Dodge action, they can move an additional 5 feet.
+		030 |Draining		|When the bearer makes a successful attack, they gain 10% of the damage as temporary hit points (round down, minimum of 1).
+		031 |Druid\'s		|The bearer gains a +1 bonus to Intelligence (Nature)  checks.
+		032 |Delver\'s		|While undergroundd, the bearer of this item always knows the item\'s depth below the surface and the direction to the nearest staircase, ramp, or other path leadin upward.
+		033 |Dynamic		|The bearer has +1 to Charisma saving throws.
+		034 |Effulgent		|This Item can cast the <i>Light</i> cantrip on itself at will.
+		035 |Equanimous		|This weapon has a +1 attack bonus during the day and a +1 damage bonus at night when attuned to neutral aligned characters.
+		036 |Favored		|Once per day, the bearer may roll a saving throw with advantage.
+		037 |Waterborne		|The item floats on water and other liquids.  Its bearer has advantage on Strength (Athletic) checks to swim.
+		038 |Fair-Weather	|Treat this as a +1 weapon if the bearer has more than half of their maximum hit points.
+		039 |False			|The bearer gains a +1 bonus to Charisma (Deception) checks.
+		040 |Flanking		|Treat as a +1 weapon if an ally is adjacent to the enemy the bearer is attacking.
+		041 |Forgotten		|The bearer may spend an action to attempt to ignite the old magic in this weapon with a DC 13 Charisma check. If successful, treat the weapon as a +1 weapon as long as the bearer maintains concentration on this effect, maximum 10 minutes.
+		042 |Frozen			|The bearer may replace the damage type of this weapon with Cold and its damage gains a +1 bonus.
+		043 |Furious		|Treat as a +1 weapon when the bearer is raging.
+		044 |Garnet			|Grants fire resistance to the bearer.
+		045 |Glorious		|The damage type of this weapon is changed to Radiant and its damage roll a gains +1 bonus.
+		046 |Grim			|The bearer gains a +1 bonus to Charisma (Intimidation) checks if the target can see this weapon.
+		047 |Harmonious		|Attuning this item takes only 1 minute.
+		048 |Heroic			|The bearer has advantage on saving throws vs fear.
+		049 |Histrionic		|The bearer gains +1 to Charisma (Performance) checks.
+		050 |Inspired		|The bearer regains their Constitution modifier in temporary hit points whenever they gain or use inspiration.
+		051 |Jagged			|Once hit by this weapon, the victim cannot regain hit points until the beginning of their next turn.
+		052 |Holy			|When a bearer of this item rolls hit dice, they can choose to re-roll them and must take the second result.
+		053 |Cerulean		|Grants lightning resistance to the bearer.
+		054 |Loquacious		|The bearer gains +1 to Charisma (Persuasion) checks.
+		055 |United			|Whenever the bearer of this weapon takes a help action in combat, the aided ally may threat their weapon as a +1 weapon until the end of their next turn.
+		056 |Mage Killer\'s |Ignores the AC bonuses given by spells such as Mage Armor and Shield.
+		057 |Malachite		|Grants poison resistance to the bearer.
+		058 |Maligning		|The bearer does an additional 2(1d4) damage on opportunity attacks.
+		059 |Mind\'s Eye	|The bearer may replace the damage type of this weapon with Psychic, and its damage roll gains a +1 bonus.
+		060 |Mindful		|The bearer gains a +1 bonus to Wisdom saving throws.
+		061 |Nimble			|The bearer gains a +1 bonus to Dexterity saving throws.
+		062 |Obsidian		|Grants acid resistance to the bearer.
+		063 |Opal			|Grants cold resistance to the bearer.
+		064 |Preacher\'s	|The bearer may extend the range of their Channel Devinity by 5 feet.
+		065 |Pulsing		|The bearer may replace the damage type of this weapon with Force and its damage roll gains a +1 bonus.
+		066 |Pernicious		|The bearer may replace the damage type of this weapon with Poison and its damage roll gainsa  +1 bonus.
+		067 |First			|The bearer gains a +1 bonus to initiative rolls.
+		068 |Reaper\'s		|The bearer has advantage on death saving throws.
+		069 |Renaissance	|Once per day, the bearer may gain +1 to any skill check.
+		070 |Resonant		|The bearer can spend an action and 1 ki point to treat this as a +1 weapon for 1 minute.
+		071 |Righteous		|Treat this as a +1 weapon during the day when attuned to a good aligned character.
+		072 |Runic			|Whenever the bearer casts a spell, treat this weapon as a +1 weapon until the beginning of their next turn.
+		073 |Sacred			|The bearer may increase their Lay on Hands hit point pool by 5.
+		074 |Sagacious		|The bearer gains +1 to Wisdom (Insight) checks.
+		075 |Sage\'s		|The bearer gains +1 bonus to Intelligence (History) checks.
+		076 |Sentinel		|Faintly glows when creatures of a certain race (DMs choice) are within a 100 foot radius.
+		077 |Shading		|The bearer suffers no harm in temperatures as high as 120°F (48°C).
+		078 |Shepherd\'s    |The bearer gains a +1 bonus to Wisdom (Animal Handling) checks.
+		079 |Shifting		|The bearer may change minor aspects of the physical appearance of this item.
+		080 |Silent			|The bearer gains a +1 bonus to Dexterity (Stealth) checks.
+		081 |Smoldering		|The bearer may replace the damage type of this weapon with Fire and its damage roll gains a +1 bonus.
+		082 |Solemn			|The bearer may spend an action removing all failed death saving throws from a target within 5 feet of them. The target is not stabilized.
+		083 |Surgeon\'s		|The bearer gains a +1 bonus to Wisdom (Medicine) checks.
+		084 |Tenacious		|When the bearer takes a long rest, they gain back on additional hit die.
+		085 |Tracker\'s		|The bearer gains a +1 bonus to Wisdom (Survival) checks
+		086 |Trenchant		|The bearer may choose to do piercing damage with this weapon instead of its other damage types.
+		087 |Trusty			|Treat this as a +1 weapon of the bearer has half their hit points  or less.
+		088 |Turquoise		|Grants thunder resistance to the bearer
+		089	|Unbroken		|The bearer gains a +1 bonus to Constitution saving throws
+		090 |Victorious		|Whenever the bearer kills a creature with this weapon, they gain temporary hit points equal to the creature's CR.
+		091 |Vigilant		|The bearer gains +2 to their Passive Perception.
+		092 |Vigorous		|The bearer gains +1 bonus to Strength saving  throws.
+		093 |Vile			|Treat this as a +1 weapon at night when attuned to an evil aligned character.
+		094 |Visionary		|The weapon does an additional 1 elemental damage based on the color of the bearer\'s eyes: (amber: lightning, black: necrotic, blue: cold, brown: ice, green: force, gray: thunder, hazel: poison, purple: psychic, red: fire, white: radiant).
+		095 |Vital			|The bearer\'s maximum hit points increase by their constitution modifier while attuned to this item. These hit points are lost when the bearer unattunes the itme.
+		096 |Warlord\'s  |The bearer can use an action to amplify their voice so that it clearly carries for up to 300 feet.
+		097 |Withering		|If hit with this weapon, the target makes a DC 13 constitution saving throw. If they fail, their Strength is reduced by 1.
+		098 |Wizard\'s		|The bearer gains a +1 to Intelligence (Arcana) checks.
+		099 |Zen			|Treat this as a +1 weapon for one minute after meditating with it for one minute.
+		100 |Zircon			|Grants force resistance to the bearer.		
+		101 |Evasive		|Once per day, the bearer can disengage as a bonus action.
+		102 |Segacious		|The bearer gains +1 to all spell attack rolls.
+		103 |Wakeful		|The bearer requries half of the time normally required for a Short or Long rest.
+		104 |Restful		|A long rest reduces the bearer\'s exhaustion by 2.
+		]]></table>
+		<table name="Suffix" action="Random" column="Roll" delimiter="|"><![CDATA[
+		Roll|Title           		|Description
+		001 |of the Acolyte  		|The bearer gains a +1 bonus to Wisdom (Religion) checks.
+		002 |of Adamantine 			|The item is indestructible.
+		003 |of Intellect			|The bearer gains a +1 bonus to Intelligence saving throws.
+		004 |of the North			|The bearer suffers no harm in temperature as cold as -20°F (-28°C).
+		005 |of the Inquisitor  	|The bearer gains a +1 bonus to Intelligence (Investigation) checks.
+		006 |of Amethyst			|Grants psychic resistance to the bearer.
+		007 |of Arcadia				|Treat as a +1 weapon when attacking Demons and Devils.
+		008 |of Safety				|Once per day, the bearer may use their reaction to gain advantage on one Dexterity (Acrobatics) roll
+		009 |of the Assassin    	|The bearer may add their proficiency bonus to damage rolls dealt during surprise rounds.
+		010 |of the Barbarian   	|The bearer gains a +1 bonus to Strength (Athletics) checks.
+		011 |of Barbs				|After an attack roll, the bearer may add 1d4 to the damage roll.
+		012 |of the Bard			|The bearer gains +1 to Charisma (Performance) checks.
+		013 |of Binding				|When you hit a creature with this weapon, it slows its speed by 5 feet until the end of its next turn.
+		014 |of Blessings			|Whenever the bearer of this item receives divine healing, they gain an additional 1d4 hit points.
+		015 |of Bloodthirst			|The bearer of this weapon can expend a hit die to turn this weapon into a +1 weapon for 1d4 turns.
+		016 |of Thunder				|The bearer may replace the damage type of this weapon with Thunder, and its damage roll gains +1 bonus.
+		017 |of the Burglar     	|The bearer gains +1 to Dexterity (Sleight of Hand) checks.
+		018 |of Chance				|Treat this as a +1 weapon if it is attuned to a Chaotic aligned character adn the attack roll ws an even number.
+		019 |of Direction			|The wielder can use an action to learn which way is north.
+		020 |of Corrosion			|The bearer may replace the damage type of this weapon with Acid, and its damage roll gains a +1 bonus.
+		021 |of Cleaving			|The bearer may choose to do slashing damage with this weapon instead of its other damage types.
+		022 |of Channeling			|Once per day, the bearer may ignore the Verbal and/or Somatic components of a spell they are casting.
+		023 |of Lightning			|The bearer may replace the damage type of this weapon with Lightning, and its damage roll gains a +1 bonus.
+		024 |of Consecration   		|Treat as a +1 weapon when attacking Undead.
+		025 |of Cruelty				|The bearer may re-roll damage from critical hits scored with this weapon and take the second result.
+		026 |of the Brute			|The bearer may choose to do Bludgeoning damage with this weapon instead of its other damage types.
+		027 |of the Dancer			|The bearer gains a +1 bonus to Dexterity (Acrobatics) checks.
+		028 |of Darkness			|The bearer may replace the damage of this weapon with Necrotic, and its damage roll gains a +1 bonus.
+		029 |of Defense				|Whenver the bearer tkes a Dodge action, they can move an additional 5 feet.
+		030 |of Draining			|When the bearer makes a successful attack, they gain 10% of the damage as temporary hit points (round down, minimum of 1).
+		031 |of the Druid			|The bearer gains a +1 bonus to Intelligence (Nature)  checks.
+		032 |of the Delver			|While undergroundd, the bearer of this item always knows the item\'s depth below the surface and the direction to the nearest staircase, ramp, or other path leadin upward.
+		033 |of the Dynamo			|The bearer has +1 to Charisma saving throws.
+		034 |of Light				|This Item can cast the <i>Light</i> cantrip on itself at will.
+		035 |of Balance				|This weapon has a +1 attack bonus during the day and a +1 damage bonus at night when attuned to neutral aligned characters.
+		036 |of the Favored			|Once per day, the bearer may roll a saving throw with advantage.
+		037 |of the Sea				|The item floats on water and other liquids.  Its bearer has advantage on Strength (Athletic) checks to swim.
+		038 |of Fair-Weather		|Treat this as a +1 weapon if the bearer has more than half of their maximum hit points.
+		039 |of Falsehoods			|The bearer gains a +1 bonus to Charisma (Deception) checks.
+		040 |of Flanking			|Treat as a +1 weapon if an ally is adjacent to the enemy the bearer is attacking.
+		041 |of the Forgotten		|The bearer may spend an action to attempt to ignite the old magic in this weapon with a DC 13 Charisma check. If successful, treat the weapon as a +1 weapon as long as the bearer maintains concentration on this effect, maximum 10 minutes.
+		042 |of Ice					|The bearer may replace the damage type of this weapon with Cold and its damage gains a +1 bonus.
+		043 |of Fury				|Treat as a +1 weapon when the bearer is raging.
+		044 |of Garnet				|Grants fire resistance to the bearer.
+		045 |of Glory				|The damage type of this weapon is changed to Radiant and its damage roll a gains +1 bonus.
+		046 |of Coercion			|The bearer gains a +1 bonus to Charisma (Intimidation) checks if the target can see this weapon.
+		047 |of Harmony				|Attuning this item takes only 1 minute.
+		048 |of Heroes				|The bearer has advantage on saving throws vs fear.
+		049 |of Histrionics			|The bearer gains +1 to Charisma (Performance) checks.
+		050 |of Inspiration			|The bearer regains their Constitution modifier in temporary hit points whenever they gain or use inspiration.
+		051 |of Teeth				|Once hit by this weapon, the victim cannot regain hit points until the beginning of their next turn.
+		052 |of Faith				|When a bearer of this item rolls hit dice, they can choose to re-roll them and must take the second result.
+		053 |of Storms				|Grants lightning resistance to the bearer.
+		054 |of the Silver Tongue	|The bearer gains +1 to Charisma (Persuasion) checks.
+		055 |of Unity				|Whenever the bearer of this weapon takes a help action in combat, the aided ally may threat their weapon as a +1 weapon until the end of their next turn.
+		056 |of the Mage Killer		|Ignores the AC bonuses given by spells such as Mage Armor and Shield.
+		057 |of Malachite			|Grants poison resistance to the bearer.
+		058 |of Maligning			|The bearer does an additional 2(1d4) damage on opportunity attacks.
+		059 |of the Mind\'s Eye		|The bearer may replace the damage type of this weapon with Psychic, and its damage roll gains a +1 bonus.
+		060 |of Mindfulness			|The bearer gains a +1 bonus to Wisdom saving throws.
+		061 |of Agility				|The bearer gains a +1 bonus to Dexterity saving throws.
+		062 |of Obsidian			|Grants acid resistance to the bearer.
+		063 |of Opal				|Grants cold resistance to the bearer.
+		064 |of the Preacher		|The bearer may extend the range of their Channel Devinity by 5 feet.
+		065 |of Repulsion			|The bearer may replace the damage type of this weapon with Force and its damage roll gains a +1 bonus.
+		066 |of the Snake			|The bearer may replace the damage type of this weapon with Poison and its damage roll gainsa  +1 bonus.
+		067 |of Speed				|The bearer gains a +1 bonus to initiative rolls.
+		068 |of the Reaper			|The bearer has advantage on death saving throws.
+		069 |of the Renaissance		|Once per day, the bearer may gain +1 to any skill check.
+		070 |of Resonance			|The bearer can spend an action and 1 ki point to treat this as a +1 weapon for 1 minute.
+		071 |of Righteousness		|Treat this as a +1 weapon during the day when attuned to a good aligned character.
+		072 |of Runes				|Whenever the bearer casts a spell, treat this weapon as a +1 weapon until the beginning of their next turn.
+		073 |of the Sacred			|The bearer may increase their Lay on Hands hit point pool by 5.
+		074 |of Acumen				|The bearer gains +1 to Wisdom (Insight) checks.
+		075 |of the Sage			|The bearer gains +1 bonus to Intelligence (History) checks.
+		076 |of the Sentinel		|Faintly glows when creatures of a certain race (DMs choice) are within a 100 foot radius.
+		077 |of the Shade			|The bearer suffers no harm in temperatures as high as 120°F (48°C).
+		078 |of the Shepherd    	|The bearer gains a +1 bonus to Wisdom (Animal Handling) checks.
+		079 |of Shifting			|The bearer may change minor aspects of the physical appearance of this item.
+		080 |of the Night			|The bearer gains a +1 bonus to Dexterity (Stealth) checks.
+		081 |of Flame				|The bearer may replace the damage type of this weapon with Fire and its damage roll gains a +1 bonus.
+		082 |of Solemnity			|The bearer may spend an action removing all failed death saving throws from a target within 5 feet of them. The target is not stabilized.
+		083 |of the Surgeon			|The bearer gains a +1 bonus to Wisdom (Medicine) checks.
+		084 |of the Tenacious		|When the bearer takes a long rest, they gain back on additional hit die.
+		085 |of the Tracker			|The bearer gains a +1 bonus to Wisdom (Survival) checks
+		086 |of Stabbing			|The bearer may choose to do piercing damage with this weapon instead of its other damage types.
+		087 |of Resurgence			|Treat this as a +1 weapon of the bearer has half their hit points  or less.
+		088 |of Turquoise			|Grants thunder resistance to the bearer
+		089	|of Heart				|The bearer gains a +1 bonus to Constitution saving throws
+		090 |of Victory				|Whenever the bearer kills a creature with this weapon, they gain temporary hit points equal to the creature's CR.
+		091 |of Vigilance			|The bearer gains +2 to their Passive Perception.
+		092 |of Vigorous			|The bearer gains +1 bonus to Strength saving  throws.
+		093 |of Villains			|Treat this as a +1 weapon at night when attuned to an evil aligned character.
+		094 |of the Visionary		|The weapon does an additional 1 elemental damage based on the color of the bearer\'s eyes: (amber: lightning, black: necrotic, blue: cold, brown: ice, green: force, gray: thunder, hazel: poison, purple: psychic, red: fire, white: radiant).
+		095 |of Vitality			|The bearer\'s maximum hit points increase by their constitution modifier while attuned to this item. These hit points are lost when the bearer unattunes the itme.
+		096 |of the Warlord			|The bearer can use an action to amplify their voice so that it clearly carries for up to 300 feet.
+		097 |of Withering			|If hit with this weapon, the target makes a DC 13 constitution saving throw. If they fail, their Strength is reduced by 1.
+		098 |of the Wizard			|The bearer gains a +1 to Intelligence (Arcana) checks.
+		099 |of Zen					|Treat this as a +1 weapon for one minute after meditating with it for one minute.
+		100 |of Zircon				|Grants force resistance to the bearer.		
+		101 |of Evasion				|Once per day, the bearer can disengage as a bonus action.
+		102 |of Segaciousness		|The bearer gains +1 to all spell attack rolls.
+		103 |of the Wakeful			|The bearer requries half of the time normally required for a Short or Long rest.
+		104 |of the Restful			|A long rest reduces the bearer\'s exhaustion by 2.
+		]]></table>
+		<table name="Item" action="Random" column="Roll" delimiter="|"><![CDATA[
+		Roll|Name       	|Description
+		01  |Club     		|1d4 bludgeoning; Light
+		02  |Dagger			|1d4 piercing; Finesses, light, thrown (range 20/60)
+		03  |Greatclub  	|1d8 bludgeoning; Two-handed
+		04  |Handaxe		|1d6 slashing; Light, thrown (range 20/60)
+		05  |Javelin		|1d6 piercing; Thrown (range 30/120)
+		06  |Light Hammer 	|1d4 bludgeoning; Light, thrown (range 20/60)
+		07  |Mace 			|1d6 bludgeoning
+		08  |Quarterstaff	|1d6 bludgeoning; Versatile (1d8)
+		09  |Sickle			|1d4 slashing; Light
+		10  |Spear			|1d6 piercing; Thrown (range 20/60), versatile (1d8)
+		11  |Light Crossbow |1d8 piercing; Ammunition (range 80/320), loading, two-handed
+		12	|Dart			|1d4 piercing; Finesse, thrown (range 20/60)
+		13  |Shortbow		|1d6 piercing; Ammunition (range 80/320), two-handed
+		14	|Sling			|1d4 bludgeoning; Ammunition (range 30/120)
+		15	|Battleaxe		|1d8 slashing; Versatile (1d10)
+		16	|Flail			|1d8 bludgeoning
+		17	|Glaive			|1d10 slashing; Heavy, reach, two-handeds
+		18  |Greataxe		|1d12 slashing; Heavy, two-handed
+		19	|Greatsword		|2d6 slashing; Heavy, two-handed
+		20  |Halberd		|1d10 slashing; Heavy, reach, two-handed
+		21  |Lance			|1d12 piercing; Reach, special
+		22	|Longsword		|1d8 slashing; Versatile (1d10)
+		23	|Maul			|2d6 bludgeoning; Heavy, two-handed
+		24	|Morningstar	|1d8 piercing
+		25	|Pike			|1d10 piercing; Heavy, reach, two-handed
+		26	|Rapier			|1d8 piercing; Finesses
+		27	|Scimitar		|1d6 slashing; Finesse, light
+		28  |Shortsword		|1d6 piercing; Finesse, light
+		29  |Trident		|1d6 piercing; Thrown (range 20/60), versatile (1d8)
+		30	|War Pick		|1d8 piercing
+		31	|Warhammer		|1d8 bludgeoning; Versatile (1d10)
+		32	|Whip			|1d4 slashing; Finesse, reach
+		33	|Blowgun		|1 piercing; Ammunition (range 25/100), loading
+		34	|Hand Crossbow	|1d6 piercing; Ammunition (range 30/120), light, loading
+		35	|Heavy Crossbow	|1d10 piercing; Ammunition (range 100/400), heavy, loading, two-handed
+		36	|Longbow		|1d8 piercing; Ammunition (range 150/600), heavy, two-handed
+		37  |Net			|Special, thrown (range 5/15)
+		38  |Amulet			|
+		39	|Ring			|
+		40	|Necklace		|
+		41	|Bracelet		|
+		42	|Wand			|
+		43	|Rod			|
+		44	|Staff			|
+		45  |Gauntlets		|
+		46  |Helmet			|
+		47	|Shield			|
+		48  |Bracers		|
+		49	|Armor			|
+		50	|Coin			|
+		51	|Boots			|
+		52	|Crown			|
+		53	|Stone			|
+		54	|Gloves			|
+		55	|Brooch			|
+		]]></table>
+	</tables>
+	<output><![CDATA[
+	<b>[=if([properties]=1,'','[Prefix.Title] ')][Item.Name] [Suffix.Title]</b><br />
+	<ul>
+		<li>[Item.Description][=if('[Item.Description]'='','','; ')]Requires Atunement</li>
+		[=if([properties]=1,'','<li>[Prefix.Description]</li>')]
+		<li>[Suffix.Description]</li>
+	</ul>
+	]]>
+	</output>
+</Grammar>

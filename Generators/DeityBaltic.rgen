@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
+  <name>Baltic Deity Name</name>
+  <author>Lance Boudreaux</author>
+  <description>Generates a deity name with a Baltic theme.</description>
+  <tags>
+    <tag>Name</tag>
+    <tag>Deity</tag>
+  </tags>
+  <supportsMaxLength>true</supportsMaxLength>
+  <isLibrary>false</isLibrary>
+  <items>
+    <item name="Start" weight="1">[Ai]</item>
+    <item name="Start" weight="3">[Ve]</item>
+    <item name="Start" weight="2">[Li]</item>
+    <item name="Start" weight="4">[Ce]</item>
+    <item name="Start" weight="1">[Lo]</item>
+    <item name="Start" weight="1">[Bu]</item>
+    <item name="Start" weight="2">[Ma]</item>
+    <item name="Start" weight="7">[La]</item>
+    <item name="Start" weight="1">[Ba]</item>
+    <item name="Start" weight="1">[Mi]</item>
+    <item name="Start" weight="1">[Mo]</item>
+    <item name="Start" weight="1">[Ni]</item>
+    <item name="Start" weight="1">[Nu]</item>
+    <item name="Start" weight="1">[Pa]</item>
+    <item name="Start" weight="5">[Pe]</item>
+    <item name="Start" weight="2">[Ze]</item>
+    <item name="Start" weight="3">[Va]</item>
+    <item name="Start" weight="1">[Ku]</item>
+    <item name="Start" weight="1">[Is]</item>
+    <item name="Start" weight="3">[Gr]</item>
+    <item name="Start" weight="6">[Ga]</item>
+    <item name="Start" weight="3">[]</item>
+    <item name="Start" weight="1">[Gy]</item>
+    <item name="Start" weight="1">[In]</item>
+    <item name="Start" weight="2">[Eg]</item>
+    <item name="Start" weight="2">[De]</item>
+    <item name="Start" weight="4">[Ju]</item>
+    <item name="Start" weight="2">[Ke]</item>
+    <item name="Start" weight="1">[Ko]</item>
+    <item name="Start" weight="5">[Di]</item>
+    <item name="Start" weight="1">[Za]</item>
+    <item name="Start" weight="3">[Kr]</item>
+    <item name="Start" weight="2">[Us]</item>
+    <item name="Start" weight="6">[Ka]</item>
+    <item name="Start" weight="5">[Pi]</item>
+    <item name="Start" weight="11">[Me]</item>
+    <item name="Start" weight="2">[Gi]</item>
+    <item name="Start" weight="3">[Pu]</item>
+    <item name="Start" weight="6">[Ra]</item>
+    <item name="Start" weight="1">[Ru]</item>
+    <item name="Start" weight="9">[Au]</item>
+    <item name="Start" weight="2">[Sa]</item>
+    <item name="Start" weight="2">[Zv]</item>
+    <item name="Start" weight="2">[Si]</item>
+    <item name="Start" weight="2">[Pr]</item>
+    <item name="Start" weight="4">[As]</item>
+    <item name="Start" weight="1">[Po]</item>
+    <item name="Start" weight="2">[Te]</item>
+    <item name="Start" weight="1">[Al]</item>
+    <item name=" M" next="ot" weight="1"> M</item>
+    <item name=" V" next="ir" weight="1"> V</item>
+    <item name="a " weight="17">a </item>
+    <item name="a " next="Ma" weight="1">a </item>
+    <item name="aa" next="mz" weight="1">aa</item>
+    <item name="ai" next="zd" weight="1">ai</item>
+    <item name="ai" next="ti" weight="3">ai</item>
+    <item name="ai" next="s " weight="1">ai</item>
+    <item name="ai" weight="2">ai</item>
+    <item name="Ai" next="tv" weight="1">Ai</item>
+    <item name="aj" next="a " weight="1">aj</item>
+    <item name="Al" next="ka" weight="1">Al</item>
+    <item name="am" next="at" weight="1">am</item>
+    <item name="an" next="a " weight="1">an</item>
+    <item name="ar" next="a " weight="1">ar</item>
+    <item name="ar" next="is" weight="1">ar</item>
+    <item name="ar" next="ch" weight="1">ar</item>
+    <item name="ar" next="as" weight="1">ar</item>
+    <item name="as" weight="10">as</item>
+    <item name="As" next="pe" weight="1">As</item>
+    <item name="As" next="vi" weight="3">As</item>
+    <item name="at" weight="2">at</item>
+    <item name="at" next="is" weight="1">at</item>
+    <item name="at" next="a " weight="1">at</item>
+    <item name="au" next="ts" weight="1">au</item>
+    <item name="au" next="du" weight="2">au</item>
+    <item name="au" next="ja" weight="2">au</item>
+    <item name="au" next="ji" weight="1">au</item>
+    <item name="Au" next="se" weight="2">Au</item>
+    <item name="Au" next="ss" weight="1">Au</item>
+    <item name="Au" next="st" weight="2">Au</item>
+    <item name="Au" next="sc" weight="1">Au</item>
+    <item name="Au" next="sr" weight="1">Au</item>
+    <item name="Au" next="tr" weight="2">Au</item>
+    <item name="Au" next="sa" weight="1">Au</item>
+    <item name="av" next="el" weight="1">av</item>
+    <item name="ba" weight="1">ba</item>
+    <item name="Ba" next="ng" weight="1">Ba</item>
+    <item name="bi" next="ja" weight="1">bi</item>
+    <item name="bi" next="et" weight="1">bi</item>
+    <item name="bi" next="la" weight="1">bi</item>
+    <item name="bj" next="au" weight="3">bj</item>
+    <item name="Bo" next="ba" weight="1">Bo</item>
+    <item name="Bu" next="bi" weight="1">Bu</item>
+    <item name="Ce" next="rk" weight="2">Ce</item>
+    <item name="Ce" next="ro" weight="1">Ce</item>
+    <item name="Ce" next="re" weight="1">Ce</item>
+    <item name="ch" next="in" weight="2">ch</item>
+    <item name="ch" next="is" weight="1">ch</item>
+    <item name="ch" next="au" weight="1">ch</item>
+    <item name="ci" next="ng" weight="3">ci</item>
+    <item name="ck" next="ol" weight="1">ck</item>
+    <item name="co" next="ll" weight="1">co</item>
+    <item name="de" next="in" weight="1">de</item>
+    <item name="De" next="yw" weight="1">De</item>
+    <item name="De" next="iv" weight="1">De</item>
+    <item name="Di" next="vi" weight="1">Di</item>
+    <item name="Di" next="ms" weight="2">Di</item>
+    <item name="Di" next="ev" weight="3">Di</item>
+    <item name="dr" next="aj" weight="1">dr</item>
+    <item name="du" next="s " weight="1">du</item>
+    <item name="du" next="se" weight="1">du</item>
+    <item name="dz" next="io" weight="2">dz</item>
+    <item name="e " weight="10">e </item>
+    <item name="Eg" next="le" weight="2">Eg</item>
+    <item name="ei" next="n " weight="1">ei</item>
+    <item name="ej" next="a " weight="1">ej</item>
+    <item name="ek" next="li" weight="1">ek</item>
+    <item name="el" next="is" weight="2">el</item>
+    <item name="el" next="ai" weight="1">el</item>
+    <item name="em" next="at" weight="1">em</item>
+    <item name="em" next="ar" weight="1">em</item>
+    <item name="en" next="ia" weight="1">en</item>
+    <item name="en" next="a " weight="1">en</item>
+    <item name="en" next="e " weight="2">en</item>
+    <item name="er" next="in" weight="1">er</item>
+    <item name="es" weight="1">es</item>
+    <item name="es" next="s " weight="1">es</item>
+    <item name="et" next="yn" weight="1">et</item>
+    <item name="et" next="a " weight="1">et</item>
+    <item name="ev" next="s " weight="1">ev</item>
+    <item name="ev" next="as" weight="2">ev</item>
+    <item name="ez" weight="1">ez</item>
+    <item name="g " weight="3">g </item>
+    <item name="ga" next="nt" weight="1">ga</item>
+    <item name="ga" next="na" weight="1">ga</item>
+    <item name="Ga" next="bj" weight="3">Ga</item>
+    <item name="Ga" next="ni" weight="1">Ga</item>
+    <item name="Ga" next="bi" weight="2">Ga</item>
+    <item name="gi" next="u " weight="1">gi</item>
+    <item name="Gi" next="ra" weight="1">Gi</item>
+    <item name="Gi" next="lt" weight="1">Gi</item>
+    <item name="Gr" next="au" weight="2">Gr</item>
+    <item name="Gr" next="ek" weight="1">Gr</item>
+    <item name="gu" next="ti" weight="2">gu</item>
+    <item name="Gy" next="va" weight="1">Gy</item>
+    <item name="ha" next="ut" weight="1">ha</item>
+    <item name="he" next="l " weight="1">he</item>
+    <item name="hn" next="es" weight="1">hn</item>
+    <item name="i " weight="1">i </item>
+    <item name="ia" next="i " weight="1">ia</item>
+    <item name="ia" next="s " weight="1">ia</item>
+    <item name="id" next="en" weight="1">id</item>
+    <item name="id" next="ei" weight="1">id</item>
+    <item name="ik" next="is" weight="1">ik</item>
+    <item name="im" next="e " weight="1">im</item>
+    <item name="im" next="po" weight="1">im</item>
+    <item name="im" next="pa" weight="2">im</item>
+    <item name="im" next="a " weight="1">im</item>
+    <item name="in" next="a " weight="2">in</item>
+    <item name="in" next="g " weight="3">in</item>
+    <item name="in" next="e " weight="5">in</item>
+    <item name="in" next="s " weight="1">in</item>
+    <item name="In" next="dr" weight="1">In</item>
+    <item name="io" next="ji" weight="1">io</item>
+    <item name="io" next="jn" weight="1">io</item>
+    <item name="ip" next="ar" weight="1">ip</item>
+    <item name="ir" next="ar" weight="1">ir</item>
+    <item name="ir" next="s " weight="1">ir</item>
+    <item name="is" weight="21">is</item>
+    <item name="Is" next="ch" weight="1">Is</item>
+    <item name="it" next="is" weight="2">it</item>
+    <item name="iu" next="s " weight="1">iu</item>
+    <item name="iv" next="a " weight="1">iv</item>
+    <item name="iv" next="as" weight="1">iv</item>
+    <item name="iz" next="ga" weight="1">iz</item>
+    <item name="ja" next=" M" weight="1">ja</item>
+    <item name="ja" next="s " weight="1">ja</item>
+    <item name="ja" weight="2">ja</item>
+    <item name="je" next="ma" weight="1">je</item>
+    <item name="ji" next="s " weight="1">ji</item>
+    <item name="ji" next="ma" weight="1">ji</item>
+    <item name="jn" next="a " weight="1">jn</item>
+    <item name="jo" next="le" weight="1">jo</item>
+    <item name="Ju" next="ra" weight="3">Ju</item>
+    <item name="Ju" next="nd" weight="1">Ju</item>
+    <item name="ka" weight="1">ka</item>
+    <item name="Ka" next="ur" weight="1">Ka</item>
+    <item name="Ka" next="uk" weight="2">Ka</item>
+    <item name="Ka" next="lv" weight="2">Ka</item>
+    <item name="Ka" next="up" weight="1">Ka</item>
+    <item name="Ke" next="li" weight="2">Ke</item>
+    <item name="kl" next="is" weight="4">kl</item>
+    <item name="kl" next="in" weight="1">kl</item>
+    <item name="Ko" next="va" weight="1">Ko</item>
+    <item name="Kr" next="em" weight="2">Kr</item>
+    <item name="Kr" next="um" weight="1">Kr</item>
+    <item name="ks" weight="1">ks</item>
+    <item name="ku" next="ol" weight="1">ku</item>
+    <item name="Ku" next="po" weight="1">Ku</item>
+    <item name="l " weight="1">l </item>
+    <item name="la" next="s " weight="1">la</item>
+    <item name="La" next="im" weight="2">La</item>
+    <item name="La" next="um" weight="2">La</item>
+    <item name="La" next="uk" weight="2">La</item>
+    <item name="La" next="zd" weight="1">La</item>
+    <item name="ld" next="a " weight="1">ld</item>
+    <item name="le" next="ve" weight="1">le</item>
+    <item name="le" weight="1">le</item>
+    <item name="le" weight="3">le</item>
+    <item name="le" next="ni" weight="1">le</item>
+    <item name="li" next="ni" weight="1">li</item>
+    <item name="li" next="u " weight="1">li</item>
+    <item name="li" next="s " weight="3">li</item>
+    <item name="li" next="uk" weight="1">li</item>
+    <item name="li" next="uo" weight="1">li</item>
+    <item name="li" next="ci" weight="3">li</item>
+    <item name="li" next="av" weight="1">li</item>
+    <item name="Li" next="el" weight="1">Li</item>
+    <item name="Li" next="nk" weight="1">Li</item>
+    <item name="ll" next="os" weight="1">ll</item>
+    <item name="ln" next="ia" weight="1">ln</item>
+    <item name="ln" next="yt" weight="1">ln</item>
+    <item name="Lo" next="pe" weight="1">Lo</item>
+    <item name="lt" next="in" weight="1">lt</item>
+    <item name="lt" next="ys" weight="1">lt</item>
+    <item name="lv" next="ai" weight="1">lv</item>
+    <item name="lv" next="yt" weight="1">lv</item>
+    <item name="lv" next="el" weight="1">lv</item>
+    <item name="ma" weight="1">ma</item>
+    <item name="ma" next="ne" weight="1">ma</item>
+    <item name="ma" weight="1">ma</item>
+    <item name="ma" next="t " weight="1">ma</item>
+    <item name="Ma" next="rs" weight="1">Ma</item>
+    <item name="Ma" next="te" weight="1">Ma</item>
+    <item name="Ma" next="ra" weight="1">Ma</item>
+    <item name="me" next="pa" weight="2">me</item>
+    <item name="Me" next="id" weight="2">Me</item>
+    <item name="Me" next="nu" weight="2">Me</item>
+    <item name="Me" next="ne" weight="1">Me</item>
+    <item name="Me" next="za" weight="2">Me</item>
+    <item name="Me" next="dz" weight="2">Me</item>
+    <item name="Me" next="de" weight="1">Me</item>
+    <item name="Me" next="hn" weight="1">Me</item>
+    <item name="Mi" next="ld" weight="1">Mi</item>
+    <item name="Mo" next="sc" weight="1">Mo</item>
+    <item name="ms" next="te" weight="1">ms</item>
+    <item name="ms" next="ti" weight="1">ms</item>
+    <item name="my" next="na" weight="1">my</item>
+    <item name="mz" next="iu" weight="1">mz</item>
+    <item name="n " weight="1">n </item>
+    <item name="na" weight="4">na</item>
+    <item name="nd" next="a " weight="1">nd</item>
+    <item name="ne" next="ss" weight="1">ne</item>
+    <item name="ne" next="li" weight="1">ne</item>
+    <item name="ng" next="pu" weight="1">ng</item>
+    <item name="ng" weight="3">ng</item>
+    <item name="ni" next="ez" weight="1">ni</item>
+    <item name="ni" next="ai" weight="1">ni</item>
+    <item name="ni" next="e " weight="1">ni</item>
+    <item name="ni" next="a " weight="1">ni</item>
+    <item name="ni" next="kl" weight="1">ni</item>
+    <item name="Ni" next="jo" weight="1">Ni</item>
+    <item name="nk" next="sm" weight="1">nk</item>
+    <item name="nt" next="as" weight="1">nt</item>
+    <item name="nu" next="o " weight="1">nu</item>
+    <item name="nu" next="li" weight="1">nu</item>
+    <item name="Nu" next="je" weight="1">Nu</item>
+    <item name="o " weight="1">o </item>
+    <item name="o " next="Ze" weight="1">o </item>
+    <item name="ol" next="s " weight="1">ol</item>
+    <item name="ol" next="is" weight="2">ol</item>
+    <item name="on" next="a " weight="1">on</item>
+    <item name="on" next="is" weight="1">on</item>
+    <item name="or" next="un" weight="1">or</item>
+    <item name="os" weight="1">os</item>
+    <item name="ot" next="in" weight="1">ot</item>
+    <item name="pa" next="ti" weight="2">pa</item>
+    <item name="pa" next="tu" weight="1">pa</item>
+    <item name="pa" next="s " weight="3">pa</item>
+    <item name="Pa" next="tr" weight="1">Pa</item>
+    <item name="pe" next="ma" weight="1">pe</item>
+    <item name="pe" next="le" weight="1">pe</item>
+    <item name="Pe" next="ck" weight="1">Pe</item>
+    <item name="Pe" next="rk" weight="4">Pe</item>
+    <item name="Pi" next="ln" weight="1">Pi</item>
+    <item name="Pi" next="ku" weight="1">Pi</item>
+    <item name="Pi" next="en" weight="1">Pi</item>
+    <item name="Pi" next="co" weight="1">Pi</item>
+    <item name="Pi" next="lv" weight="1">Pi</item>
+    <item name="po" weight="1">po</item>
+    <item name="po" next="le" weight="1">po</item>
+    <item name="Po" next="tr" weight="1">Po</item>
+    <item name="Pr" next="aa" weight="1">Pr</item>
+    <item name="Pr" next="ip" weight="1">Pr</item>
+    <item name="pu" next="ty" weight="1">pu</item>
+    <item name="Pu" next="sk" weight="2">Pu</item>
+    <item name="Pu" next="sa" weight="1">Pu</item>
+    <item name="ra" next="it" weight="1">ra</item>
+    <item name="ra" next="sm" weight="1">ra</item>
+    <item name="ra" next="te" weight="1">ra</item>
+    <item name="ra" next="ta" weight="1">ra</item>
+    <item name="ra" weight="1">ra</item>
+    <item name="Ra" next="sa" weight="1">Ra</item>
+    <item name="Ra" next="ug" weight="2">Ra</item>
+    <item name="Ra" next="gu" weight="2">Ra</item>
+    <item name="Ra" next="ga" weight="1">Ra</item>
+    <item name="re" next="kl" weight="1">re</item>
+    <item name="rg" next="is" weight="1">rg</item>
+    <item name="ri" next="ks" weight="1">ri</item>
+    <item name="rk" next="li" weight="2">rk</item>
+    <item name="rk" next="an" weight="1">rk</item>
+    <item name="rk" next="un" weight="2">rk</item>
+    <item name="rk" next="on" weight="1">rk</item>
+    <item name="ro" next="kl" weight="1">ro</item>
+    <item name="rs" weight="1">rs</item>
+    <item name="rs" next="a " weight="1">rs</item>
+    <item name="ru" next="na" weight="1">ru</item>
+    <item name="Ru" next="gi" weight="1">Ru</item>
+    <item name="s " weight="27">s </item>
+    <item name="s " next="Au" weight="1">s </item>
+    <item name="sa" next="it" weight="1">sa</item>
+    <item name="sa" next="rg" weight="1">sa</item>
+    <item name="sa" weight="1">sa</item>
+    <item name="sa" next="ut" weight="1">sa</item>
+    <item name="Sa" next="ul" weight="1">Sa</item>
+    <item name="Sa" next="ma" weight="1">Sa</item>
+    <item name="sc" next="ha" weight="1">sc</item>
+    <item name="sc" next="he" weight="1">sc</item>
+    <item name="se" next="kl" weight="2">se</item>
+    <item name="se" weight="1">se</item>
+    <item name="Si" next="et" weight="1">Si</item>
+    <item name="Si" next="li" weight="1">Si</item>
+    <item name="sk" next="ai" weight="2">sk</item>
+    <item name="sm" next="at" weight="1">sm</item>
+    <item name="sm" next="in" weight="1">sm</item>
+    <item name="sr" next="in" weight="1">sr</item>
+    <item name="ss" next="ch" weight="1">ss</item>
+    <item name="ss" weight="1">ss</item>
+    <item name="st" next="er" weight="1">st</item>
+    <item name="st" next="ej" weight="1">st</item>
+    <item name="t " weight="1">t </item>
+    <item name="ta" weight="1">ta</item>
+    <item name="te" weight="1">te</item>
+    <item name="te" weight="3">te</item>
+    <item name="Te" next="li" weight="1">Te</item>
+    <item name="Te" next="le" weight="1">Te</item>
+    <item name="ti" next="en" weight="1">ti</item>
+    <item name="ti" next="pa" weight="1">ti</item>
+    <item name="ti" next="s " weight="6">ti</item>
+    <item name="tr" next="im" weight="3">tr</item>
+    <item name="tr" next="ym" weight="1">tr</item>
+    <item name="ts" weight="1">ts</item>
+    <item name="tu" next="s " weight="1">tu</item>
+    <item name="tv" next="ar" weight="1">tv</item>
+    <item name="ty" next="s " weight="1">ty</item>
+    <item name="u " next="Bo" weight="1">u </item>
+    <item name="u " next="Di" weight="1">u </item>
+    <item name="ug" next="up" weight="1">ug</item>
+    <item name="ug" next="o " weight="1">ug</item>
+    <item name="uk" next="ai" weight="1">uk</item>
+    <item name="uk" next="as" weight="1">uk</item>
+    <item name="uk" next="sa" weight="1">uk</item>
+    <item name="uk" next="am" weight="1">uk</item>
+    <item name="uk" next="is" weight="1">uk</item>
+    <item name="ul" next="e " weight="1">ul</item>
+    <item name="um" next="as" weight="1">um</item>
+    <item name="um" next="in" weight="1">um</item>
+    <item name="um" next="es" weight="1">um</item>
+    <item name="un" next="a " weight="1">un</item>
+    <item name="un" next="is" weight="1">un</item>
+    <item name="un" next="as" weight="1">un</item>
+    <item name="uo" next="na" weight="1">uo</item>
+    <item name="up" next="at" weight="1">up</item>
+    <item name="up" next="ol" weight="1">up</item>
+    <item name="ur" next="ir" weight="1">ur</item>
+    <item name="Us" next="ch" weight="1">Us</item>
+    <item name="Us" next="in" weight="1">Us</item>
+    <item name="ut" next="s " weight="1">ut</item>
+    <item name="ut" next="as" weight="1">ut</item>
+    <item name="va" next="te" weight="1">va</item>
+    <item name="va" next="s " weight="1">va</item>
+    <item name="Va" next="ru" weight="1">Va</item>
+    <item name="Va" next="iv" weight="1">Va</item>
+    <item name="Va" next="iz" weight="1">Va</item>
+    <item name="ve" next="li" weight="1">ve</item>
+    <item name="Ve" next="ln" weight="1">Ve</item>
+    <item name="Ve" next="li" weight="1">Ve</item>
+    <item name="Ve" next="ja" weight="1">Ve</item>
+    <item name="vi" next="ri" weight="1">vi</item>
+    <item name="vi" next="rs" weight="1">vi</item>
+    <item name="vi" next="en" weight="1">vi</item>
+    <item name="vi" next="ni" weight="2">vi</item>
+    <item name="ym" next="pa" weight="1">ym</item>
+    <item name="yn" next="as" weight="1">yn</item>
+    <item name="ys" weight="1">ys</item>
+    <item name="yt" next="is" weight="2">yt</item>
+    <item name="yw" next="is" weight="1">yw</item>
+    <item name="za" next=" V" weight="1">za</item>
+    <item name="za" next="vi" weight="1">za</item>
+    <item name="Za" next="lt" weight="1">Za</item>
+    <item name="zd" next="ik" weight="1">zd</item>
+    <item name="zd" next="on" weight="1">zd</item>
+    <item name="Ze" next="me" weight="2">Ze</item>
+    <item name="Ze" next="my" weight="1">Ze</item>
+    <item name="Zv" next="or" weight="1">Zv</item>
+    <item name="Zv" next="ai" weight="1">Zv</item>
+  </items>
+  <imports />
+</generator>

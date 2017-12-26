@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-16"?>
 <generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
-  <name>Egyptian Deity Name</name>
+  <name>Deity Name, Egyptian</name>
   <author>Lance Boudreaux</author>
   <description>Generates an Egyptian style deity name</description>
   <tags>

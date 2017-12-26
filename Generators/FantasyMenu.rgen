@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
+  <name>Fantasy Inn Menu</name>
+  <author>Lance Boudreaux</author>
+  <description>Generates a menu for a fantasy inn</description>
+  <tags>
+    <tag>Environment</tag>
+    <tag>Other</tag>
+  </tags>
+  <supportsMaxLength>false</supportsMaxLength>
+  <parameters>
+    <parameter name="Cuisine" value="Any" display="Cuisine" type="List">
+      <option display="Any">Any</option>
+      <option display="Normal">Normal</option>
+      <option display="Exotic">Exotic</option>
+    </parameter>
+  </parameters>
+  <css>
+		div { border: 1px solid black; }
+		div.Even { background: #fffff0; padding: 1em; margin: 1em; }
+		div.Odd { background: #fffff0; padding: 1em; margin: 1em; }
+		h1 { text-align: center; }
+		h3 { margin: 1em 0 0 0; 
+			 text-align: center;}
+	</css>
+  <isLibrary>false</isLibrary>
+  <items>
+    <item name="Start" weight="1">[Cuisine]</item>
+    <item name="Any" weight="1">&lt;h1&gt;Menu&lt;/h1&gt;
+		&lt;h3&gt;Appetizers&lt;/h3&gt;
+		&lt;hr /&gt;
+		[Appetizer]&lt;br /&gt;
+		[Appetizer]&lt;br /&gt;
+		[Appetizer]&lt;br /&gt;
+		[Appetizer]&lt;br /&gt;
+		
+		&lt;h3&gt;Soups and Salads&lt;/h3&gt;
+		&lt;hr /&gt;
+		[SoupAndSalad]&lt;br /&gt;
+		[SoupAndSalad]&lt;br /&gt;
+		[SoupAndSalad]&lt;br /&gt;
+		
+		&lt;h3&gt;Entr&amp;eacute;es&lt;/h3&gt;
+		&lt;hr /&gt;
+		[Entree]&lt;br /&gt;
+		[Entree]&lt;br /&gt;
+		[Entree]&lt;br /&gt;
+		[Entree]&lt;br /&gt;
+		
+		&lt;h3&gt;Deserts&lt;/h3&gt;
+		&lt;hr /&gt;
+		[Desert]&lt;br /&gt;
+		[Desert]&lt;br /&gt;
+		
+		&lt;h3&gt;Beverages&lt;/h3&gt;
+		&lt;hr /&gt;
+		[Drink]&lt;br /&gt;
+		[Drink]&lt;br /&gt;
+		</item>
+    <item name="Normal" weight="1">&lt;h1&gt;Menu&lt;/h1&gt;
+		&lt;h3&gt;Appetizers&lt;/h3&gt;
+		&lt;hr /&gt;
+		[AppetizerNormal]&lt;br /&gt;
+		[AppetizerNormal]&lt;br /&gt;
+		[AppetizerNormal]&lt;br /&gt;
+		[AppetizerNormal]&lt;br /&gt;
+		
+		&lt;h3&gt;Soups and Salads&lt;/h3&gt;
+		&lt;hr /&gt;
+		[SAndSNormal]&lt;br /&gt;
+		[SAndSNormal]&lt;br /&gt;
+		[SAndSNormal]&lt;br /&gt;
+		
+		&lt;h3&gt;Entr&amp;eacute;es&lt;/h3&gt;
+		&lt;hr /&gt;
+		[EntreeNormal]&lt;br /&gt;
+		[EntreeNormal]&lt;br /&gt;
+		[EntreeNormal]&lt;br /&gt;
+		[EntreeNormal]&lt;br /&gt;
+		
+		&lt;h3&gt;Deserts&lt;/h3&gt;
+		&lt;hr /&gt;
+		[DesertNormal]&lt;br /&gt;
+		[DesertNormal]&lt;br /&gt;
+		
+		&lt;h3&gt;Beverages&lt;/h3&gt;
+		&lt;hr /&gt;
+		[Drink]&lt;br /&gt;
+		[Drink]&lt;br /&gt;
+		</item>
+    <item name="Exotic" weight="1">&lt;h1&gt;Menu&lt;/h1&gt;
+		&lt;h3&gt;Appetizers&lt;/h3&gt;
+		&lt;hr /&gt;
+		[AppetizerExotic]&lt;br /&gt;
+		[AppetizerExotic]&lt;br /&gt;
+		[AppetizerExotic]&lt;br /&gt;
+		[AppetizerExotic]&lt;br /&gt;
+		
+		&lt;h3&gt;Soups and Salads&lt;/h3&gt;
+		&lt;hr /&gt;
+		[SAndSExotic]&lt;br /&gt;
+		[SAndSExotic]&lt;br /&gt;
+		[SAndSExotic]&lt;br /&gt;
+		
+		&lt;h3&gt;Entr&amp;eacute;es&lt;/h3&gt;
+		&lt;hr /&gt;
+		[EntreeExotic]&lt;br /&gt;
+		[EntreeExotic]&lt;br /&gt;
+		[EntreeExotic]&lt;br /&gt;
+		[EntreeExotic]&lt;br /&gt;
+		
+		&lt;h3&gt;Deserts&lt;/h3&gt;
+		&lt;hr /&gt;
+		[DesertExotic]&lt;br /&gt;
+		[DesertExotic]&lt;br /&gt;
+		
+		&lt;h3&gt;Beverages&lt;/h3&gt;
+		&lt;hr /&gt;
+		[Drink]&lt;br /&gt;
+		[Drink]&lt;br /&gt;
+		</item>
+    <item name="Appetizer" weight="85">[AppetizerNormal]</item>
+    <item name="Appetizer" weight="5">[AppetizerExotic]</item>
+    <item name="Appetizer" weight="10">[Appetizer]&lt;br /&gt;[Appetizer]</item>
+    <item name="AppetizerExotic" weight="1">Buffalo [Meat] with Fire Mephit Sauce</item>
+    <item name="AppetizerExotic" weight="1">[ExoticMeat] Jerky Skewered on [=Pick('Cactus Spines','Needle Blights')] in a [Sauce]</item>
+    <item name="AppetizerExotic" weight="1">[ExoticMeat] Sausage</item>
+    <item name="AppetizerExotic" weight="1">[ExoticMeat] on a Stick</item>
+    <item name="AppetizerExotic" weight="1">[ExoticVegetable] in a [Sauce]</item>
+    <item name="AppetizerExotic" weight="1">[Method] [ExoticMeat] with a [Sauce]</item>
+    <item name="AppetizerExotic" weight="1">[Method] [Spice] [ExoticMeat]</item>
+    <item name="AppetizerNormal" weight="1">Dire Boar's Head cheese</item>
+    <item name="AppetizerNormal" weight="1">Sea Cucumber Kimchee</item>
+    <item name="AppetizerNormal" weight="1">[Flavor] Fire Mephit Cheese</item>
+    <item name="AppetizerNormal" weight="1">[Meat] Jerky Skewered on [=Pick('Cactus Spines','Needle Blights')] in a [Sauce]</item>
+    <item name="AppetizerNormal" weight="1">[Meat] Sausage</item>
+    <item name="AppetizerNormal" weight="1">[Meat] on a Stick</item>
+    <item name="AppetizerNormal" weight="1">[Spice] Dire Rat Bites</item>
+    <item name="AppetizerNormal" weight="1">[Vegetable] in a [Sauce]</item>
+    <item name="Sauce" weight="1">[Flavor] [Spice] Sauce</item>
+    <item name="Sauce" weight="1">Creamy Dipping Sauce</item>
+    <item name="Sauce" weight="1">[Flavor] [Spice] [Ingredient] Sauce</item>
+    <item name="Sauce" weight="1">[Ingredient] Sauce</item>
+    <item name="Sauce" weight="1">[Spice] [Ingredient] Sauce</item>
+    <item name="Sauce" weight="1">[Spice] and [Spice] [Ingredient] Sauce</item>
+    <item name="Sauce" weight="1">[Ingredient] Reduction</item>
+    <item name="Sauce" weight="1">[Flavor] [Ingredient] Sauce</item>
+    <item name="Sauce" weight="1">[Spice] [Vegetable] Sauce</item>
+    <item name="Dressing" weight="1">[Flavor] Vinaigrette</item>
+    <item name="Dressing" weight="1">[Ingredient] Dressing</item>
+    <item name="Dressing" weight="1">[Ingredient] and [Ingredient] Dressing</item>
+    <item name="SoupAndSalad" weight="10">[SoupAndSalad]&lt;br /&gt;[SoupAndSalad]</item>
+    <item name="SoupAndSalad" weight="5">[SAndSExotic]</item>
+    <item name="SoupAndSalad" weight="85">[SAndSNormal]</item>
+    <item name="SAndSExotic" weight="1">Devourer Brain Stew</item>
+    <item name="SAndSExotic" weight="1">[ExoticMeat] Soup</item>
+    <item name="SAndSExotic" weight="1">[ExoticMeat] and [Vegetable|ExoticVegetable] Stew</item>
+    <item name="SAndSExotic" weight="1">[Meat|ExoticMeat] and [ExoticVegetable] Stew</item>
+    <item name="SAndSExotic" weight="1">[ExoticVegetable] Salad topped with [Spice] and a [Dressing]</item>
+    <item name="SAndSExotic" weight="1">[ExoticVegetable] Salad with [Dressing]</item>
+    <item name="SAndSExotic" weight="1">[ExoticVegetable] Salad</item>
+    <item name="SAndSExotic" weight="1">[ExoticVegetable] Soup</item>
+    <item name="SAndSExotic" weight="1">[ExoticVegetable] and Feta Salad</item>
+    <item name="SAndSExotic" weight="1">[ExoticVegetable] Oil [ExoticMeat] Salad</item>
+    <item name="SAndSExotic" weight="1">[ExoticVegetable] Salad topped with [Spice] and a [Dressing]</item>
+    <item name="SAndSExotic" weight="1">[ExoticVegetable] Salad with [Dressing]</item>
+    <item name="SAndSExotic" weight="1">[ExoticVegetable] Salad with [Dressing]</item>
+    <item name="SAndSExotic" weight="1">[ExoticVegetable] Salad</item>
+    <item name="SAndSExotic" weight="1">[ExoticVegetable] and Feta Salad</item>
+    <item name="SAndSExotic" weight="1">[Meat] and [ExoticVegetable] Stew</item>
+    <item name="SAndSExotic" weight="1">[Method] [ExoticVegetable] Soup</item>
+    <item name="SAndSExotic" weight="1">Hallucinogenic Spore Soup</item>
+    <item name="SAndSNormal" weight="1">[Meat] Soup</item>
+    <item name="SAndSNormal" weight="1">[Meat] and [Vegetable] Stew</item>
+    <item name="SAndSNormal" weight="1">[Method] [Vegetable] Soup</item>
+    <item name="SAndSNormal" weight="1">[Vegetable] Oil [Meat] Salad</item>
+    <item name="SAndSNormal" weight="1">[Vegetable] Salad topped with [Spice+Nut] and a [Dressing]</item>
+    <item name="SAndSNormal" weight="1">[Vegetable] Salad with [Dressing]</item>
+    <item name="SAndSNormal" weight="1">[Vegetable] Salad</item>
+    <item name="SAndSNormal" weight="1">[Vegetable] Soup</item>
+    <item name="SAndSNormal" weight="1">[Vegetable] and Feta Salad</item>
+    <item name="SAndSNormal" weight="1">[Vegetable] Salad Topped with Crushed [Nut]</item>
+    <item name="Entree" weight="85">[EntreeNormal]</item>
+    <item name="Entree" weight="5">[EntreeExotic]</item>
+    <item name="Entree" weight="10">[Entree]&lt;br /&gt;[Entree]</item>
+    <item name="EntreeExotic" weight="1">Grilled [Meat] on a Treant Plank</item>
+    <item name="EntreeExotic" weight="1">Mermaid Sashimi Platter</item>
+    <item name="EntreeExotic" weight="1">[ExoticMeat] Shwarma with [Sauce]</item>
+    <item name="EntreeExotic" weight="1">[ExoticMeat] in a [Sauce]</item>
+    <item name="EntreeExotic" weight="1">[Method] Mind Flayer Tentacles</item>
+    <item name="EntreeExotic" weight="1">[Method] Rubble Runner on the Half Shell</item>
+    <item name="EntreeExotic" weight="1">[Method] [ExoticMeat] Ribs with [Sauce]</item>
+    <item name="EntreeExotic" weight="1">[Method] [ExoticMeat] Strip Steak</item>
+    <item name="EntreeExotic" weight="1">[Method] [ExoticMeat] with [Method] [Vegetable]</item>
+    <item name="EntreeExotic" weight="1">[Method] [ExoticMeat] with a [Sauce]</item>
+    <item name="EntreeExotic" weight="1">[Method] [ExoticMeat]</item>
+    <item name="EntreeNormal" weight="1">Auroch's Cheeseburger with Dire Boar Bacon</item>
+    <item name="EntreeNormal" weight="1">Chef's Special</item>
+    <item name="EntreeNormal" weight="1">Fried [Meat]</item>
+    <item name="EntreeNormal" weight="1">Giant Crab Leg Au Gratin</item>
+    <item name="EntreeNormal" weight="1">Pan Fried [Meat] with [Sauce]</item>
+    <item name="EntreeNormal" weight="1">Peppered [Meat] Kebabs with [Vegetable]</item>
+    <item name="EntreeNormal" weight="1">Spice Rubbed Rotisserie [Meat]</item>
+    <item name="EntreeNormal" weight="1">[Meat] and [Vegetable] Chowder Pie</item>
+    <item name="EntreeNormal" weight="1">[Meat] in a [Sauce]</item>
+    <item name="EntreeNormal" weight="1">[Method] [Meat] Steak Medium Rare with [Vegetable]</item>
+    <item name="EntreeNormal" weight="1">[Method] [Meat] Steak</item>
+    <item name="EntreeNormal" weight="1">[Method] [Meat] with [Spice] and [Spice]</item>
+    <item name="EntreeNormal" weight="1">[Method] [Meat] with [Spice]</item>
+    <item name="Desert" weight="85">[DesertNormal]</item>
+    <item name="Desert" weight="5">[DesertExotic]</item>
+    <item name="Desert" weight="10">[Desert]&lt;br /&gt;[Desert]</item>
+    <item name="DesertExotic" weight="1">Candied Fairy Fruit</item>
+    <item name="DesertNormal" weight="1">Candied [Fruit]</item>
+    <item name="DesertNormal" weight="1">[Nut] [Alcohol] Bread Pudding</item>
+    <item name="DesertExotic" weight="1">Black Pudding Sweetened with [Fruit]</item>
+    <item name="DesertNormal" weight="1">Rice Pudding Sweetened with Dryad Dust</item>
+    <item name="Drink" weight="1">[Alcohol+Beverage]</item>
+    <item name="Alcohol" weight="1">Beer</item>
+    <item name="Alcohol" weight="1">Mead</item>
+    <item name="Alcohol" weight="1">Wine</item>
+    <item name="Alcohol" weight="1">Vodka</item>
+    <item name="Alcohol" weight="1">Ale</item>
+    <item name="Alcohol" weight="1">Whiskey</item>
+    <item name="Alcohol" weight="1">Scotch</item>
+    <item name="Alcohol" weight="1">Dragon's Breath</item>
+    <item name="Alcohol" weight="1">Fairy Tears</item>
+    <item name="Alcohol" weight="1">Spiced Wine</item>
+    <item name="Alcohol" weight="1">Rum</item>
+    <item name="Alcohol" weight="1">Cider</item>
+    <item name="Beverage" weight="1">Tea</item>
+    <item name="Beverage" weight="1">[Fruit] Juice</item>
+    <item name="Beverage" weight="1">Fresh Spring Water</item>
+    <item name="Beverage" weight="1">Milk</item>
+    <item name="Beverage" weight="1">Goat Milk</item>
+    <item name="Beverage" weight="1">Coffee</item>
+    <item name="Nut" weight="1">Pecan</item>
+    <item name="Nut" weight="1">Peanut</item>
+    <item name="Nut" weight="1">Walnut</item>
+    <item name="Nut" weight="1">Chestnut</item>
+    <item name="Nut" weight="1">Pistachio</item>
+    <item name="Nut" weight="1">Cashew</item>
+    <item name="Nut" weight="1">Brazilnut</item>
+    <item name="Nut" weight="1">Almond</item>
+    <item name="Nut" weight="1">Macadamia</item>
+    <item name="Nut" weight="1">Pine Nut</item>
+    <item name="Flavor" weight="1">Acidic</item>
+    <item name="Flavor" weight="1">Bitter</item>
+    <item name="Flavor" weight="1">Sour</item>
+    <item name="Flavor" weight="1">Spicy</item>
+    <item name="Flavor" weight="1">Sweet</item>
+    <item name="Flavor" weight="1">Tangy</item>
+    <item name="Fruit" weight="1">Prickleberry</item>
+    <item name="Fruit" weight="1">Strawberry</item>
+    <item name="Fruit" weight="1">Apple</item>
+    <item name="Fruit" weight="1">Orange</item>
+    <item name="Fruit" weight="1">Rasberry</item>
+    <item name="Fruit" weight="1">Lemon</item>
+    <item name="Fruit" weight="1">Raspberry</item>
+    <item name="Fruit" weight="1">Grape</item>
+    <item name="Fruit" weight="1">Raisin</item>
+    <item name="Fruit" weight="1">Dragonfruit</item>
+    <item name="Fruit" weight="1">Starfruit</item>
+    <item name="Fruit" weight="1">Cantelope</item>
+    <item name="Fruit" weight="1">Watermelon</item>
+    <item name="Fruit" weight="1">Grapfruit</item>
+    <item name="Fruit" weight="1">Pineapple</item>
+    <item name="Ingredient" weight="1">Apple Cider Vinegar</item>
+    <item name="Ingredient" weight="1">Blood</item>
+    <item name="Ingredient" weight="1">Blue Cheese</item>
+    <item name="Ingredient" weight="1">Broth</item>
+    <item name="Ingredient" weight="1">Butter</item>
+    <item name="Ingredient" weight="1">Cheese</item>
+    <item name="Ingredient" weight="1">Citrus</item>
+    <item name="Ingredient" weight="1">Cream</item>
+    <item name="Ingredient" weight="1">Mead</item>
+    <item name="Ingredient" weight="1">Red Wine Vinegar</item>
+    <item name="Ingredient" weight="1">Rice Vinegar</item>
+    <item name="Ingredient" weight="1">Tomato</item>
+    <item name="Ingredient" weight="1">Vodka</item>
+    <item name="Ingredient" weight="1">White Vinegar</item>
+    <item name="Ingredient" weight="1">Wine</item>
+    <item name="Meat" weight="1">Goat</item>
+    <item name="Meat" weight="1">Beef</item>
+    <item name="Meat" weight="1">Steak</item>
+    <item name="Meat" weight="1">Pork</item>
+    <item name="Meat" weight="1">Boar</item>
+    <item name="Meat" weight="1">Dire Boar</item>
+    <item name="Meat" weight="1">Dire Rat</item>
+    <item name="Meat" weight="1">Rat</item>
+    <item name="Meat" weight="1">Bat</item>
+    <item name="Meat" weight="1">Chicken</item>
+    <item name="Meat" weight="1">Duck</item>
+    <item name="Meat" weight="1">Lizard</item>
+    <item name="Meat" weight="1">Turtle</item>
+    <item name="Meat" weight="1">Frog</item>
+    <item name="Meat" weight="1">Crab Legs</item>
+    <item name="Meat" weight="1">Giant Crab Legs</item>
+    <item name="Meat" weight="1">Salmon</item>
+    <item name="Meat" weight="1">Tuna</item>
+    <item name="Meat" weight="1">Catfish</item>
+    <item name="Meat" weight="1">Rock Crab Meat</item>
+    <item name="Meat" weight="1">Giant Elk</item>
+    <item name="Meat" weight="1">Elk</item>
+    <item name="Meat" weight="1">Deer</item>
+    <item name="Meat" weight="1">Giant Dear</item>
+    <item name="Meat" weight="1">Hawk</item>
+    <item name="ExoticMeat" weight="1">Ankheg</item>
+    <item name="ExoticMeat" weight="1">Basilisk</item>
+    <item name="ExoticMeat" weight="1">Beholder Eyes</item>
+    <item name="ExoticMeat" weight="1">Blink Dog</item>
+    <item name="ExoticMeat" weight="1">Blood Hawk</item>
+    <item name="ExoticMeat" weight="1">Bugbear</item>
+    <item name="ExoticMeat" weight="1">Devourer</item>
+    <item name="ExoticMeat" weight="1">Displacer Beast</item>
+    <item name="ExoticMeat" weight="1">Dragon Turtle</item>
+    <item name="ExoticMeat" weight="1">Fire Mephit</item>
+    <item name="ExoticMeat" weight="1">Giant Spider Legs</item>
+    <item name="ExoticMeat" weight="1">Goblin</item>
+    <item name="ExoticMeat" weight="1">Lizardfolk</item>
+    <item name="ExoticMeat" weight="1">Naga</item>
+    <item name="ExoticMeat" weight="1">Owlbear</item>
+    <item name="ExoticMeat" weight="1">Pegasus</item>
+    <item name="ExoticMeat" weight="1">Rust Monster Tail</item>
+    <item name="ExoticMeat" weight="1">Stirge</item>
+    <item name="ExoticMeat" weight="1">Troll Goat</item>
+    <item name="ExoticMeat" weight="1">Umber Hulk</item>
+    <item name="ExoticMeat" weight="1">Unicorn</item>
+    <item name="ExoticMeat" weight="1">Wyrmling</item>
+    <item name="Method" weight="1">Baked</item>
+    <item name="Method" weight="1">Barbecued</item>
+    <item name="Method" weight="1">Blanched</item>
+    <item name="Method" weight="1">Boiled</item>
+    <item name="Method" weight="1">Braised</item>
+    <item name="Method" weight="1">Broiled</item>
+    <item name="Method" weight="1">Deep Fried</item>
+    <item name="Method" weight="1">Fresh</item>
+    <item name="Method" weight="1">Grilled</item>
+    <item name="Method" weight="1">Pan Fried</item>
+    <item name="Method" weight="1">Pickled</item>
+    <item name="Method" weight="1">Poached</item>
+    <item name="Method" weight="1">Roasted</item>
+    <item name="Method" weight="1">Saut&amp;eacute;ed</item>
+    <item name="Method" weight="1">Seared</item>
+    <item name="Method" weight="1">Simmered</item>
+    <item name="Method" weight="1">Slow Cooked</item>
+    <item name="Method" weight="1">Smoked</item>
+    <item name="Method" weight="1">Steamed</item>
+    <item name="Method" weight="1">Stewed</item>
+    <item name="Method" weight="1">Stir Fried</item>
+    <item name="Spice" weight="1">Allspice</item>
+    <item name="Spice" weight="1">Anise</item>
+    <item name="Spice" weight="1">Basil</item>
+    <item name="Spice" weight="1">Black Pepper</item>
+    <item name="Spice" weight="1">Caraway</item>
+    <item name="Spice" weight="1">Cayenne</item>
+    <item name="Spice" weight="1">Celery Seed</item>
+    <item name="Spice" weight="1">Chili</item>
+    <item name="Spice" weight="1">Chive</item>
+    <item name="Spice" weight="1">Cilantro</item>
+    <item name="Spice" weight="1">Cinnamon</item>
+    <item name="Spice" weight="1">Clove</item>
+    <item name="Spice" weight="1">Cumin</item>
+    <item name="Spice" weight="1">Curry</item>
+    <item name="Spice" weight="1">Dill</item>
+    <item name="Spice" weight="1">File</item>
+    <item name="Spice" weight="1">Fennel</item>
+    <item name="Spice" weight="1">Garlic</item>
+    <item name="Spice" weight="1">Ginger</item>
+    <item name="Spice" weight="1">Horseradish</item>
+    <item name="Spice" weight="1">Jalape&amp;ntilde;o</item>
+    <item name="Spice" weight="1">Lemon</item>
+    <item name="Spice" weight="1">Lime</item>
+    <item name="Spice" weight="1">Marjoram</item>
+    <item name="Spice" weight="1">Mustard</item>
+    <item name="Spice" weight="1">Nutmeg</item>
+    <item name="Spice" weight="1">Onion</item>
+    <item name="Spice" weight="1">Orange</item>
+    <item name="Spice" weight="1">Oregano</item>
+    <item name="Spice" weight="1">Paprika</item>
+    <item name="Spice" weight="1">Parsley</item>
+    <item name="Spice" weight="1">Pink Pepper</item>
+    <item name="Spice" weight="1">Poppy Seed</item>
+    <item name="Spice" weight="1">Red Pepper</item>
+    <item name="Spice" weight="1">Rosemary</item>
+    <item name="Spice" weight="1">Saffron</item>
+    <item name="Spice" weight="1">Sage</item>
+    <item name="Spice" weight="1">Sea Salt</item>
+    <item name="Spice" weight="1">Sesame</item>
+    <item name="Spice" weight="1">Sichuan</item>
+    <item name="Spice" weight="1">Tarragon</item>
+    <item name="Spice" weight="1">Thyme</item>
+    <item name="Spice" weight="1">Turmeric</item>
+    <item name="Spice" weight="1">Vanilla</item>
+    <item name="Spice" weight="1">White Pepper</item>
+    <item name="Vegetable" weight="1">Artichoke</item>
+    <item name="Vegetable" weight="1">Asparagus</item>
+    <item name="Vegetable" weight="1">Avocado</item>
+    <item name="Vegetable" weight="1">Baby Carrots</item>
+    <item name="Vegetable" weight="1">Baby Onions</item>
+    <item name="Vegetable" weight="1">Beets</item>
+    <item name="Vegetable" weight="1">Black Beans</item>
+    <item name="Vegetable" weight="1">Black Eyed Peas</item>
+    <item name="Vegetable" weight="1">Broccoli</item>
+    <item name="Vegetable" weight="1">Brussels Sprouts</item>
+    <item name="Vegetable" weight="1">Button Mushrooms</item>
+    <item name="Vegetable" weight="1">Cabbage</item>
+    <item name="Vegetable" weight="1">Carrots</item>
+    <item name="Vegetable" weight="1">Cauliflower</item>
+    <item name="Vegetable" weight="1">Chickpeas</item>
+    <item name="Vegetable" weight="1">Corn</item>
+    <item name="Vegetable" weight="1">Eggplant</item>
+    <item name="Vegetable" weight="1">Field Peas</item>
+    <item name="Vegetable" weight="1">Green Beans</item>
+    <item name="Vegetable" weight="1">Kale</item>
+    <item name="Vegetable" weight="1">Leeks</item>
+    <item name="Vegetable" weight="1">Lentils</item>
+    <item name="Vegetable" weight="1">Lima Beans</item>
+    <item name="Vegetable" weight="1">Navy Beans</item>
+    <item name="Vegetable" weight="1">Okra</item>
+    <item name="Vegetable" weight="1">Olives</item>
+    <item name="Vegetable" weight="1">Onions</item>
+    <item name="Vegetable" weight="1">Parsnips</item>
+    <item name="Vegetable" weight="1">Potatoes</item>
+    <item name="Vegetable" weight="1">Pumpkin</item>
+    <item name="Vegetable" weight="1">Radishes</item>
+    <item name="Vegetable" weight="1">Red Beans</item>
+    <item name="Vegetable" weight="1">Rutabagas</item>
+    <item name="Vegetable" weight="1">Shallots</item>
+    <item name="Vegetable" weight="1">Snow Peas</item>
+    <item name="Vegetable" weight="1">Soybeans</item>
+    <item name="Vegetable" weight="1">Spinach</item>
+    <item name="Vegetable" weight="1">Squash</item>
+    <item name="Vegetable" weight="1">Sweet Peas</item>
+    <item name="Vegetable" weight="1">Sweet Potatoes</item>
+    <item name="Vegetable" weight="1">Taro Roots</item>
+    <item name="Vegetable" weight="1">Tomatoes</item>
+    <item name="Vegetable" weight="1">Turnips</item>
+    <item name="Vegetable" weight="1">Watercrest</item>
+    <item name="Vegetable" weight="1">Waxbeans</item>
+    <item name="Vegetable" weight="1">Yams</item>
+    <item name="Vegetable" weight="1">Zucchini</item>
+    <item name="ExoticVegetable" weight="1">[Method] Assassin Vine</item>
+    <item name="ExoticVegetable" weight="1">[Method] Carnivorous Plant Petals</item>
+    <item name="ExoticVegetable" weight="1">[Method] Deep Mountain Potato</item>
+    <item name="ExoticVegetable" weight="1">[Method] Fairy Flowers</item>
+    <item name="ExoticVegetable" weight="1">[Method] Flowering Death Petals</item>
+    <item name="ExoticVegetable" weight="1">[Method] Green Wood Root</item>
+    <item name="ExoticVegetable" weight="1">[Method] Hallucinogenic Spores</item>
+    <item name="ExoticVegetable" weight="1">[Method] Nightshade</item>
+    <item name="ExoticVegetable" weight="1">[Method] Psilocybin Mushrooms</item>
+    <item name="ExoticVegetable" weight="1">[Method] Sea Cucumber</item>
+    <item name="ExoticVegetable" weight="1">[Method] Treant Root</item>
+    <item name="ExoticVegetable" weight="1">[Method] Treant Sapling</item>
+    <item name="ExoticVegetable" weight="1">[Method] Vine Blight Limbs</item>
+    <item name="ExoticVegetable" weight="1">[Method] Witchroot</item>
+  </items>
+  <imports />
+</generator>

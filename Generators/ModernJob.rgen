@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
+  <name>Modern Job</name>
+  <author>Lance Boudreaux</author>
+  <description>Selects a random job or career</description>
+  <tags>
+    <tag>Modern</tag>
+    <tag>Other</tag>
+  </tags>
+  <supportsMaxLength>false</supportsMaxLength>
+  <parameters>
+    <parameter name="Industry" value="Career" display="Industry" type="List">
+      <option display="Any">Career</option>
+      <option display="Administration &amp; Support Services">Administration</option>
+      <option display="Construction">[Construction]</option>
+      <option display="Education">[Education]</option>
+      <option display="Engineering">[Engineering]</option>
+      <option display="Arts &amp; Entertainment">[Entertainment]</option>
+      <option display="Farming, Forestry, Wildlife, &amp; Hunting">[Farming]</option>
+      <option display="Finance &amp; Insurance">[Finance]</option>
+      <option display="Hotel &amp; Food">[Food]</option>
+      <option display="Government">[Government]</option>
+      <option display="Health &amp; Counseling">[Health]</option>
+      <option display="Legal">[Legal]</option>
+      <option display="Management">[Management]</option>
+      <option display="Manufacturing">[Manufacturing]</option>
+      <option display="Media &amp; Communications">[Media]</option>
+      <option display="Mining, Oil, &amp; Gas">[Mining]</option>
+      <option display="Professional, Science, &amp; Technical">[Science]</option>
+      <option display="Real Estate &amp; Rentals">[RealEstate]</option>
+      <option display="Religious &amp; Volunteer">[Volunteer]</option>
+      <option display="Retail">[Retail]</option>
+      <option display="Service">[Service]</option>
+      <option display="Transportation &amp; Storage">[Transportation]</option>
+    </parameter>
+  </parameters>
+  <isLibrary>false</isLibrary>
+  <items>
+    <item name="Start" weight="1">[Industry]</item>
+  </items>
+  <imports>
+    <import>CareersByIndustry</import>
+  </imports>
+</generator>

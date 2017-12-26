@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
+  <name>Headline (Contemporary)</name>
+  <author>Lance Boudreaux</author>
+  <description>Creates a contemporary random news headline</description>
+  <tags>
+    <tag>Other</tag>
+    <tag>Modern</tag>
+  </tags>
+  <supportsMaxLength>false</supportsMaxLength>
+  <isLibrary>false</isLibrary>
+  <items>
+    <item name="Start" weight="1">&lt;div style="font-family: Georgia; font-weight: bold; font-size: 1.5em; Margin: 3px 0 3px 0;"&gt;[Subject] [Action] [Location]&lt;/div&gt;</item>
+    <item name="Subject" weight="1">A [JobC]</item>
+    <item name="Subject" weight="1">An [JobV]</item>
+    <item name="Subject" weight="1">A local [JobC+JobV]</item>
+    <item name="Subject" weight="1">A [GroupC]</item>
+    <item name="Subject" weight="1">An [GroupV]</item>
+    <item name="Subject" weight="1">A [=Pick('local','county','parish','state','federal') politician</item>
+    <item name="Subject" weight="1">[=Pick('A famous','An up-and-coming','A washed up')] [Entertainer]</item>
+    <item name="Entertainer" weight="1">actor</item>
+    <item name="Entertainer" weight="1">artist</item>
+    <item name="Entertainer" weight="1">athlete</item>
+    <item name="Entertainer" weight="1">dancer</item>
+    <item name="Entertainer" weight="1">director</item>
+    <item name="Entertainer" weight="1">musician</item>
+    <item name="Entertainer" weight="1">producer</item>
+    <item name="Entertainer" weight="1">writer</item>
+    <item name="GroupC" weight="1">group of teens</item>
+    <item name="GroupC" weight="1">group of local parents</item>
+    <item name="GroupC" weight="1">workers union</item>
+    <item name="GroupC" weight="1">teachers coalition</item>
+    <item name="GroupC" weight="1">motorcycle gang</item>
+    <item name="GroupC" weight="1">police officers union</item>
+    <item name="GroupC" weight="1">city council</item>
+    <item name="GroupC" weight="1">justice department committee</item>
+    <item name="GroupC" weight="1">group of concerned citizens</item>
+    <item name="GroupV" weight="1">internet activist group</item>
+    <item name="JobC" weight="1">[=Pick('club','bar','tavern')] owner</item>
+    <item name="JobC" weight="1">[=Pick('mechanical','petroleum','chemical','civil')] engineer</item>
+    <item name="JobC" weight="1">C[=Pick('A','B','D','E','F','O')]O</item>
+    <item name="JobC" weight="1">baker</item>
+    <item name="JobC" weight="1">bartender</item>
+    <item name="JobC" weight="1">business owner</item>
+    <item name="JobC" weight="1">businessman</item>
+    <item name="JobC" weight="1">city councilman</item>
+    <item name="JobC" weight="1">citizen</item>
+    <item name="JobC" weight="1">computer programmer</item>
+    <item name="JobC" weight="1">criminal</item>
+    <item name="JobC" weight="1">dentist</item>
+    <item name="JobC" weight="1">doctor</item>
+    <item name="JobC" weight="1">drug dealer</item>
+    <item name="JobC" weight="1">gang [=Pick('member','leader')]</item>
+    <item name="JobC" weight="1">homeless [=Pick('man','woman','child')]</item>
+    <item name="JobC" weight="1">landscaper</item>
+    <item name="JobC" weight="1">park ranger</item>
+    <item name="JobC" weight="1">police detective</item>
+    <item name="JobC" weight="1">police officer</item>
+    <item name="JobC" weight="1">police sergeant</item>
+    <item name="JobC" weight="1">private investigator</item>
+    <item name="JobC" weight="1">religious leader</item>
+    <item name="JobC" weight="1">scientist</item>
+    <item name="JobC" weight="1">stay-at-home mom</item>
+    <item name="JobC" weight="1">student</item>
+    <item name="JobC" weight="1">surgeon</item>
+    <item name="JobC" weight="1">systems administrator</item>
+    <item name="JobC" weight="1">teacher</item>
+    <item name="JobC" weight="1">teenager</item>
+    <item name="JobC" weight="1">town councilman</item>
+    <item name="JobC" weight="1">veterinarian</item>
+    <item name="JobC" weight="1">waitress</item>
+    <item name="JobV" weight="1">acrobat</item>
+    <item name="JobV" weight="1">antique dealer</item>
+    <item name="JobV" weight="1">art collector</item>
+    <item name="JobV" weight="1">artist</item>
+    <item name="JobV" weight="1">assessor</item>
+    <item name="JobV" weight="1">[=Pick('electrical','aerospace')] engineer</item>
+    <item name="JobV" weight="1">entrepreneur</item>
+    <item name="JobV" weight="1">environmentalist</item>
+    <item name="JobV" weight="1">executive</item>
+    <item name="JobV" weight="1">intern</item>
+    <item name="JobV" weight="1">insurance [=Pick('agent','adjuster')]</item>
+    <item name="JobV" weight="1">investigator</item>
+    <item name="JobV" weight="1">eye doctor</item>
+    <item name="JobV" weight="1">oil rigger</item>
+    <item name="JobV" weight="1">undertaker</item>
+    <item name="JobV" weight="1">union head</item>
+    <item name="Action" weight="1">observed acting oddly last night</item>
+    <item name="Action" weight="1">seemingly on PCP was seen running amok</item>
+    <item name="Action" weight="1">disappeared mysteriously</item>
+    <item name="Action" weight="1">found murdered</item>
+    <item name="Action" weight="1">vetoes funding for local renovation</item>
+    <item name="Action" weight="1">rioted</item>
+    <item name="Action" weight="1">decried the decaying morals of society</item>
+    <item name="Action" weight="1">are displaying symptoms of [Disease]</item>
+    <item name="Action" weight="1">claim to have seen a [=Pick('UFO','sasquatch','chupacabra','ghost','vampire','werewolf')]</item>
+    <item name="Action" weight="1">are responsible for a string of prank 911 calls</item>
+    <item name="Action" weight="1">began protesting [=Pick('recent police shooting','public school funding','welfare requirements','abortion clinics','gay rights')]</item>
+    <item name="Action" weight="1">expressed outrage at tainted products being sold to the poor</item>
+    <item name="Action" weight="1">heard muttering about [=Pick('rats','roaches','ghosts','people')] in the walls</item>
+    <item name="Action" weight="1">claimed the meat served was in fact human flesh</item>
+    <item name="Action" weight="1">found in possession of [AmountOfMoney] worth of [IllegalSubstance]</item>
+    <item name="Action" weight="1">are still looking for survivors</item>
+    <item name="Action" weight="1">have not stopped the search</item>
+    <item name="Action" weight="1">expect that there are no survivors</item>
+    <item name="Action" weight="1">notes that "Well, they were asking for it"</item>
+    <item name="Action" weight="1">is wrapped up in a sex scandal</item>
+    <item name="Action" weight="1">arrested on charges of [Crime]</item>
+    <item name="Action" weight="1">released on bond pending trial</item>
+    <item name="Action" weight="1">was [=Pick('shot','stabbed','mugged','assaulted')] and killed</item>
+    <item name="Location" weight="1">[=Pick('in front of','inside of','outside of','behind','at','near')] [LocationSub]</item>
+    <item name="Location" weight="1">behind a wall of cameras on the Capital steps</item>
+    <item name="Location" weight="1">around family dinner tables</item>
+    <item name="Location" weight="1">in their home</item>
+    <item name="Location" weight="1">in the [=Pick('wilderness','local forest')]</item>
+    <item name="Location" weight="1">in a press conference</item>
+    <item name="Location" weight="1">at an abandoned art gallery</item>
+    <item name="Location" weight="1">on the witness stand</item>
+    <item name="Location" weight="1">at the Congressional hearing</item>
+    <item name="LocationSub" weight="1">several burning cars</item>
+    <item name="LocationSub" weight="1">a car on fire</item>
+    <item name="LocationSub" weight="1">a subway station</item>
+    <item name="LocationSub" weight="1">a police station</item>
+    <item name="LocationSub" weight="1">a firehouse</item>
+    <item name="LocationSub" weight="1">a residential home</item>
+    <item name="LocationSub" weight="1">an apartment complex</item>
+    <item name="LocationSub" weight="1">the[=Pick(' state',' city','')] capitol</item>
+    <item name="LocationSub" weight="1">a [=Pick('local','national')] business office</item>
+    <item name="LocationSub" weight="1">a restaurant</item>
+    <item name="LocationSub" weight="1">a neighborhood park</item>
+    <item name="LocationSub" weight="1">a bus station</item>
+    <item name="LocationSub" weight="1">a [=Pick('science','natural history','art')] museum</item>
+    <item name="LocationSub" weight="1">a factory</item>
+    <item name="LocationSub" weight="1">a line of picketers</item>
+    <item name="LocationSub" weight="1">the local sports arena</item>
+    <item name="LocationSub" weight="1">a [=Pick('lake','pond','river','creek')]</item>
+    <item name="LocationSub" weight="1">an undeveloped lot</item>
+    <item name="LocationSub" weight="1">a supermarket</item>
+    <item name="LocationSub" weight="1">a grocer store</item>
+    <item name="LocationSub" weight="1">a general store</item>
+    <item name="LocationSub" weight="1">the courthouse</item>
+    <item name="LocationSub" weight="1">a water treatment plant</item>
+    <item name="LocationSub" weight="1">a train station</item>
+    <item name="LocationSub" weight="1">an apartment complex</item>
+    <item name="LocationSub" weight="1">a [=Pick('hotel','motel')</item>
+    <item name="LocationSub" weight="1">the sewer</item>
+    <item name="Crime" weight="1">laundering</item>
+    <item name="Crime" weight="1">murder</item>
+    <item name="Crime" weight="1">manslaughter</item>
+    <item name="Crime" weight="1">human trafficking</item>
+    <item name="Crime" weight="1">prostitution</item>
+    <item name="Crime" weight="1">bribery</item>
+    <item name="Disease" weight="1">malaria</item>
+    <item name="Disease" weight="1">scarlet fever</item>
+    <item name="Disease" weight="1">ebola</item>
+    <item name="Disease" weight="1">e coli</item>
+    <item name="Disease" weight="1">tuberculosis</item>
+    <item name="Disease" weight="1">small pox</item>
+    <item name="Disease" weight="1">an unknown disease</item>
+    <item name="AmountOfMoney" weight="1">over a million dollars</item>
+    <item name="AmountOfMoney" weight="1">thousands of dollars</item>
+    <item name="AmountOfMoney" weight="1">millions of dollars</item>
+    <item name="IllegalSubstance" weight="1">marijuana</item>
+    <item name="IllegalSubstance" weight="1">cocaine</item>
+    <item name="IllegalSubstance" weight="1">heroine</item>
+    <item name="IllegalSubstance" weight="1">PCP</item>
+    <item name="IllegalSubstance" weight="1">amphetamines</item>
+    <item name="IllegalSubstance" weight="1">prescription drugs</item>
+    <item name="IllegalSubstance" weight="1">counterfeit money</item>
+    <item name="IllegalSubstance" weight="1">moonshine</item>
+    <item name="IllegalSubstance" weight="1">stolen [=Pick('electronics','car parts','money','merchandise')]</item>
+    <item name="IllegalSubstance" weight="1">spice</item>
+  </items>
+  <imports />
+</generator>

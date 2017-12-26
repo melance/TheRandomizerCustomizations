@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
+  <supportsMaxLength>false</supportsMaxLength>
+  <isLibrary>true</isLibrary>
+  <items>
+    <item name="Monster" weight="1">[Aberration]</item>
+    <item name="Monster" weight="1">[Animal]</item>
+    <item name="Monster" weight="1">[Beast]</item>
+    <item name="Monster" weight="1">[Construct]</item>
+    <item name="Monster" weight="1">[Dragon]</item>
+    <item name="Monster" weight="1">[Elemental]</item>
+    <item name="Monster" weight="1">[Fey]</item>
+    <item name="Monster" weight="1">[Fiend]</item>
+    <item name="Monster" weight="1">[Giant]</item>
+    <item name="Monster" weight="1">[Humanoid]</item>
+    <item name="Monster" weight="1">[Ooze]</item>
+    <item name="Monster" weight="1">[Outsider]</item>
+    <item name="Monster" weight="1">[MagicalBeast]</item>
+    <item name="Monster" weight="1">[Monstrosity]</item>
+    <item name="Monster" weight="1">[Plant]</item>
+    <item name="Monster" weight="1">[ShapeChanger]</item>
+    <item name="Monster" weight="1">[Undead]</item>
+    <item name="Monster" weight="1">[Vermin]</item>
+    <item name="Aberration" weight="1">aboleth</item>
+    <item name="Aberration" weight="1">athach</item>
+    <item name="Aberration" weight="1">beholder</item>
+    <item name="Aberration" weight="1">carrion crawler</item>
+    <item name="Aberration" weight="1">chimera</item>
+    <item name="Aberration" weight="1">choker</item>
+    <item name="Aberration" weight="1">chuul</item>
+    <item name="Aberration" weight="1">cloaker</item>
+    <item name="Aberration" weight="1">delver</item>
+    <item name="Aberration" weight="1">destrachan</item>
+    <item name="Aberration" weight="1">drider</item>
+    <item name="Aberration" weight="1">ethereal filcher</item>
+    <item name="Aberration" weight="1">ettercap</item>
+    <item name="Aberration" weight="1">gibbering mouther</item>
+    <item name="Aberration" weight="1">grick</item>
+    <item name="Aberration" weight="1">mimic</item>
+    <item name="Aberration" weight="1">mind flayer</item>
+    <item name="Aberration" weight="1">[Naga]</item>
+    <item name="Aberration" weight="1">otyugh</item>
+    <item name="Aberration" weight="1">rust monster</item>
+    <item name="Aberration" weight="1">skum</item>
+    <item name="Aberration" weight="1">umber hulk</item>
+    <item name="Aberration" weight="1">will-o'-wisp</item>
+    <item name="Animal" weight="1">[DireAnimal]</item>
+    <item name="Animal" weight="1">ape</item>
+    <item name="Animal" weight="1">baboon</item>
+    <item name="Animal" weight="1">badger</item>
+    <item name="Animal" weight="1">bat</item>
+    <item name="Animal" weight="1">black bear</item>
+    <item name="Animal" weight="1">brown bear</item>
+    <item name="Animal" weight="1">polar bear</item>
+    <item name="Animal" weight="1">bison</item>
+    <item name="Animal" weight="1">boar</item>
+    <item name="Animal" weight="1">camel</item>
+    <item name="Animal" weight="1">cat</item>
+    <item name="Animal" weight="1">cheetah</item>
+    <item name="Animal" weight="1">crocodile</item>
+    <item name="Animal" weight="1">giant crocodile</item>
+    <item name="Animal" weight="1">dog</item>
+    <item name="Animal" weight="1">riding dog</item>
+    <item name="Animal" weight="1">donkey</item>
+    <item name="Animal" weight="1">eagle</item>
+    <item name="Animal" weight="1">elephant</item>
+    <item name="Animal" weight="1">hawk</item>
+    <item name="Animal" weight="1">heavy horse</item>
+    <item name="Animal" weight="1">heavy war horse</item>
+    <item name="Animal" weight="1">light horse</item>
+    <item name="Animal" weight="1">light war horse</item>
+    <item name="Animal" weight="1">leopard</item>
+    <item name="Animal" weight="1">lion</item>
+    <item name="Animal" weight="1">lizard</item>
+    <item name="Animal" weight="1">giant lizard</item>
+    <item name="Animal" weight="1">monkey</item>
+    <item name="Animal" weight="1">mule</item>
+    <item name="Animal" weight="1">octopus</item>
+    <item name="Animal" weight="1">giant octopus</item>
+    <item name="Animal" weight="1">owl</item>
+    <item name="Animal" weight="1">pony</item>
+    <item name="Animal" weight="1">war pony</item>
+    <item name="Animal" weight="1">porpoise</item>
+    <item name="Animal" weight="1">rat</item>
+    <item name="Animal" weight="1">raven</item>
+    <item name="Animal" weight="1">rhinoceros</item>
+    <item name="Animal" weight="1">shark</item>
+    <item name="Animal" weight="1">constrictor snake</item>
+    <item name="Animal" weight="1">giant constrictor snake</item>
+    <item name="Animal" weight="1">viper snake</item>
+    <item name="Animal" weight="1">squid</item>
+    <item name="Animal" weight="1">giant squid</item>
+    <item name="Animal" weight="1">baleen whale</item>
+    <item name="Animal" weight="1">cachalot whale</item>
+    <item name="Animal" weight="1">orca</item>
+    <item name="Animal" weight="1">wolf</item>
+    <item name="Animal" weight="1">wolverine</item>
+    <item name="Beast" weight="1">ankheg</item>
+    <item name="Beast" weight="1">bulette</item>
+    <item name="Beast" weight="1">[Dinosaur]</item>
+    <item name="Beast" weight="1">girallon</item>
+    <item name="Beast" weight="1">gray render</item>
+    <item name="Beast" weight="1">griffon</item>
+    <item name="Beast" weight="1">hippogriff</item>
+    <item name="Beast" weight="1">[Hydra]</item>
+    <item name="Beast" weight="1">owlbear</item>
+    <item name="Beast" weight="1">purple worm</item>
+    <item name="Beast" weight="1">roc</item>
+    <item name="Beast" weight="1">roper</item>
+    <item name="Beast" weight="1">sea lion</item>
+    <item name="Beast" weight="1">stirge</item>
+    <item name="Celestial" weight="1">lantern archon celestial</item>
+    <item name="Celestial" weight="1">hound archon celestial</item>
+    <item name="Celestial" weight="1">avoral celestial</item>
+    <item name="Celestial" weight="1">ghaele celestial</item>
+    <item name="Celestial" weight="1">trumper archon celestial</item>
+    <item name="Celestial" weight="1">astral deva celestial</item>
+    <item name="Celestial" weight="1">planetar celestial</item>
+    <item name="Celestial" weight="1">solar celestial</item>
+    <item name="ChromaticDragon" weight="1">black dragon</item>
+    <item name="ChromaticDragon" weight="1">blue dragon</item>
+    <item name="ChromaticDragon" weight="1">green dragon</item>
+    <item name="ChromaticDragon" weight="1">red dragon</item>
+    <item name="ChromaticDragon" weight="1">white dragon</item>
+    <item name="Construct" weight="1">flesh golem</item>
+    <item name="Construct" weight="1">clay golem</item>
+    <item name="Construct" weight="1">stone golem</item>
+    <item name="Construct" weight="1">iron golem</item>
+    <item name="Construct" weight="1">homunculus</item>
+    <item name="Construct" weight="1">shield guardian</item>
+    <item name="Demon" weight="1">dretch demon</item>
+    <item name="Demon" weight="1">quasit demon</item>
+    <item name="Demon" weight="1">succubus demon</item>
+    <item name="Demon" weight="1">bebilith demon</item>
+    <item name="Demon" weight="1">retriever demon</item>
+    <item name="Demon" weight="1">vrock demon</item>
+    <item name="Demon" weight="1">hezrou demon</item>
+    <item name="Demon" weight="1">glabrezu demon</item>
+    <item name="Demon" weight="1">nalfeshnee demon</item>
+    <item name="Demon" weight="1">marilith demon</item>
+    <item name="Demon" weight="1">balor demon</item>
+    <item name="Devil" weight="1">lemure</item>
+    <item name="Devil" weight="1">imp</item>
+    <item name="Devil" weight="1">osyluth</item>
+    <item name="Devil" weight="1">kyton</item>
+    <item name="Devil" weight="1">hellcat</item>
+    <item name="Devil" weight="1">barbazu</item>
+    <item name="Devil" weight="1">erinyes</item>
+    <item name="Devil" weight="1">hamatula</item>
+    <item name="Devil" weight="1">cornugon</item>
+    <item name="Devil" weight="1">gelugon</item>
+    <item name="Devil" weight="1">pit fiend</item>
+    <item name="Dinosaur" weight="1">deinonychus</item>
+    <item name="Dinosaur" weight="1">elasmosaurus</item>
+    <item name="Dinosaur" weight="1">megaraptor</item>
+    <item name="Dinosaur" weight="1">triceratops</item>
+    <item name="Dinosaur" weight="1">tyrannosaurus</item>
+    <item name="DireAnimal" weight="1">dire rat</item>
+    <item name="DireAnimal" weight="1">dire weasel</item>
+    <item name="DireAnimal" weight="1">dire badger</item>
+    <item name="DireAnimal" weight="1">dire bat</item>
+    <item name="DireAnimal" weight="1">dire ape</item>
+    <item name="DireAnimal" weight="1">dire wolverine</item>
+    <item name="DireAnimal" weight="1">dire wolf</item>
+    <item name="DireAnimal" weight="1">dire boar</item>
+    <item name="DireAnimal" weight="1">dire lion</item>
+    <item name="DireAnimal" weight="1">dire bear</item>
+    <item name="DireAnimal" weight="1">dire tiger</item>
+    <item name="DireAnimal" weight="1">dire shark</item>
+    <item name="Dragon" weight="1">[ChromaticDragon]</item>
+    <item name="Dragon" weight="1">[MetallicDragon]</item>
+    <item name="Dragon" weight="1">dragon turtle</item>
+    <item name="Dragon" weight="1">pseudodragon</item>
+    <item name="Dragon" weight="1">wyvern</item>
+    <item name="Elemental" weight="1">azer</item>
+    <item name="Elemental" weight="1">belker</item>
+    <item name="Elemental" weight="1">air elemental</item>
+    <item name="Elemental" weight="1">earth elemental</item>
+    <item name="Elemental" weight="1">fire elemental</item>
+    <item name="Elemental" weight="1">water elemental</item>
+    <item name="Elemental" weight="1">invisible stalker</item>
+    <item name="Elemental" weight="1">magmin</item>
+    <item name="Elemental" weight="1">thoqqua</item>
+    <item name="Fey" weight="1">dryad</item>
+    <item name="Fey" weight="1">nymph</item>
+    <item name="Fey" weight="1">satyr</item>
+    <item name="Fey" weight="1">[Sprite]</item>
+    <item name="Fiend" weight="1">cambion</item>
+    <item name="Formian" weight="1">formian worker</item>
+    <item name="Formian" weight="1">formian warrior</item>
+    <item name="Formian" weight="1">formian taskmaster</item>
+    <item name="Formian" weight="1">formian myrmarch</item>
+    <item name="Formian" weight="1">formian queen</item>
+    <item name="Genie" weight="1">janni</item>
+    <item name="Genie" weight="1">djinni</item>
+    <item name="Genie" weight="1">efreeti</item>
+    <item name="Giant" weight="1">ettin</item>
+    <item name="Giant" weight="1">hill giant</item>
+    <item name="Giant" weight="1">stone giant</item>
+    <item name="Giant" weight="1">frost giant</item>
+    <item name="Giant" weight="1">fire giant</item>
+    <item name="Giant" weight="1">cloud giant</item>
+    <item name="Giant" weight="1">storm giant</item>
+    <item name="Giant" weight="1">ogre</item>
+    <item name="Giant" weight="1">ogre mage</item>
+    <item name="Giant" weight="1">troll</item>
+    <item name="Hag" weight="1">sea hag</item>
+    <item name="Hag" weight="1">annia</item>
+    <item name="Hag" weight="1">green hag</item>
+    <item name="Humanoid" weight="1">aarakocra</item>
+    <item name="Humanoid" weight="1">bugbear</item>
+    <item name="Humanoid" weight="1">bullywug</item>
+    <item name="Humanoid" weight="1">centaur</item>
+    <item name="Humanoid" weight="1">dwarf</item>
+    <item name="Humanoid" weight="1">elf</item>
+    <item name="Humanoid" weight="1">gnoll</item>
+    <item name="Humanoid" weight="1">gnome</item>
+    <item name="Humanoid" weight="1">goblin</item>
+    <item name="Humanoid" weight="1">grimlock</item>
+    <item name="Humanoid" weight="1">[Hag]</item>
+    <item name="Humanoid" weight="1">halfling</item>
+    <item name="Humanoid" weight="1">harpy</item>
+    <item name="Humanoid" weight="1">hobgoblin</item>
+    <item name="Humanoid" weight="1">kobold</item>
+    <item name="Humanoid" weight="1">kuo-toa</item>
+    <item name="Humanoid" weight="1">lizardfolk</item>
+    <item name="Humanoid" weight="1">locathah</item>
+    <item name="Humanoid" weight="1">medusa</item>
+    <item name="Humanoid" weight="1">merfolk</item>
+    <item name="Humanoid" weight="1">minotaur</item>
+    <item name="Humanoid" weight="1">orc</item>
+    <item name="Humanoid" weight="1">sahuagin</item>
+    <item name="Humanoid" weight="1">troglodyte</item>
+    <item name="Humanoid" weight="1">[YuanTi]</item>
+    <item name="Hydra" weight="1">five-headed hydra</item>
+    <item name="Hydra" weight="1">six-headed hydra</item>
+    <item name="Hydra" weight="1">seven-headed hydra</item>
+    <item name="Hydra" weight="1">eight-headed hydra</item>
+    <item name="Hydra" weight="1">nine-headed hydra</item>
+    <item name="Hydra" weight="1">ten-headed hydra</item>
+    <item name="Hydra" weight="1">eleven-headed hydra</item>
+    <item name="Hydra" weight="1">twelve-headed hydra</item>
+    <item name="MagicalBeast" weight="1">basilisk</item>
+    <item name="MagicalBeast" weight="1">behir</item>
+    <item name="MagicalBeast" weight="1">blink dog</item>
+    <item name="MagicalBeast" weight="1">cockatrice</item>
+    <item name="MagicalBeast" weight="1">darkmantle</item>
+    <item name="MagicalBeast" weight="1">digester</item>
+    <item name="MagicalBeast" weight="1">displacer beast</item>
+    <item name="MagicalBeast" weight="1">dragonne</item>
+    <item name="MagicalBeast" weight="1">ethereal marauder</item>
+    <item name="MagicalBeast" weight="1">frost worm</item>
+    <item name="MagicalBeast" weight="1">gargoyle</item>
+    <item name="MagicalBeast" weight="1">giant eagle</item>
+    <item name="MagicalBeast" weight="1">giant owl</item>
+    <item name="MagicalBeast" weight="1">gorgon</item>
+    <item name="MagicalBeast" weight="1">kraken</item>
+    <item name="MagicalBeast" weight="1">krenshar</item>
+    <item name="MagicalBeast" weight="1">lamia</item>
+    <item name="MagicalBeast" weight="1">lammasu</item>
+    <item name="MagicalBeast" weight="1">manticore</item>
+    <item name="MagicalBeast" weight="1">pegasus</item>
+    <item name="MagicalBeast" weight="1">phase spider</item>
+    <item name="MagicalBeast" weight="1">remorhaz</item>
+    <item name="MagicalBeast" weight="1">shocker lizard</item>
+    <item name="MagicalBeast" weight="1">[Sphinx]</item>
+    <item name="MagicalBeast" weight="1">spider eater</item>
+    <item name="MagicalBeast" weight="1">tarrasque</item>
+    <item name="MagicalBeast" weight="1">unicorn</item>
+    <item name="MagicalBeast" weight="1">winter wolf</item>
+    <item name="MagicalBeast" weight="1">worg</item>
+    <item name="MagicalBeast" weight="1">yrthak</item>
+    <item name="Mephit" weight="1">air mephit</item>
+    <item name="Mephit" weight="1">dust mephit</item>
+    <item name="Mephit" weight="1">earth mephit</item>
+    <item name="Mephit" weight="1">fire mephit</item>
+    <item name="Mephit" weight="1">ice mephit</item>
+    <item name="Mephit" weight="1">magma mephit</item>
+    <item name="Mephit" weight="1">ooze mephit</item>
+    <item name="Mephit" weight="1">salt mephit</item>
+    <item name="Mephit" weight="1">steam mephit</item>
+    <item name="Mephit" weight="1">water mephit</item>
+    <item name="MetallicDragon" weight="1">brass dragon</item>
+    <item name="MetallicDragon" weight="1">bronze dragon</item>
+    <item name="MetallicDragon" weight="1">copper dragon</item>
+    <item name="MetallicDragon" weight="1">gold dragon</item>
+    <item name="MetallicDragon" weight="1">silver dragon</item>
+    <item name="Naga" weight="1">water naga</item>
+    <item name="Naga" weight="1">spirit naga</item>
+    <item name="Naga" weight="1">dark naga</item>
+    <item name="Naga" weight="1">guardian naga</item>
+    <item name="Nightshade" weight="1">nightwing</item>
+    <item name="Nightshade" weight="1">nightwalker</item>
+    <item name="Nightshade" weight="1">nightcrawler</item>
+    <item name="Ooze" weight="1">gray ooze</item>
+    <item name="Ooze" weight="1">gelatinous cube</item>
+    <item name="Ooze" weight="1">ochre jelly</item>
+    <item name="Ooze" weight="1">black pudding</item>
+    <item name="Outsider" weight="1">achaierai</item>
+    <item name="Outsider" weight="1">arrowhawk</item>
+    <item name="Outsider" weight="1">azer</item>
+    <item name="Outsider" weight="1">barghest</item>
+    <item name="Outsider" weight="1">[Celestial]</item>
+    <item name="Outsider" weight="1">couatl</item>
+    <item name="Outsider" weight="1">chaos beast</item>
+    <item name="Outsider" weight="1">[Demon]</item>
+    <item name="Outsider" weight="1">[Devil]</item>
+    <item name="Outsider" weight="1">[Formian]</item>
+    <item name="Outsider" weight="1">[Genie]</item>
+    <item name="Outsider" weight="1">hellhound</item>
+    <item name="Outsider" weight="1">howelr</item>
+    <item name="Outsider" weight="1">lillend</item>
+    <item name="Outsider" weight="1">[Mephit]</item>
+    <item name="Outsider" weight="1">night hag</item>
+    <item name="Outsider" weight="1">nightmare</item>
+    <item name="Outsider" weight="1">[PlaneTouched]</item>
+    <item name="Outsider" weight="1">rakshasa</item>
+    <item name="Outsider" weight="1">rast</item>
+    <item name="Outsider" weight="1">ravid</item>
+    <item name="Outsider" weight="1">[Salamander]</item>
+    <item name="Outsider" weight="1">shadow mastiff</item>
+    <item name="Outsider" weight="1">[Slaad]</item>
+    <item name="Outsider" weight="1">titan</item>
+    <item name="Outsider" weight="1">tojanida</item>
+    <item name="Outsider" weight="1">triton</item>
+    <item name="Outsider" weight="1">vargouille</item>
+    <item name="Outsider" weight="1">xill</item>
+    <item name="Outsider" weight="1">xorn</item>
+    <item name="Outsider" weight="1">yeth hound</item>
+    <item name="PlaneTouched" weight="1">aasimar</item>
+    <item name="PlaneTouched" weight="1">tiefling</item>
+    <item name="Plant" weight="1">assassin vine</item>
+    <item name="Plant" weight="1">shrieker</item>
+    <item name="Plant" weight="1">violet fungus</item>
+    <item name="Plant" weight="1">phantom fungus</item>
+    <item name="Plant" weight="1">shambling mound</item>
+    <item name="Plant" weight="1">tendriculos</item>
+    <item name="Plant" weight="1">treant</item>
+    <item name="Salamander" weight="1">flamebrother</item>
+    <item name="Salamander" weight="1">average salamander</item>
+    <item name="Salamander" weight="1">noble salamander</item>
+    <item name="ShapeChanger" weight="1">aranea</item>
+    <item name="ShapeChanger" weight="1">doppelganger</item>
+    <item name="ShapeChanger" weight="1">phasm</item>
+    <item name="Slaad" weight="1">red slaad</item>
+    <item name="Slaad" weight="1">blue slaad</item>
+    <item name="Slaad" weight="1">gray slaad</item>
+    <item name="Slaad" weight="1">death slaad</item>
+    <item name="Sphinx" weight="1">androsphinx</item>
+    <item name="Sphinx" weight="1">crisosphinx</item>
+    <item name="Sphinx" weight="1">gynosphinx</item>
+    <item name="Sprite" weight="1">grig</item>
+    <item name="Sprite" weight="1">nixie</item>
+    <item name="Sprite" weight="1">pixie</item>
+    <item name="Undead" weight="1">allip</item>
+    <item name="Undead" weight="1">banshee</item>
+    <item name="Undead" weight="1">bodak</item>
+    <item name="Undead" weight="1">devourer</item>
+    <item name="Undead" weight="1">ghast</item>
+    <item name="Undead" weight="1">ghoul</item>
+    <item name="Undead" weight="1">mohrg</item>
+    <item name="Undead" weight="1">mummy</item>
+    <item name="Undead" weight="1">[Nightshade]</item>
+    <item name="Undead" weight="1">shadow</item>
+    <item name="Undead" weight="1">skeleton</item>
+    <item name="Undead" weight="1">spectre</item>
+    <item name="Undead" weight="1">vampire spawn</item>
+    <item name="Undead" weight="1">wight</item>
+    <item name="Undead" weight="1">wraith</item>
+    <item name="Undead" weight="1">zombie</item>
+    <item name="Vermin" weight="1">giant worker ant</item>
+    <item name="Vermin" weight="1">giant soldier ant</item>
+    <item name="Vermin" weight="1">giant queen ant</item>
+    <item name="Vermin" weight="1">giant bee</item>
+    <item name="Vermin" weight="1">giant bombardier beetle</item>
+    <item name="Vermin" weight="1">giant fire beetle</item>
+    <item name="Vermin" weight="1">giant stag beetle</item>
+    <item name="Vermin" weight="1">giant praying mantis</item>
+    <item name="Vermin" weight="1">giant wasp</item>
+    <item name="Vermin" weight="1">monstrous centipede</item>
+    <item name="Vermin" weight="1">monstrous scorpion</item>
+    <item name="Vermin" weight="1">monstrous spider</item>
+    <item name="YuanTi" weight="1">pureblood yuan-ti</item>
+    <item name="YuanTi" weight="1">halfblood yuan-ti</item>
+    <item name="Yuanti" weight="1">abomination yuan-ti</item>
+  </items>
+  <imports />
+</generator>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
 <generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
-  <name>US Names</name>
+  <name>UK Names</name>
   <author>Lance Boudreaux</author>
-  <description>A full name generator that presents names based on the top 300 male first, female first, and surnames.</description>
+  <description>A full name generator that presents names based on the top male first, female first, and surnames from England, Ireland, Scotland, and Wales.</description>
   <tags>
     <tag>Name</tag>
     <tag>Modern</tag>
@@ -18,11 +18,11 @@
   <isLibrary>false</isLibrary>
   <items>
     <item name="Start" weight="1">[Gender]</item>
-    <item name="Any" weight="1">[USFullName]</item>
-    <item name="Male" weight="1">[USMaleFullName]</item>
-    <item name="Female" weight="1">[USFemaleFullName]</item>
+    <item name="Any" weight="1">[UKFullName]</item>
+    <item name="Male" weight="1">[UKMaleFullName]</item>
+    <item name="Female" weight="1">[UKFemaleFullName]</item>
   </items>
   <imports>
-    <import>USNamesLibrary</import>
+    <import>UKNamesLibrary</import>
   </imports>
 </generator>

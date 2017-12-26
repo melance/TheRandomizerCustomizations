@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
+  <name>Five Room "Dungeon"</name>
+  <author>Lance Boudreaux</author>
+  <description>Generates an outline for a five room dungeon.</description>
+  <url>http://www.reddit.com/r/therandomizer</url>
+  <tags>
+    <tag>Encounter</tag>
+  </tags>
+  <supportsMaxLength>false</supportsMaxLength>
+  <isLibrary>false</isLibrary>
+  <items>
+    <item name="Start" next="content" weight="1">[themes]</item>
+    <item name="themes" weight="1" variable="theme">Kobolds</item>
+    <item name="content" weight="1" />
+  </items>
+  <imports />
+</generator>

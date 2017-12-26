@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
+  <name>Injuries</name>
+  <author>Lance Boudreaux</author>
+  <description>Creates random injuries from minor to permanent.</description>
+  <tags>
+    <tag>Other</tag>
+  </tags>
+  <supportsMaxLength>false</supportsMaxLength>
+  <parameters>
+    <parameter name="Severity" value="Any" display="Severity" type="List">
+      <option display="Any">Any</option>
+      <option display="Minor">Minor</option>
+      <option display="Major">Major</option>
+      <option display="Permanent">Permanent</option>
+    </parameter>
+  </parameters>
+  <isLibrary>false</isLibrary>
+  <items>
+    <item name="Start" weight="1">[Severity]</item>
+    <item name="Any" weight="1">[Minor]</item>
+    <item name="Any" weight="1">[Major]</item>
+    <item name="Any" weight="1">[Permanent]</item>
+    <item name="Minor" weight="1">Black eye</item>
+    <item name="Minor" weight="1">Bruised ribs</item>
+    <item name="Minor" weight="1">Exhaustion</item>
+    <item name="Minor" weight="1">1st degree burn</item>
+    <item name="Minor" weight="1">2nd degree burn</item>
+    <item name="Minor" weight="1">Minor concussion</item>
+    <item name="Minor" weight="1">Sprained ankle</item>
+    <item name="Minor" weight="1">Sprained hand</item>
+    <item name="Minor" weight="1">Sprained wrist</item>
+    <item name="Minor" weight="1">Stunned</item>
+    <item name="Minor" weight="1">Swollen eye</item>
+    <item name="Minor" weight="1">Temporary tinnitus</item>
+    <item name="Major" weight="1">3rd degree burn</item>
+    <item name="Major" weight="1">Abdominal contusion</item>
+    <item name="Major" weight="1">Coma</item>
+    <item name="Major" weight="1">Compound fractured [BodyPart]</item>
+    <item name="Major" weight="1">Concussion</item>
+    <item name="Major" weight="1">Cracked skull</item>
+    <item name="Major" weight="1">Fractured [BodyPart]</item>
+    <item name="Major" weight="1">Lost tooth</item>
+    <item name="Major" weight="1">Puncture wound</item>
+    <item name="Major" weight="1">Severe laceration</item>
+    <item name="Major" weight="1">Slipped vertebrae</item>
+    <item name="Major" weight="1">Unconscious</item>
+    <item name="Permanent" weight="1">4th degree burn</item>
+    <item name="Permanent" weight="1">Blinded</item>
+    <item name="Permanent" weight="1">Brain damage</item>
+    <item name="Permanent" weight="1">Broken spine (paraplegic)</item>
+    <item name="Permanent" weight="1">Broken spine (quadriplegic)</item>
+    <item name="Permanent" weight="1">Deafened</item>
+    <item name="Permanent" weight="1">Finger severed</item>
+    <item name="Permanent" weight="1">Lost eye</item>
+    <item name="Permanent" weight="1">Lost tongue</item>
+    <item name="Permanent" weight="1">Severed [BodyPart]</item>
+    <item name="Permanent" weight="1">Severed ear</item>
+    <item name="Permanent" weight="1">Tinnitus</item>
+    <item name="BodyPart" weight="1">ankle</item>
+    <item name="BodyPart" weight="1">arm</item>
+    <item name="BodyPart" weight="1">foot</item>
+    <item name="BodyPart" weight="1">jaw</item>
+    <item name="BodyPart" weight="1">leg</item>
+    <item name="BodyPart" weight="1">hand</item>
+    <item name="BodyPart" weight="1">rib</item>
+    <item name="BodyPart" weight="1">wrist</item>
+  </items>
+  <imports />
+</generator>

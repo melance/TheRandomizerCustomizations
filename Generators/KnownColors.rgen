@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
+  <supportsMaxLength>false</supportsMaxLength>
+  <isLibrary>true</isLibrary>
+  <items>
+    <item name="Color" weight="1">alice blue</item>
+    <item name="Color" weight="1">antique white</item>
+    <item name="Color" weight="1">aqua</item>
+    <item name="Color" weight="1">aquamarine</item>
+    <item name="Color" weight="1">azure</item>
+    <item name="Color" weight="1">beige</item>
+    <item name="Color" weight="1">bisque</item>
+    <item name="Color" weight="1">black</item>
+    <item name="Color" weight="1">blanched almond</item>
+    <item name="Color" weight="1">blue</item>
+    <item name="Color" weight="1">blue violet</item>
+    <item name="Color" weight="1">brown</item>
+    <item name="Color" weight="1">burly wood</item>
+    <item name="Color" weight="1">cadet blue</item>
+    <item name="Color" weight="1">chartreuse</item>
+    <item name="Color" weight="1">chocolate</item>
+    <item name="Color" weight="1">coral</item>
+    <item name="Color" weight="1">cornflower blue</item>
+    <item name="Color" weight="1">cornsilk</item>
+    <item name="Color" weight="1">crimson</item>
+    <item name="Color" weight="1">cyan</item>
+    <item name="Color" weight="1">dark blue</item>
+    <item name="Color" weight="1">dark cyan</item>
+    <item name="Color" weight="1">dark goldenrod</item>
+    <item name="Color" weight="1">dark gray</item>
+    <item name="Color" weight="1">dark green</item>
+    <item name="Color" weight="1">dark khaki</item>
+    <item name="Color" weight="1">dark magenta</item>
+    <item name="Color" weight="1">dark olive green</item>
+    <item name="Color" weight="1">dark orange</item>
+    <item name="Color" weight="1">dark orchid</item>
+    <item name="Color" weight="1">dark red</item>
+    <item name="Color" weight="1">dark salmon</item>
+    <item name="Color" weight="1">dark sea green</item>
+    <item name="Color" weight="1">dark slate blue</item>
+    <item name="Color" weight="1">dark slate gray</item>
+    <item name="Color" weight="1">dark turquoise</item>
+    <item name="Color" weight="1">dark violet</item>
+    <item name="Color" weight="1">deep pink</item>
+    <item name="Color" weight="1">deep sky blue</item>
+    <item name="Color" weight="1">dim gray</item>
+    <item name="Color" weight="1">dodger blue</item>
+    <item name="Color" weight="1">firebrick</item>
+    <item name="Color" weight="1">floral white</item>
+    <item name="Color" weight="1">forest green</item>
+    <item name="Color" weight="1">fuchsia</item>
+    <item name="Color" weight="1">gainsboro</item>
+    <item name="Color" weight="1">ghost white</item>
+    <item name="Color" weight="1">gold</item>
+    <item name="Color" weight="1">goldenrod</item>
+    <item name="Color" weight="1">gray</item>
+    <item name="Color" weight="1">green</item>
+    <item name="Color" weight="1">green yellow</item>
+    <item name="Color" weight="1">honeydew</item>
+    <item name="Color" weight="1">hot pink</item>
+    <item name="Color" weight="1">indian red</item>
+    <item name="Color" weight="1">indigo</item>
+    <item name="Color" weight="1">ivory</item>
+    <item name="Color" weight="1">khaki</item>
+    <item name="Color" weight="1">lavender</item>
+    <item name="Color" weight="1">lavender blush</item>
+    <item name="Color" weight="1">lawn green</item>
+    <item name="Color" weight="1">lemon chiffon</item>
+    <item name="Color" weight="1">light blue</item>
+    <item name="Color" weight="1">light coral</item>
+    <item name="Color" weight="1">light cyan</item>
+    <item name="Color" weight="1">light goldenrod yellow</item>
+    <item name="Color" weight="1">light gray</item>
+    <item name="Color" weight="1">light green</item>
+    <item name="Color" weight="1">light pink</item>
+    <item name="Color" weight="1">light salmon</item>
+    <item name="Color" weight="1">light sea green</item>
+    <item name="Color" weight="1">light sky blue</item>
+    <item name="Color" weight="1">light slate gray</item>
+    <item name="Color" weight="1">light steel blue</item>
+    <item name="Color" weight="1">light yellow</item>
+    <item name="Color" weight="1">lime</item>
+    <item name="Color" weight="1">lime green</item>
+    <item name="Color" weight="1">linen</item>
+    <item name="Color" weight="1">magenta</item>
+    <item name="Color" weight="1">maroon</item>
+    <item name="Color" weight="1">medium aquamarine</item>
+    <item name="Color" weight="1">medium blue</item>
+    <item name="Color" weight="1">medium orchid</item>
+    <item name="Color" weight="1">medium purple</item>
+    <item name="Color" weight="1">medium sea green</item>
+    <item name="Color" weight="1">medium slate blue</item>
+    <item name="Color" weight="1">medium spring green</item>
+    <item name="Color" weight="1">medium turquoise</item>
+    <item name="Color" weight="1">medium violet red</item>
+    <item name="Color" weight="1">midnight blue</item>
+    <item name="Color" weight="1">mint cream</item>
+    <item name="Color" weight="1">misty rose</item>
+    <item name="Color" weight="1">moccasin</item>
+    <item name="Color" weight="1">navajo white</item>
+    <item name="Color" weight="1">navy</item>
+    <item name="Color" weight="1">old lace</item>
+    <item name="Color" weight="1">olive</item>
+    <item name="Color" weight="1">olive drab</item>
+    <item name="Color" weight="1">orange</item>
+    <item name="Color" weight="1">orange red</item>
+    <item name="Color" weight="1">orchid</item>
+    <item name="Color" weight="1">pale goldenrod</item>
+    <item name="Color" weight="1">pale green</item>
+    <item name="Color" weight="1">pale turquoise</item>
+    <item name="Color" weight="1">pale violet red</item>
+    <item name="Color" weight="1">papaya whip</item>
+    <item name="Color" weight="1">peach puff</item>
+    <item name="Color" weight="1">peru</item>
+    <item name="Color" weight="1">pink</item>
+    <item name="Color" weight="1">plum</item>
+    <item name="Color" weight="1">powder blue</item>
+    <item name="Color" weight="1">purple</item>
+    <item name="Color" weight="1">red</item>
+    <item name="Color" weight="1">rosy brown</item>
+    <item name="Color" weight="1">royal blue</item>
+    <item name="Color" weight="1">saddle brown</item>
+    <item name="Color" weight="1">salmon</item>
+    <item name="Color" weight="1">sandy brown</item>
+    <item name="Color" weight="1">sea green</item>
+    <item name="Color" weight="1">sea shell</item>
+    <item name="Color" weight="1">sienna</item>
+    <item name="Color" weight="1">silver</item>
+    <item name="Color" weight="1">sky blue</item>
+    <item name="Color" weight="1">slate blue</item>
+    <item name="Color" weight="1">slate gray</item>
+    <item name="Color" weight="1">snow</item>
+    <item name="Color" weight="1">spring green</item>
+    <item name="Color" weight="1">steel blue</item>
+    <item name="Color" weight="1">tan</item>
+    <item name="Color" weight="1">teal</item>
+    <item name="Color" weight="1">thistle</item>
+    <item name="Color" weight="1">tomato</item>
+    <item name="Color" weight="1">turquoise</item>
+    <item name="Color" weight="1">violet</item>
+    <item name="Color" weight="1">wheat</item>
+    <item name="Color" weight="1">white</item>
+    <item name="Color" weight="1">white smoke</item>
+    <item name="Color" weight="1">yellow</item>
+    <item name="Color" weight="1">yellow green</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #F0F8FF;"&gt;alice blue&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FAEBD7"&gt;antique white&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #00FFFF"&gt;aqua&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #7FFFD4"&gt;aquamarine&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #F0FFFF"&gt;azure&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #F5F5DC"&gt;beige&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFE4C4"&gt;bisque&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #000000"&gt;black&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFEBCD"&gt;blanched almond&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #0000FF"&gt;blue&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #8A2BE2"&gt;blue violet&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #A52A2A"&gt;brown&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #DEB887"&gt;burly wood&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #5F9EA0"&gt;cadet blue&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #7FFF00"&gt;chartreuse&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #D2691E"&gt;chocolate&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FF7F50"&gt;coral&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #6495ED"&gt;cornflower blue&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFF8DC"&gt;cornsilk&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #DC143C"&gt;crimson&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #00FFFF"&gt;cyan&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #00008B"&gt;dark blue&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #008B8B"&gt;dark cyan&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #B8860B"&gt;dark goldenrod&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #A9A9A9"&gt;dark gray&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #006400"&gt;dark green&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #BDB76B"&gt;dark khaki&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #8B008B"&gt;dark magenta&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #556B2F"&gt;dark olive green&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FF8C00"&gt;dark orange&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #9932CC"&gt;dark orchid&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #8B0000"&gt;dark red&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #E9967A"&gt;dark salmon&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #8FBC8B"&gt;dark sea green&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #483D8B"&gt;dark slate blue&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #2F4F4F"&gt;dark slate gray&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #00CED1"&gt;dark turquoise&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #9400D3"&gt;dark violet&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FF1493"&gt;deep pink&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #00BFFF"&gt;deep sky blue&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #696969"&gt;dim gray&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #1E90FF"&gt;dodger blue&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #B22222"&gt;firebrick&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFFAF0"&gt;floral white&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #228B22"&gt;forest green&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FF00FF"&gt;fuchsia&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #DCDCDC"&gt;gainsboro&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #F8F8FF"&gt;ghost white&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFD700"&gt;gold&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #DAA520"&gt;goldenrod&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #808080"&gt;gray&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #008000"&gt;green&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #ADFF2F"&gt;green yellow&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #F0FFF0"&gt;honeydew&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FF69B4"&gt;hot pink&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #CD5C5C"&gt;indian red&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #4B0082"&gt;indigo&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFFFF0"&gt;ivory&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #F0E68C"&gt;khaki&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #E6E6FA"&gt;lavender&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFF0F5"&gt;lavender blush&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #7CFC00"&gt;lawn green&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFFACD"&gt;lemon chiffon&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #ADD8E6"&gt;light blue&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #F08080"&gt;light coral&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #E0FFFF"&gt;light cyan&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FAFAD2"&gt;light goldenrod yellow&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #D3D3D3"&gt;light gray&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #90EE90"&gt;light green&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFB6C1"&gt;light pink&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFA07A"&gt;light salmon&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #20B2AA"&gt;light sea green&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #87CEFA"&gt;light sky blue&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #778899"&gt;light slate gray&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #B0C4DE"&gt;light steel blue&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFFFE0"&gt;light yellow&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #00FF00"&gt;lime&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #32CD32"&gt;lime green&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FAF0E6"&gt;linen&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FF00FF"&gt;magenta&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #800000"&gt;maroon&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #66CDAA"&gt;medium aquamarine&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #0000CD"&gt;medium blue&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #BA55D3"&gt;medium orchid&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #9370DB"&gt;medium purple&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #3CB371"&gt;medium sea green&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #7B68EE"&gt;medium slate blue&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #00FA9A"&gt;medium spring green&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #48D1CC"&gt;medium turquoise&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #C71585"&gt;medium violet red&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #191970"&gt;midnight blue&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #F5FFFA"&gt;mint cream&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFE4E1"&gt;misty rose&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFE4B5"&gt;moccasin&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFDEAD"&gt;navajo white&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #000080"&gt;navy&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FDF5E6"&gt;old lace&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #808000"&gt;olive&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #6B8E23"&gt;olive drab&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFA500"&gt;orange&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FF4500"&gt;orange red&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #DA70D6"&gt;orchid&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #EEE8AA"&gt;pale goldenrod&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #98FB98"&gt;pale green&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #AFEEEE"&gt;pale turquoise&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #DB7093"&gt;pale violet red&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFEFD5"&gt;papaya whip&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFDAB9"&gt;peach puff&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #CD853F"&gt;peru&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFC0CB"&gt;pink&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #DDA0DD"&gt;plum&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #B0E0E6"&gt;powder blue&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #800080"&gt;purple&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FF0000"&gt;red&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #BC8F8F"&gt;rosy brown&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #4169E1"&gt;royal blue&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #8B4513"&gt;saddle brown&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FA8072"&gt;salmon&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #F4A460"&gt;sandy brown&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #2E8B57"&gt;sea green&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFF5EE"&gt;sea shell&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #A0522D"&gt;sienna&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #C0C0C0"&gt;silver&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #87CEEB"&gt;sky blue&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #6A5ACD"&gt;slate blue&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #708090"&gt;slate gray&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFFAFA"&gt;snow&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #00FF7F"&gt;spring green&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #4682B4"&gt;steel blue&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #D2B48C"&gt;tan&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #008080"&gt;teal&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #D8BFD8"&gt;thistle&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FF6347"&gt;tomato&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #40E0D0"&gt;turquoise&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #EE82EE"&gt;violet&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #F5DEB3"&gt;wheat&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFFFFF"&gt;white&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #F5F5F5"&gt;white smoke&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #FFFF00"&gt;yellow&lt;/div&gt;</item>
+    <item name="ColorBackground" weight="1">&lt;div style="background: #9ACD32"&gt;yellow green&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #F0F8FF"&gt;alice blue&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FAEBD7"&gt;antique white&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #00FFFF"&gt;aqua&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #7FFFD4"&gt;aquamarine&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #F0FFFF"&gt;azure&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #F5F5DC"&gt;beige&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFE4C4"&gt;bisque&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #000000"&gt;black&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFEBCD"&gt;blanched almond&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #0000FF"&gt;blue&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #8A2BE2"&gt;blue violet&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #A52A2A"&gt;brown&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #DEB887"&gt;burly wood&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #5F9EA0"&gt;cadet blue&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #7FFF00"&gt;chartreuse&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #D2691E"&gt;chocolate&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FF7F50"&gt;coral&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #6495ED"&gt;cornflower blue&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFF8DC"&gt;cornsilk&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #DC143C"&gt;crimson&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #00FFFF"&gt;cyan&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #00008B"&gt;dark blue&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #008B8B"&gt;dark cyan&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #B8860B"&gt;dark goldenrod&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #A9A9A9"&gt;dark gray&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #006400"&gt;dark green&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #BDB76B"&gt;dark khaki&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #8B008B"&gt;dark magenta&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #556B2F"&gt;dark olive green&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FF8C00"&gt;dark orange&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #9932CC"&gt;dark orchid&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #8B0000"&gt;dark red&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #E9967A"&gt;dark salmon&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #8FBC8B"&gt;dark sea green&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #483D8B"&gt;dark slate blue&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #2F4F4F"&gt;dark slate gray&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #00CED1"&gt;dark turquoise&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #9400D3"&gt;dark violet&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FF1493"&gt;deep pink&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #00BFFF"&gt;deep sky blue&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #696969"&gt;dim gray&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #1E90FF"&gt;dodger blue&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #B22222"&gt;firebrick&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFFAF0"&gt;floral white&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #228B22"&gt;forest green&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FF00FF"&gt;fuchsia&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #DCDCDC"&gt;gainsboro&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #F8F8FF"&gt;ghost white&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFD700"&gt;gold&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #DAA520"&gt;goldenrod&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #808080"&gt;gray&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #008000"&gt;green&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #ADFF2F"&gt;green yellow&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #F0FFF0"&gt;honeydew&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FF69B4"&gt;hot pink&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #CD5C5C"&gt;indian red&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #4B0082"&gt;indigo&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFFFF0"&gt;ivory&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #F0E68C"&gt;khaki&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #E6E6FA"&gt;lavender&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFF0F5"&gt;lavender blush&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #7CFC00"&gt;lawn green&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFFACD"&gt;lemon chiffon&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #ADD8E6"&gt;light blue&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #F08080"&gt;light coral&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #E0FFFF"&gt;light cyan&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FAFAD2"&gt;light goldenrod yellow&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #D3D3D3"&gt;light gray&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #90EE90"&gt;light green&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFB6C1"&gt;light pink&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFA07A"&gt;light salmon&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #20B2AA"&gt;light sea green&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #87CEFA"&gt;light sky blue&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #778899"&gt;light slate gray&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #B0C4DE"&gt;light steel blue&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFFFE0"&gt;light yellow&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #00FF00"&gt;lime&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #32CD32"&gt;lime green&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FAF0E6"&gt;linen&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FF00FF"&gt;magenta&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #800000"&gt;maroon&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #66CDAA"&gt;medium aquamarine&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #0000CD"&gt;medium blue&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #BA55D3"&gt;medium orchid&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #9370DB"&gt;medium purple&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #3CB371"&gt;medium sea green&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #7B68EE"&gt;medium slate blue&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #00FA9A"&gt;medium spring green&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #48D1CC"&gt;medium turquoise&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #C71585"&gt;medium violet red&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #191970"&gt;midnight blue&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #F5FFFA"&gt;mint cream&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFE4E1"&gt;misty rose&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFE4B5"&gt;moccasin&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFDEAD"&gt;navajo white&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #000080"&gt;navy&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FDF5E6"&gt;old lace&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #808000"&gt;olive&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #6B8E23"&gt;olive drab&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFA500"&gt;orange&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FF4500"&gt;orange red&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #DA70D6"&gt;orchid&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #EEE8AA"&gt;pale goldenrod&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #98FB98"&gt;pale green&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #AFEEEE"&gt;pale turquoise&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #DB7093"&gt;pale violet red&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFEFD5"&gt;papaya whip&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFDAB9"&gt;peach puff&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #CD853F"&gt;peru&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFC0CB"&gt;pink&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #DDA0DD"&gt;plum&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #B0E0E6"&gt;powder blue&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #800080"&gt;purple&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FF0000"&gt;red&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #BC8F8F"&gt;rosy brown&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #4169E1"&gt;royal blue&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #8B4513"&gt;saddle brown&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FA8072"&gt;salmon&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #F4A460"&gt;sandy brown&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #2E8B57"&gt;sea green&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFF5EE"&gt;sea shell&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #A0522D"&gt;sienna&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #C0C0C0"&gt;silver&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #87CEEB"&gt;sky blue&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #6A5ACD"&gt;slate blue&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #708090"&gt;slate gray&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFFAFA"&gt;snow&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #00FF7F"&gt;spring green&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #4682B4"&gt;steel blue&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #D2B48C"&gt;tan&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #008080"&gt;teal&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #D8BFD8"&gt;thistle&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FF6347"&gt;tomato&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #40E0D0"&gt;turquoise&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #EE82EE"&gt;violet&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #F5DEB3"&gt;wheat&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFFFFF"&gt;white&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #F5F5F5"&gt;white smoke&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #FFFF00"&gt;yellow&lt;/div&gt;</item>
+    <item name="ColorForeground" weight="1">&lt;div style="color: #9ACD32"&gt;yellow green&lt;/div&gt;</item>
+    <item name="Color HTML" weight="1">#F0F8FF</item>
+    <item name="Color HTML" weight="1">#FAEBD7</item>
+    <item name="Color HTML" weight="1">#00FFFF</item>
+    <item name="Color HTML" weight="1">#7FFFD4</item>
+    <item name="Color HTML" weight="1">#F0FFFF</item>
+    <item name="Color HTML" weight="1">#F5F5DC</item>
+    <item name="Color HTML" weight="1">#FFE4C4</item>
+    <item name="Color HTML" weight="1">#000000</item>
+    <item name="Color HTML" weight="1">#FFEBCD</item>
+    <item name="Color HTML" weight="1">#0000FF</item>
+    <item name="Color HTML" weight="1">#8A2BE2</item>
+    <item name="Color HTML" weight="1">#A52A2A</item>
+    <item name="Color HTML" weight="1">#DEB887</item>
+    <item name="Color HTML" weight="1">#5F9EA0</item>
+    <item name="Color HTML" weight="1">#7FFF00</item>
+    <item name="Color HTML" weight="1">#D2691E</item>
+    <item name="Color HTML" weight="1">#FF7F50</item>
+    <item name="Color HTML" weight="1">#6495ED</item>
+    <item name="Color HTML" weight="1">#FFF8DC</item>
+    <item name="Color HTML" weight="1">#DC143C</item>
+    <item name="Color HTML" weight="1">#00FFFF</item>
+    <item name="Color HTML" weight="1">#00008B</item>
+    <item name="Color HTML" weight="1">#008B8B</item>
+    <item name="Color HTML" weight="1">#B8860B</item>
+    <item name="Color HTML" weight="1">#A9A9A9</item>
+    <item name="Color HTML" weight="1">#006400</item>
+    <item name="Color HTML" weight="1">#BDB76B</item>
+    <item name="Color HTML" weight="1">#8B008B</item>
+    <item name="Color HTML" weight="1">#556B2F</item>
+    <item name="Color HTML" weight="1">#FF8C00</item>
+    <item name="Color HTML" weight="1">#9932CC</item>
+    <item name="Color HTML" weight="1">#8B0000</item>
+    <item name="Color HTML" weight="1">#E9967A</item>
+    <item name="Color HTML" weight="1">#8FBC8B</item>
+    <item name="Color HTML" weight="1">#483D8B</item>
+    <item name="Color HTML" weight="1">#2F4F4F</item>
+    <item name="Color HTML" weight="1">#00CED1</item>
+    <item name="Color HTML" weight="1">#9400D3</item>
+    <item name="Color HTML" weight="1">#FF1493</item>
+    <item name="Color HTML" weight="1">#00BFFF</item>
+    <item name="Color HTML" weight="1">#696969</item>
+    <item name="Color HTML" weight="1">#1E90FF</item>
+    <item name="Color HTML" weight="1">#B22222</item>
+    <item name="Color HTML" weight="1">#FFFAF0</item>
+    <item name="Color HTML" weight="1">#228B22</item>
+    <item name="Color HTML" weight="1">#FF00FF</item>
+    <item name="Color HTML" weight="1">#DCDCDC</item>
+    <item name="Color HTML" weight="1">#F8F8FF</item>
+    <item name="Color HTML" weight="1">#FFD700</item>
+    <item name="Color HTML" weight="1">#DAA520</item>
+    <item name="Color HTML" weight="1">#808080</item>
+    <item name="Color HTML" weight="1">#008000</item>
+    <item name="Color HTML" weight="1">#ADFF2F</item>
+    <item name="Color HTML" weight="1">#F0FFF0</item>
+    <item name="Color HTML" weight="1">#FF69B4</item>
+    <item name="Color HTML" weight="1">#CD5C5C</item>
+    <item name="Color HTML" weight="1">#4B0082</item>
+    <item name="Color HTML" weight="1">#FFFFF0</item>
+    <item name="Color HTML" weight="1">#F0E68C</item>
+    <item name="Color HTML" weight="1">#E6E6FA</item>
+    <item name="Color HTML" weight="1">#FFF0F5</item>
+    <item name="Color HTML" weight="1">#7CFC00</item>
+    <item name="Color HTML" weight="1">#FFFACD</item>
+    <item name="Color HTML" weight="1">#ADD8E6</item>
+    <item name="Color HTML" weight="1">#F08080</item>
+    <item name="Color HTML" weight="1">#E0FFFF</item>
+    <item name="Color HTML" weight="1">#FAFAD2</item>
+    <item name="Color HTML" weight="1">#D3D3D3</item>
+    <item name="Color HTML" weight="1">#90EE90</item>
+    <item name="Color HTML" weight="1">#FFB6C1</item>
+    <item name="Color HTML" weight="1">#FFA07A</item>
+    <item name="Color HTML" weight="1">#20B2AA</item>
+    <item name="Color HTML" weight="1">#87CEFA</item>
+    <item name="Color HTML" weight="1">#778899</item>
+    <item name="Color HTML" weight="1">#B0C4DE</item>
+    <item name="Color HTML" weight="1">#FFFFE0</item>
+    <item name="Color HTML" weight="1">#00FF00</item>
+    <item name="Color HTML" weight="1">#32CD32</item>
+    <item name="Color HTML" weight="1">#FAF0E6</item>
+    <item name="Color HTML" weight="1">#FF00FF</item>
+    <item name="Color HTML" weight="1">#800000</item>
+    <item name="Color HTML" weight="1">#66CDAA</item>
+    <item name="Color HTML" weight="1">#0000CD</item>
+    <item name="Color HTML" weight="1">#BA55D3</item>
+    <item name="Color HTML" weight="1">#9370DB</item>
+    <item name="Color HTML" weight="1">#3CB371</item>
+    <item name="Color HTML" weight="1">#7B68EE</item>
+    <item name="Color HTML" weight="1">#00FA9A</item>
+    <item name="Color HTML" weight="1">#48D1CC</item>
+    <item name="Color HTML" weight="1">#C71585</item>
+    <item name="Color HTML" weight="1">#191970</item>
+    <item name="Color HTML" weight="1">#F5FFFA</item>
+    <item name="Color HTML" weight="1">#FFE4E1</item>
+    <item name="Color HTML" weight="1">#FFE4B5</item>
+    <item name="Color HTML" weight="1">#FFDEAD</item>
+    <item name="Color HTML" weight="1">#000080</item>
+    <item name="Color HTML" weight="1">#FDF5E6</item>
+    <item name="Color HTML" weight="1">#808000</item>
+    <item name="Color HTML" weight="1">#6B8E23</item>
+    <item name="Color HTML" weight="1">#FFA500</item>
+    <item name="Color HTML" weight="1">#FF4500</item>
+    <item name="Color HTML" weight="1">#DA70D6</item>
+    <item name="Color HTML" weight="1">#EEE8AA</item>
+    <item name="Color HTML" weight="1">#98FB98</item>
+    <item name="Color HTML" weight="1">#AFEEEE</item>
+    <item name="Color HTML" weight="1">#DB7093</item>
+    <item name="Color HTML" weight="1">#FFEFD5</item>
+    <item name="Color HTML" weight="1">#FFDAB9</item>
+    <item name="Color HTML" weight="1">#CD853F</item>
+    <item name="Color HTML" weight="1">#FFC0CB</item>
+    <item name="Color HTML" weight="1">#DDA0DD</item>
+    <item name="Color HTML" weight="1">#B0E0E6</item>
+    <item name="Color HTML" weight="1">#800080</item>
+    <item name="Color HTML" weight="1">#FF0000</item>
+    <item name="Color HTML" weight="1">#BC8F8F</item>
+    <item name="Color HTML" weight="1">#4169E1</item>
+    <item name="Color HTML" weight="1">#8B4513</item>
+    <item name="Color HTML" weight="1">#FA8072</item>
+    <item name="Color HTML" weight="1">#F4A460</item>
+    <item name="Color HTML" weight="1">#2E8B57</item>
+    <item name="Color HTML" weight="1">#FFF5EE</item>
+    <item name="Color HTML" weight="1">#A0522D</item>
+    <item name="Color HTML" weight="1">#C0C0C0</item>
+    <item name="Color HTML" weight="1">#87CEEB</item>
+    <item name="Color HTML" weight="1">#6A5ACD</item>
+    <item name="Color HTML" weight="1">#708090</item>
+    <item name="Color HTML" weight="1">#FFFAFA</item>
+    <item name="Color HTML" weight="1">#00FF7F</item>
+    <item name="Color HTML" weight="1">#4682B4</item>
+    <item name="Color HTML" weight="1">#D2B48C</item>
+    <item name="Color HTML" weight="1">#008080</item>
+    <item name="Color HTML" weight="1">#D8BFD8</item>
+    <item name="Color HTML" weight="1">#FF6347</item>
+    <item name="Color HTML" weight="1">#FFFFFF</item>
+    <item name="Color HTML" weight="1">#40E0D0</item>
+    <item name="Color HTML" weight="1">#EE82EE</item>
+    <item name="Color HTML" weight="1">#F5DEB3</item>
+    <item name="Color HTML" weight="1">#F5F5F5</item>
+    <item name="Color HTML" weight="1">#FFFF00</item>
+    <item name="Color HTML" weight="1">#9ACD32</item>
+  </items>
+  <imports />
+</generator>

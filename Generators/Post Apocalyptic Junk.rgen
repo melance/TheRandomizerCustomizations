@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
+  <name>Post-Apocalyptic Junk</name>
+  <author>Lance Boudreaux</author>
+  <description>Selects random junk found in a post-apocalyptic settings.  Some of the results are specific to Fallout but most are not.</description>
+  <url>https://www.reddit.com/r/RandomTables/comments/2z4u61/450_random_post_apocalypse_junk_items_from_rrpg/</url>
+  <tags>
+    <tag>Post Apocalyptic</tag>
+    <tag>Item</tag>
+    <tag>Fallout</tag>
+  </tags>
+  <supportsMaxLength>false</supportsMaxLength>
+  <isLibrary>false</isLibrary>
+  <items>
+    <item name="Start" weight="1">12 Gauge Dragonsbreath Shell</item>
+    <item name="Start" weight="1">1d20 Christmas Ornaments</item>
+    <item name="Start" weight="1">3 ft of Rope</item>
+    <item name="Start" weight="1">3 ft. 2x4</item>
+    <item name="Start" weight="1">ABC's Chart</item>
+    <item name="Start" weight="1">Abraxo Cleaner</item>
+    <item name="Start" weight="1">Accountants Logs</item>
+    <item name="Start" weight="1">Action Figure</item>
+    <item name="Start" weight="1">Adhesive Bandages [=Roll(1,30)]</item>
+    <item name="Start" weight="1">Adult Publication Magazine</item>
+    <item name="Start" weight="1">Air Compressor Hose</item>
+    <item name="Start" weight="1">Ant Larva</item>
+    <item name="Start" weight="1">Anti Mutant Propaganda</item>
+    <item name="Start" weight="1">Ashtray</item>
+    <item name="Start" weight="1">Astronaut Helmet</item>
+    <item name="Start" weight="1">BBs x[=Roll(10,100)]</item>
+    <item name="Start" weight="1">Bag of Computer Keys [=Roll(2,20)]</item>
+    <item name="Start" weight="1">Bag of Golf Tees [=Roll(10,10)]</item>
+    <item name="Start" weight="1">Bag of Gunpowder</item>
+    <item name="Start" weight="1">Bag of Marbles [=Roll(1,12)]</item>
+    <item name="Start" weight="1">Bag of Used Cement</item>
+    <item name="Start" weight="1">Bag of Yeast</item>
+    <item name="Start" weight="1">Ball Gag</item>
+    <item name="Start" weight="1">Ball of Yarn</item>
+    <item name="Start" weight="1">Barbed Wire [=Roll(1,20)] Meters</item>
+    <item name="Start" weight="1">Barber's Clips</item>
+    <item name="Start" weight="1">Baseball Bat</item>
+    <item name="Start" weight="1">Baseball Glove</item>
+    <item name="Start" weight="1">Baseball</item>
+    <item name="Start" weight="1">Basic Car Repair Book</item>
+    <item name="Start" weight="1">Basic Lock</item>
+    <item name="Start" weight="1">Basic Sensor Module</item>
+    <item name="Start" weight="1">Bed Sheeting</item>
+    <item name="Start" weight="1">Beetle Carcasses</item>
+    <item name="Start" weight="1">Bent Tin Can</item>
+    <item name="Start" weight="1">Bible</item>
+    <item name="Start" weight="1">Bicycle Basket</item>
+    <item name="Start" weight="1">Binoculars</item>
+    <item name="Start" weight="1">Bioluminous Mold</item>
+    <item name="Start" weight="1">Black Box with a Blinking Red Light</item>
+    <item name="Start" weight="1">Bloatfly Wings</item>
+    <item name="Start" weight="1">Blunt Wood Saw</item>
+    <item name="Start" weight="1">Bobby Pin box ([=Roll(2,2)] pins)</item>
+    <item name="Start" weight="1">Body Piercing Jewelry</item>
+    <item name="Start" weight="1">Bomb Collar (dud)</item>
+    <item name="Start" weight="1">Bonesaw</item>
+    <item name="Start" weight="1">Book Detailing Historical Empires</item>
+    <item name="Start" weight="1">Book of Caring for Young Children</item>
+    <item name="Start" weight="1">Book of Poetry</item>
+    <item name="Start" weight="1">Book of Religions</item>
+    <item name="Start" weight="1">Book of Sheet Music</item>
+    <item name="Start" weight="1">Book on Dealing with PTSD</item>
+    <item name="Start" weight="1">Book on Preserving Fish Meat</item>
+    <item name="Start" weight="1">Boots</item>
+    <item name="Start" weight="1">Bottle of Anti-venom</item>
+    <item name="Start" weight="1">Bottle of Sun Tan Oil</item>
+    <item name="Start" weight="1">Bottle of Whiskey</item>
+    <item name="Start" weight="1">Bottle of Wine</item>
+    <item name="Start" weight="1">Bowl</item>
+    <item name="Start" weight="1">Bowling Pin</item>
+    <item name="Start" weight="1">Box Cutter</item>
+    <item name="Start" weight="1">Box of Detergent</item>
+    <item name="Start" weight="1">Box of Fishing Hooks</item>
+    <item name="Start" weight="1">Box of Light Bulbs [=Roll(1,30)]</item>
+    <item name="Start" weight="1">Box of Matches</item>
+    <item name="Start" weight="1">Box of Staples ([=Roll(1,5)*1000])</item>
+    <item name="Start" weight="1">Boxing Glove</item>
+    <item name="Start" weight="1">Brahmin Ear</item>
+    <item name="Start" weight="1">Brahmin Skull</item>
+    <item name="Start" weight="1">Bread Box</item>
+    <item name="Start" weight="1">Broken Bed</item>
+    <item name="Start" weight="1">Broken Cybernetic Arm</item>
+    <item name="Start" weight="1">Broken Garden Gnome</item>
+    <item name="Start" weight="1">Broken Gun Barrel</item>
+    <item name="Start" weight="1">Broken Holotape</item>
+    <item name="Start" weight="1">Broken Jewelry Box</item>
+    <item name="Start" weight="1">Broken Nuka Cola Bottle</item>
+    <item name="Start" weight="1">Broken Psychic Dampener</item>
+    <item name="Start" weight="1">Broken Stealth Boy</item>
+    <item name="Start" weight="1">Broken Television Set</item>
+    <item name="Start" weight="1">Broken Tripod</item>
+    <item name="Start" weight="1">Broken Wall Clock</item>
+    <item name="Start" weight="1">Broken Weapon Parts</item>
+    <item name="Start" weight="1">Broken Wire Rimmed Spectacles</item>
+    <item name="Start" weight="1">Brotherhood of Steel Holotag</item>
+    <item name="Start" weight="1">Burned Globe</item>
+    <item name="Start" weight="1">Butter Knife</item>
+    <item name="Start" weight="1">Cable Cutters</item>
+    <item name="Start" weight="1">Camera (Roll vs Luck for working)</item>
+    <item name="Start" weight="1">Camera Lense</item>
+    <item name="Start" weight="1">Can Opener</item>
+    <item name="Start" weight="1">Can of Decayed Food</item>
+    <item name="Start" weight="1">Cardiovascular Medication</item>
+    <item name="Start" weight="1">Carton of Cigarettes ([=Roll(1,20)] packs)</item>
+    <item name="Start" weight="1">Cash Register Drawer</item>
+    <item name="Start" weight="1">Cathode Ray Tube</item>
+    <item name="Start" weight="1">Cave Fungus</item>
+    <item name="Start" weight="1">Ceramic Jar of Numbing Agent</item>
+    <item name="Start" weight="1">Charred Diagram of Water Chip</item>
+    <item name="Start" weight="1">Chemical Hot Plate</item>
+    <item name="Start" weight="1">Cherry Bomb</item>
+    <item name="Start" weight="1">Chessboard</item>
+    <item name="Start" weight="1">Child's Mobile</item>
+    <item name="Start" weight="1">Child's Story Book</item>
+    <item name="Start" weight="1">Chisel</item>
+    <item name="Start" weight="1">Christmas Lights [=Roll(1,20)*5] ft.</item>
+    <item name="Start" weight="1">Circular Saw-blade</item>
+    <item name="Start" weight="1">Claw Hammer</item>
+    <item name="Start" weight="1">Clipboard</item>
+    <item name="Start" weight="1">Clothes Iron</item>
+    <item name="Start" weight="1">Clown Mask</item>
+    <item name="Start" weight="1">Clown Nose</item>
+    <item name="Start" weight="1">Coffee Mug</item>
+    <item name="Start" weight="1">Coffee Pot</item>
+    <item name="Start" weight="1">Coffin Infant Sized</item>
+    <item name="Start" weight="1">Comic Book</item>
+    <item name="Start" weight="1">Compass</item>
+    <item name="Start" weight="1">Copper Tubing [=Roll(1,4)] Meters</item>
+    <item name="Start" weight="1">Corn Cob Pipe</item>
+    <item name="Start" weight="1">Coyote Tobacco</item>
+    <item name="Start" weight="1">Crayons</item>
+    <item name="Start" weight="1">Crowbar</item>
+    <item name="Start" weight="1">Crucifix</item>
+    <item name="Start" weight="1">Crushed Can</item>
+    <item name="Start" weight="1">Cuckoo Bird from a Cuckoo Clock</item>
+    <item name="Start" weight="1">Curtain Rod</item>
+    <item name="Start" weight="1">Cutting Board</item>
+    <item name="Start" weight="1">Dartboard</item>
+    <item name="Start" weight="1">Dead Potted Plant</item>
+    <item name="Start" weight="1">Deathclaw Claw</item>
+    <item name="Start" weight="1">Deck of Playing Cards [=Pick('(Marked)','')]</item>
+    <item name="Start" weight="1">Diary (Something about Talking [=Pick('Plants','Animals','Rocks','Appliances')])</item>
+    <item name="Start" weight="1">Dinner Plate</item>
+    <item name="Start" weight="1">Dirtied Wedding Dress</item>
+    <item name="Start" weight="1">Dirty Water</item>
+    <item name="Start" weight="1">Disarmed Land Mine</item>
+    <item name="Start" weight="1">Dog Collar</item>
+    <item name="Start" weight="1">Dog Skeleton</item>
+    <item name="Start" weight="1">Dog Tags of Pre-War Soldier</item>
+    <item name="Start" weight="1">Door Knob</item>
+    <item name="Start" weight="1">Dried Flowers</item>
+    <item name="Start" weight="1">Dried Noodles</item>
+    <item name="Start" weight="1">Dried up Marker</item>
+    <item name="Start" weight="1">Drinking Glass</item>
+    <item name="Start" weight="1">Drum Cymbal</item>
+    <item name="Start" weight="1">Drum Stick</item>
+    <item name="Start" weight="1">Duct Tape</item>
+    <item name="Start" weight="1">Dustpan</item>
+    <item name="Start" weight="1">Easter Egg</item>
+    <item name="Start" weight="1">Egg Timer</item>
+    <item name="Start" weight="1">Electrical Conductor</item>
+    <item name="Start" weight="1">Electrical Fuse</item>
+    <item name="Start" weight="1">Electrical Tape</item>
+    <item name="Start" weight="1">Empty 10 gallon Gas Can</item>
+    <item name="Start" weight="1">Empty Fire Extinguisher</item>
+    <item name="Start" weight="1">Empty Grenade</item>
+    <item name="Start" weight="1">Empty Jet Canister</item>
+    <item name="Start" weight="1">Empty Motor Oil Can</item>
+    <item name="Start" weight="1">Empty Nuka Cola Bottle</item>
+    <item name="Start" weight="1">Empty Pickle Jar</item>
+    <item name="Start" weight="1">Empty Pill Bottle</item>
+    <item name="Start" weight="1">Empty Radaway Bag</item>
+    <item name="Start" weight="1">Empty Snowglobe</item>
+    <item name="Start" weight="1">Empty Tool Box</item>
+    <item name="Start" weight="1">Faded Photograph</item>
+    <item name="Start" weight="1">Fan Blade</item>
+    <item name="Start" weight="1">Film Canister</item>
+    <item name="Start" weight="1">Firehose Nozzle</item>
+    <item name="Start" weight="1">First Aid Kit</item>
+    <item name="Start" weight="1">Fish Bowl</item>
+    <item name="Start" weight="1">Fishing Pole</item>
+    <item name="Start" weight="1">Fission Battery</item>
+    <item name="Start" weight="1">Flare</item>
+    <item name="Start" weight="1">Flashlight</item>
+    <item name="Start" weight="1">Flask of Vodka</item>
+    <item name="Start" weight="1">Flint</item>
+    <item name="Start" weight="1">Flute (Roll vs Luck for intact)</item>
+    <item name="Start" weight="1">Flying Disk</item>
+    <item name="Start" weight="1">Food (1 Supplies)</item>
+    <item name="Start" weight="1">Forceps</item>
+    <item name="Start" weight="1">Fork</item>
+    <item name="Start" weight="1">Fountain Pen</item>
+    <item name="Start" weight="1">Framed Picture of Old World Politician</item>
+    <item name="Start" weight="1">Fresh Human Heart</item>
+    <item name="Start" weight="1">Frying Pan</item>
+    <item name="Start" weight="1">Funnel</item>
+    <item name="Start" weight="1">Gambling Dice Set [=Pick('(Weighted)','')]</item>
+    <item name="Start" weight="1">Garden Hoe</item>
+    <item name="Start" weight="1">Garden Hose 10 ft.</item>
+    <item name="Start" weight="1">Gardening Gloves</item>
+    <item name="Start" weight="1">Gardening Trowel</item>
+    <item name="Start" weight="1">Gas Mask Filter</item>
+    <item name="Start" weight="1">Gecko Tooth</item>
+    <item name="Start" weight="1">Glass Baby Bottle</item>
+    <item name="Start" weight="1">Glass Eye</item>
+    <item name="Start" weight="1">Golden Locket</item>
+    <item name="Start" weight="1">Golf Balls [=Roll(1,8)]</item>
+    <item name="Start" weight="1">Golf Club</item>
+    <item name="Start" weight="1">Guitar</item>
+    <item name="Start" weight="1">HAM Radio Speaker</item>
+    <item name="Start" weight="1">Hair Curlers</item>
+    <item name="Start" weight="1">Half Eaten Mirelurk Leg</item>
+    <item name="Start" weight="1">Hand Bell</item>
+    <item name="Start" weight="1">Hand Mirror</item>
+    <item name="Start" weight="1">Handful of Rusty Nails</item>
+    <item name="Start" weight="1">Harmonica</item>
+    <item name="Start" weight="1">Hatched Gecko Egg</item>
+    <item name="Start" weight="1">Healing Powder</item>
+    <item name="Start" weight="1">Hedge Shears</item>
+    <item name="Start" weight="1">Hockey Stick</item>
+    <item name="Start" weight="1">Holorecord (Roll vs Luck for intact)</item>
+    <item name="Start" weight="1">Holotape of Missile Launch Codes</item>
+    <item name="Start" weight="1">Human Ear</item>
+    <item name="Start" weight="1">Human Remains</item>
+    <item name="Start" weight="1">Human Skull</item>
+    <item name="Start" weight="1">Ink Well</item>
+    <item name="Start" weight="1">Intact Book</item>
+    <item name="Start" weight="1">Irradiated Water</item>
+    <item name="Start" weight="1">Jar Full of Sand</item>
+    <item name="Start" weight="1">Jar full of Spider Webs</item>
+    <item name="Start" weight="1">Jar of Dried Plaster Paris</item>
+    <item name="Start" weight="1">Jar of Dried up Wood Glue</item>
+    <item name="Start" weight="1">Jar of Preserved Eyes ([=Roll(1,12)])</item>
+    <item name="Start" weight="1">Jimmy Hat</item>
+    <item name="Start" weight="1">Journal of Chemistry Notes on Jet</item>
+    <item name="Start" weight="1">Jump Starting Cables</item>
+    <item name="Start" weight="1">Keyring full of Keys</item>
+    <item name="Start" weight="1">Kitchen Pot</item>
+    <item name="Start" weight="1">Knife</item>
+    <item name="Start" weight="1">Knitting Needle</item>
+    <item name="Start" weight="1">Ladle</item>
+    <item name="Start" weight="1">Large Inner Tube</item>
+    <item name="Start" weight="1">Lawn Mower Blade</item>
+    <item name="Start" weight="1">Lawn chair</item>
+    <item name="Start" weight="1">Lead Box ([=Roll(1,6)]x[=Roll(1,6)]x[=Roll(1,6)] in.)</item>
+    <item name="Start" weight="1">Leaf Blower</item>
+    <item name="Start" weight="1">Leather Address Book</item>
+    <item name="Start" weight="1">Leather Belt</item>
+    <item name="Start" weight="1">Library Book Slip (well overdue)</item>
+    <item name="Start" weight="1">Light Switch</item>
+    <item name="Start" weight="1">Lipstick Case</item>
+    <item name="Start" weight="1">License Plate</item>
+    <item name="Start" weight="1">Lucky 8-Ball</item>
+    <item name="Start" weight="1">Lunchbox</item>
+    <item name="Start" weight="1">MRE</item>
+    <item name="Start" weight="1">Magic 8-Ball</item>
+    <item name="Start" weight="1">Magnet</item>
+    <item name="Start" weight="1">Magnifying Glass</item>
+    <item name="Start" weight="1">Make Up Case</item>
+    <item name="Start" weight="1">Malfunctioning Geiger Counter</item>
+    <item name="Start" weight="1">Mannequin Head</item>
+    <item name="Start" weight="1">Mannequin Torso</item>
+    <item name="Start" weight="1">Manual Water Pump</item>
+    <item name="Start" weight="1">Map of Wasteland</item>
+    <item name="Start" weight="1">Mattress Filling</item>
+    <item name="Start" weight="1">Mattress Spring</item>
+    <item name="Start" weight="1">Mechanical Clamp</item>
+    <item name="Start" weight="1">Medical Drawing of Ghouls</item>
+    <item name="Start" weight="1">Medical File</item>
+    <item name="Start" weight="1">Mercury Thermometer</item>
+    <item name="Start" weight="1">Metal Clothing Hangar</item>
+    <item name="Start" weight="1">Metal Cooking Pan</item>
+    <item name="Start" weight="1">Metal Cracker Box</item>
+    <item name="Start" weight="1">Metal Pole</item>
+    <item name="Start" weight="1">Milk Bottle</item>
+    <item name="Start" weight="1">Mirelurk Claw</item>
+    <item name="Start" weight="1">Mold Covered Skeletal Hand</item>
+    <item name="Start" weight="1">Monopoly Board</item>
+    <item name="Start" weight="1">Motorcycle Handbrake</item>
+    <item name="Start" weight="1">Mummified Hand with Six fingers</item>
+    <item name="Start" weight="1">Music Box (Roll vs Luck for working)</item>
+    <item name="Start" weight="1">Necklace of Bottlecaps</item>
+    <item name="Start" weight="1">Notepad</item>
+    <item name="Start" weight="1">Nuka Cola</item>
+    <item name="Start" weight="1">Old Tractor Tire</item>
+    <item name="Start" weight="1">Opthalmoscope</item>
+    <item name="Start" weight="1">Pack of Cigarettes</item>
+    <item name="Start" weight="1">Pack of Drill Bits</item>
+    <item name="Start" weight="1">Pack of Flour</item>
+    <item name="Start" weight="1">Paddle and Ball</item>
+    <item name="Start" weight="1">Paint Brush</item>
+    <item name="Start" weight="1">Paint Gun</item>
+    <item name="Start" weight="1">Painting Canvas Covered in Bird Droppings</item>
+    <item name="Start" weight="1">Paper Money [Roll(3,100)]</item>
+    <item name="Start" weight="1">Paper [=Roll(1,12)] sheets unused</item>
+    <item name="Start" weight="1">Passport</item>
+    <item name="Start" weight="1">Pasta Strainer</item>
+    <item name="Start" weight="1">Pencil</item>
+    <item name="Start" weight="1">Penknife</item>
+    <item name="Start" weight="1">Personal Sewing Kit</item>
+    <item name="Start" weight="1">Personal Sized Safe</item>
+    <item name="Start" weight="1">Photograph of Pre-War Model</item>
+    <item name="Start" weight="1">Pickled Fetus</item>
+    <item name="Start" weight="1">Picture Frame</item>
+    <item name="Start" weight="1">Picture of Children Worn and Tear Damaged</item>
+    <item name="Start" weight="1">Picture of a Nuclear Blast</item>
+    <item name="Start" weight="1">Pigrat Excretions</item>
+    <item name="Start" weight="1">Pillow</item>
+    <item name="Start" weight="1">Pilot Light</item>
+    <item name="Start" weight="1">Pitcher</item>
+    <item name="Start" weight="1">Plunger</item>
+    <item name="Start" weight="1">Pocket Knife</item>
+    <item name="Start" weight="1">Pocket Watch</item>
+    <item name="Start" weight="1">Pocketful of Coins</item>
+    <item name="Start" weight="1">Poker Chips 2d20</item>
+    <item name="Start" weight="1">Pool Ball</item>
+    <item name="Start" weight="1">Pool Cue</item>
+    <item name="Start" weight="1">Pouch of Gold Teeth [=Pick(1,10)]</item>
+    <item name="Start" weight="1">Preserved Brain</item>
+    <item name="Start" weight="1">Preserved Wolf Paw</item>
+    <item name="Start" weight="1">Pressure Cooker</item>
+    <item name="Start" weight="1">Pull-String Talking Doll</item>
+    <item name="Start" weight="1">Purified Water</item>
+    <item name="Start" weight="1">Rad X</item>
+    <item name="Start" weight="1">Radiation Suit (No Helmet)</item>
+    <item name="Start" weight="1">Radio Speaker</item>
+    <item name="Start" weight="1">Radio</item>
+    <item name="Start" weight="1">Radraoch Carapace</item>
+    <item name="Start" weight="1">Radscorpion Stinger</item>
+    <item name="Start" weight="1">Railroad Charts of Wasteland</item>
+    <item name="Start" weight="1">Railroad Lantern (out of oil)</item>
+    <item name="Start" weight="1">Railroad Spike</item>
+    <item name="Start" weight="1">Rake</item>
+    <item name="Start" weight="1">Religious Talisman</item>
+    <item name="Start" weight="1">Restaurant Menu</item>
+    <item name="Start" weight="1">Robo Brain Head Case</item>
+    <item name="Start" weight="1">Robot Motivator</item>
+    <item name="Start" weight="1">Rocket Toy</item>
+    <item name="Start" weight="1">Rolling Pin</item>
+    <item name="Start" weight="1">Rolodex of Business Contacts</item>
+    <item name="Start" weight="1">Rosary Beads</item>
+    <item name="Start" weight="1">Rubber Ball</item>
+    <item name="Start" weight="1">Rubber Duck</item>
+    <item name="Start" weight="1">Rubber Mallet</item>
+    <item name="Start" weight="1">Rucksack (Contains [Start],[Start], and [Start])</item>
+    <item name="Start" weight="1">Rusty Butcher's Cleaver</item>
+    <item name="Start" weight="1">Sales Catalog</item>
+    <item name="Start" weight="1">Sandals</item>
+    <item name="Start" weight="1">Sandpaper</item>
+    <item name="Start" weight="1">Santa Nuka Cola Sign</item>
+    <item name="Start" weight="1">Scalpel</item>
+    <item name="Start" weight="1">Scrap Metal</item>
+    <item name="Start" weight="1">Sewing Needle</item>
+    <item name="Start" weight="1">Sheriff's Badge</item>
+    <item name="Start" weight="1">Shopping Trolley</item>
+    <item name="Start" weight="1">Shot Glass</item>
+    <item name="Start" weight="1">Shower Head</item>
+    <item name="Start" weight="1">Sketch Book with Drawings of Mutants</item>
+    <item name="Start" weight="1">Slave Collar</item>
+    <item name="Start" weight="1">Sleeping Bag Cut in Half</item>
+    <item name="Start" weight="1">Sleeve for Blood Pressure</item>
+    <item name="Start" weight="1">Slot Machine Lever</item>
+    <item name="Start" weight="1">Small Bell</item>
+    <item name="Start" weight="1">Small Energy Cell</item>
+    <item name="Start" weight="1">Small Statuette</item>
+    <item name="Start" weight="1">Soap</item>
+    <item name="Start" weight="1">Spark Plug</item>
+    <item name="Start" weight="1">Spatula</item>
+    <item name="Start" weight="1">Spoon</item>
+    <item name="Start" weight="1">Square of Dog Fur</item>
+    <item name="Start" weight="1">Square of Linen</item>
+    <item name="Start" weight="1">Stapler</item>
+    <item name="Start" weight="1">Steam Gauge Assembly</item>
+    <item name="Start" weight="1">Steering Wheel</item>
+    <item name="Start" weight="1">Stethoscope</item>
+    <item name="Start" weight="1">Stick of Chalk</item>
+    <item name="Start" weight="1">Stop Sign</item>
+    <item name="Start" weight="1">Suitcase</item>
+    <item name="Start" weight="1">Sunglasses</item>
+    <item name="Start" weight="1">Surgical Mask</item>
+    <item name="Start" weight="1">Surgical Tubing</item>
+    <item name="Start" weight="1">Survey Map</item>
+    <item name="Start" weight="1">Swimming Goggles</item>
+    <item name="Start" weight="1">TOW II Targeting Chip</item>
+    <item name="Start" weight="1">Tackle Box</item>
+    <item name="Start" weight="1">Tattered Scarf</item>
+    <item name="Start" weight="1">Taxidermied Cat</item>
+    <item name="Start" weight="1">Taxidermied Feral Ghoul Head</item>
+    <item name="Start" weight="1">Taxidermied Fish</item>
+    <item name="Start" weight="1">Taxidermied Rabbits Foot</item>
+    <item name="Start" weight="1">Tea Kettle</item>
+    <item name="Start" weight="1">Tea Towel</item>
+    <item name="Start" weight="1">Teddy Bear</item>
+    <item name="Start" weight="1">Teeth [=Roll(1,12)]</item>
+    <item name="Start" weight="1">Telephone Receiver</item>
+    <item name="Start" weight="1">Tennis Ball</item>
+    <item name="Start" weight="1">Tennis Racket</item>
+    <item name="Start" weight="1">Tent Pole</item>
+    <item name="Start" weight="1">The Karma Sutra</item>
+    <item name="Start" weight="1">Timebomb Clock</item>
+    <item name="Start" weight="1">Tin Snuff Box</item>
+    <item name="Start" weight="1">Toaster</item>
+    <item name="Start" weight="1">Tool Belt</item>
+    <item name="Start" weight="1">Torn Jacket Sleeve</item>
+    <item name="Start" weight="1">Torn Skeleton</item>
+    <item name="Start" weight="1">Toupee</item>
+    <item name="Start" weight="1">Towel</item>
+    <item name="Start" weight="1">Toy Airplane</item>
+    <item name="Start" weight="1">Toy Car</item>
+    <item name="Start" weight="1">Toy Dinosaur</item>
+    <item name="Start" weight="1">Toy Nuka Cola Truck</item>
+    <item name="Start" weight="1">Toy Robot</item>
+    <item name="Start" weight="1">Tragic the Gathering Deck</item>
+    <item name="Start" weight="1">Trash Bin</item>
+    <item name="Start" weight="1">Tree Sap</item>
+    <item name="Start" weight="1">Triangle</item>
+    <item name="Start" weight="1">Tribal Fetish</item>
+    <item name="Start" weight="1">Tricycle</item>
+    <item name="Start" weight="1">Turpentine</item>
+    <item name="Start" weight="1">Tweezers</item>
+    <item name="Start" weight="1">Umbrella</item>
+    <item name="Start" weight="1">Underwater Topography of Closest Lakes</item>
+    <item name="Start" weight="1">[=Pick('Female','Male')] Underwear</item>
+    <item name="Start" weight="1">Urn of Ashes</item>
+    <item name="Start" weight="1">Used Hypodermic Needle</item>
+    <item name="Start" weight="1">Used Sock</item>
+    <item name="Start" weight="1">Used Toothbrush</item>
+    <item name="Start" weight="1">Vacuum Nozzle</item>
+    <item name="Start" weight="1">Very Old Calendar</item>
+    <item name="Start" weight="1">Very Old Farmer's Almanac</item>
+    <item name="Start" weight="1">Vial of Poison</item>
+    <item name="Start" weight="1">Vinyl Record (Roll vs Luck for intact)</item>
+    <item name="Start" weight="1">Violin (Roll vs Luck for intact)</item>
+    <item name="Start" weight="1">Walkie-Talkie</item>
+    <item name="Start" weight="1">Walking Cane (may count as baton)</item>
+    <item name="Start" weight="1">Wanted Poster</item>
+    <item name="Start" weight="1">Water Damaged Oil Painting</item>
+    <item name="Start" weight="1">Weapon Scope</item>
+    <item name="Start" weight="1">Wedding Cake Topper</item>
+    <item name="Start" weight="1">Wedding Ring</item>
+    <item name="Start" weight="1">Welding Mask</item>
+    <item name="Start" weight="1">Wheel Chair Arm</item>
+    <item name="Start" weight="1">Whetstone</item>
+    <item name="Start" weight="1">White Lace Glove</item>
+    <item name="Start" weight="1">Winter Coat</item>
+    <item name="Start" weight="1">Woman's Brassier</item>
+    <item name="Start" weight="1">Wonderglue</item>
+    <item name="Start" weight="1">Wooden Broom Handle</item>
+    <item name="Start" weight="1">Wooden Chair</item>
+    <item name="Start" weight="1">Wooden Crutch</item>
+    <item name="Start" weight="1">Wooden Oar</item>
+    <item name="Start" weight="1">Wooden Peg Leg</item>
+    <item name="Start" weight="1">Wooden Sword</item>
+    <item name="Start" weight="1">Wooden Toy Bocks [=Roll(1,10)]</item>
+    <item name="Start" weight="1">Wrist Watch</item>
+    <item name="Start" weight="1">Zippo Lighter</item>
+    <item name="Start" weight="1">[=Roll(1,30)] Ornamental Glass Beads</item>
+    <item name="Start" weight="1">Paraffin Candle</item>
+  </items>
+  <imports />
+</generator>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Dice" version="2">
+  <name>World of Darkness Skill Check</name>
+  <author>Lance Boudreaux</author>
+  <description>Rolls a skill check for World of Darkness</description>
+  <tags>
+    <tag>Dice Roll</tag>
+    <tag>World of Darkness</tag>
+    <tag>Horror</tag>
+  </tags>
+  <parameters>
+    <parameter name="Version" value="OWOD" display="Version" type="List">
+      <option display="Old World of Darkness">OWOD</option>
+      <option display="New World of Darkness">NWOD</option>
+    </parameter>
+    <parameter name="Pool" display="Dice Pool" type="Integer" />
+    <parameter name="Diff" display="Difficulty" type="Integer" />
+  </parameters>
+  <function>Successes:=if([Version]='OWOD',Roll(Pool,10,'GE',Diff,'R1'),Roll(Pool,10,'GE',DIFF,'CX'))
+	'&lt;b&gt;' + if((LastRoll('Successes') - LastRoll('Botches')) &gt;= 1, 'Success', '&lt;span style="color:DarkRed;"&gt;' + if(LastRoll('Successes') &lt; 0, if([Version]='OWOD','Botch','Fail'),'Fail') + '&lt;/span&gt;') + '&lt;/b&gt;'
+	'Die Rolls: ' + LastRoll('ResultList')
+	'Successes: ' + LastRoll('Successes')
+	'Botches: ' + LastRoll('Botches')</function>
+</generator>

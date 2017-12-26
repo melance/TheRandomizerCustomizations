@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
+  <name>Monster Maker</name>
+  <author>Lance Boudreaux</author>
+  <description>Creates a random monster</description>
+  <tags>
+    <tag>Monster</tag>
+  </tags>
+  <supportsMaxLength>false</supportsMaxLength>
+  <isLibrary>false</isLibrary>
+  <items>
+    <item name="Start" weight="1">Type: [Type]&lt;br /&gt;
+		Environment: [Environment]&lt;br /&gt;
+		Size: [Size]&lt;br /&gt;
+		Movment: [Locomotion]&lt;br /&gt;
+		Feature: [Feature]&lt;br /&gt;
+		</item>
+    <item name="Reproduction" weight="1">&lt;a href="http://en.wikipedia.org/wiki/Reproduction#Allogamy"&gt;allogamy&lt;/a&gt;</item>
+    <item name="Reproduction" weight="1">&lt;a href="http://en.wikipedia.org/wiki/Reproduction#Autogamy"&gt;autogamy&lt;/a&gt;</item>
+    <item name="Reproduction" weight="1">&lt;a href="http://en.wikipedia.org/wiki/Reproduction#Mitosis"&gt;mitosis&lt;/a&gt;</item>
+    <item name="Reproduction" weight="1">&lt;a href="http://en.wikipedia.org/wiki/Reproduction#Meiosis"&gt;meiosis&lt;/a&gt;</item>
+    <item name="Reproduction" weight="1">&lt;a href="http://en.wikipedia.org/wiki/Reproduction#Asexual"&gt;asexual&lt;/a&gt;</item>
+    <item name="Type" weight="1">humanoid</item>
+    <item name="Type" weight="1">mammal</item>
+    <item name="Type" weight="1">bird</item>
+    <item name="Type" weight="1">reptile</item>
+    <item name="Type" weight="1">amphibian</item>
+    <item name="Type" weight="1">celestial</item>
+    <item name="Type" weight="1">demon</item>
+    <item name="Type" weight="1">elemental</item>
+    <item name="Type" weight="1">plant</item>
+    <item name="Type" weight="1">insect</item>
+    <item name="Type" weight="1">crustacean</item>
+    <item name="Environment" weight="1">forest</item>
+    <item name="Environment" weight="1">desert</item>
+    <item name="Environment" weight="1">plains</item>
+    <item name="Environment" weight="1">steppe</item>
+    <item name="Environment" weight="1">city</item>
+    <item name="Environment" weight="1">rain forest</item>
+    <item name="Environment" weight="1">tundra</item>
+    <item name="Environment" weight="1">salt water</item>
+    <item name="Environment" weight="1">fresh water</item>
+    <item name="Size" weight="1">tiny [=Round(Rnd(0.1,1.0),2)] ft.</item>
+    <item name="Size" weight="1">small [=Round(Rnd(1.1, 3.0),2)] ft.</item>
+    <item name="Size" weight="1">medium [=Round(Rnd(3.1, 8.0),2)] ft.</item>
+    <item name="Size" weight="1">large [=Round(Rnd(8.1, 15.0),2)] ft.</item>
+    <item name="Size" weight="1">giant [=Round(Rnd(15.1, 30),2)] ft.</item>
+    <item name="Size" weight="1">enormous [=Round(Rnd(30.1, 75),2)] ft.</item>
+    <item name="Size" weight="1">gargantuan [=Round(Rnd(75.1, 150),2)] ft.</item>
+    <item name="Size" weight="1">colossal [=Round(Rnd(150.1, 250),2)] ft.</item>
+    <item name="Locomotion" weight="1">[LocomotionTerrestrial]</item>
+    <item name="Locomotion" weight="1">[LocomotionAquatic]</item>
+    <item name="Locomotion" weight="1">[LocomotionAerial]</item>
+    <item name="LocomotionTerrestrial" weight="1">bipedal</item>
+    <item name="LocomotionTerrestrial" weight="1">crawl</item>
+    <item name="LocomotionTerrestrial" weight="1">slither</item>
+    <item name="LocomotionTerrestrial" weight="1">hopping</item>
+    <item name="LocomotionTerrestrial" weight="1">stationary</item>
+    <item name="LocomotionAquatic" weight="1">&lt;a href="http://en.wikipedia.org/wiki/Animal_locomotion#Swimming"&gt;swimming&lt;/a&gt;</item>
+    <item name="LocomotionAquatic" weight="1">&lt;a href="http://en.wikipedia.org/wiki/Animal_locomotion#Benthic"&gt;benthic&lt;/a&gt;</item>
+    <item name="LocomotionAquatic" weight="1">&lt;a href="http://en.wikipedia.org/wiki/Animal_locomotion#Aquatic_surface"&gt;aquatic surface&lt;/a&gt;</item>
+    <item name="LocomotionAerial" weight="1">&lt;a href="http://en.wikipedia.org/wiki/Animal_locomotion#Gliding"&gt;gliding&lt;/a&gt;</item>
+    <item name="LocomotionAerial" weight="1">&lt;a href="http://en.wikipedia.org/wiki/Animal_locomotion#Soaring"&gt;soaring&lt;/a&gt;</item>
+    <item name="LocomotionAerial" weight="1">&lt;a href="http://en.wikipedia.org/wiki/Animal_locomotion#Ballooning"&gt;ballooning&lt;/a&gt;</item>
+    <item name="Feature" weight="1">[HeadFeature]</item>
+    <item name="Feature" weight="1">[LimbFeature]</item>
+    <item name="Feature" weight="1">[BodyFeature]</item>
+    <item name="Feature" weight="1">[FullFeature]</item>
+    <item name="HeadFeature" weight="1">horns</item>
+    <item name="HeadFeature" weight="1">eye stalks</item>
+    <item name="HeadFeature" weight="1">no eyes</item>
+    <item name="HeadFeature" weight="1">single eye</item>
+    <item name="HeadFeature" weight="1">glowing eyes</item>
+    <item name="HeadFeature" weight="1">many eyes</item>
+    <item name="HeadFeature" weight="1">empty eye sockets</item>
+    <item name="HeadFeature" weight="1">large nose</item>
+    <item name="HeadFeature" weight="1">multiple noses</item>
+    <item name="HeadFeature" weight="1">multiple nostrils</item>
+    <item name="HeadFeature" weight="1">no nose</item>
+    <item name="HeadFeature" weight="1">large ears</item>
+    <item name="HeadFeature" weight="1">no ears</item>
+    <item name="HeadFeature" weight="1">long hair</item>
+    <item name="HeadFeature" weight="1">fangs</item>
+    <item name="HeadFeature" weight="1">gills</item>
+    <item name="LimbFeature" weight="1">wings</item>
+    <item name="LimbFeature" weight="1">withered limbs</item>
+    <item name="LimbFeature" weight="1">long limbs</item>
+    <item name="BodyFeature" weight="1">incorporeal</item>
+    <item name="BodyFeature" weight="1">fur</item>
+    <item name="BodyFeature" weight="1">scales</item>
+    <item name="FullFeature" weight="1">undead</item>
+    <item name="FullFeature" weight="1">constructed</item>
+  </items>
+  <imports />
+</generator>

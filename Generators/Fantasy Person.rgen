@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
+  <supportsMaxLength>false</supportsMaxLength>
+  <isLibrary>true</isLibrary>
+  <items>
+    <item name="Person" weight="1">[Adventurer]</item>
+    <item name="Person" weight="1">[Noble]</item>
+    <item name="Person" weight="1">[Court]</item>
+    <item name="Person" weight="1">[Craftsman]</item>
+    <item name="Person" weight="1">peasant</item>
+    <item name="Person" weight="1">slave</item>
+    <item name="Noble" weight="1">[Imperial]</item>
+    <item name="Noble" weight="1">[Royal]</item>
+    <item name="Noble" weight="1">[Tite]</item>
+    <item name="Noble" weight="1">[Religious]</item>
+    <item name="Imperial" weight="1">emperor</item>
+    <item name="Imperial" weight="1">high king</item>
+    <item name="Imperial" weight="1">pharoah</item>
+    <item name="Imperial" weight="1">caesar</item>
+    <item name="Imperial" weight="1">tzar</item>
+    <item name="Imperial" weight="1">kaiser</item>
+    <item name="Royal" weight="1">king</item>
+    <item name="Royal" weight="1">sultan</item>
+    <item name="Royal" weight="1">queen</item>
+    <item name="Royal" weight="1">sultana</item>
+    <item name="Royal" weight="1">prince</item>
+    <item name="Royal" weight="1">despot</item>
+    <item name="Royal" weight="1">duke</item>
+    <item name="Royal" weight="1">grand duke</item>
+    <item name="Royal" weight="1">princess</item>
+    <item name="Royal" weight="1">archduke</item>
+    <item name="Royal" weight="1">duke</item>
+    <item name="Royal" weight="1">grand prince</item>
+    <item name="Royal" weight="1">dauphin</item>
+    <item name="Royal" weight="1">infante</item>
+    <item name="Royal" weight="1">elector</item>
+    <item name="Royal" weight="1">marquis</item>
+    <item name="Royal" weight="1">count</item>
+    <item name="Royal" weight="1">viscount</item>
+    <item name="Royal" weight="1">baron</item>
+    <item name="Title" weight="1">baronet</item>
+    <item name="Title" weight="1">vidame</item>
+    <item name="Title" weight="1">seigneur</item>
+    <item name="Title" weight="1">knight of the manor</item>
+    <item name="Title" weight="1">knight</item>
+    <item name="Title" weight="1">patrician</item>
+    <item name="Title" weight="1">nobile</item>
+    <item name="Title" weight="1">squire</item>
+    <item name="Title" weight="1">gentleman</item>
+    <item name="Title" weight="1">sheriff</item>
+    <item name="Title" weight="1">vassal</item>
+    <item name="Religious" weight="1">caliph</item>
+    <item name="Religious" weight="1">saltigue</item>
+    <item name="Religious" weight="1">priest</item>
+    <item name="Religious" weight="1">bishop</item>
+    <item name="Religious" weight="1">cardinal</item>
+    <item name="Religious" weight="1">reverend</item>
+    <item name="Religious" weight="1">witchdoctor</item>
+    <item name="Religious" weight="1">medicine man</item>
+    <item name="Religious" weight="1">deacon</item>
+    <item name="Religious" weight="1">archbishop</item>
+    <item name="Religious" weight="1">prophet</item>
+    <item name="Religious" weight="1">apostle</item>
+    <item name="Religious" weight="1">high priest</item>
+    <item name="Religious" weight="1">guru</item>
+    <item name="Court" weight="1">bottler</item>
+    <item name="Court" weight="1">butler</item>
+    <item name="Court" weight="1">chamberlain</item>
+    <item name="Court" weight="1">chancellor</item>
+    <item name="Court" weight="1">chaplain</item>
+    <item name="Court" weight="1">herald</item>
+    <item name="Court" weight="1">jester</item>
+    <item name="Court" weight="1">marshal</item>
+    <item name="Court" weight="1">messenger</item>
+    <item name="Court" weight="1">servant</item>
+    <item name="Court" weight="1">steward</item>
+    <item name="Court" weight="1">watchman</item>
+    <item name="Craftsman" weight="1">alchemist</item>
+    <item name="Craftsman" weight="1">apothecary</item>
+    <item name="Craftsman" weight="1">armorer</item>
+    <item name="Craftsman" weight="1">artist</item>
+    <item name="Craftsman" weight="1">astrologer</item>
+    <item name="Craftsman" weight="1">bailiff</item>
+    <item name="Craftsman" weight="1">baker</item>
+    <item name="Craftsman" weight="1">barber</item>
+    <item name="Craftsman" weight="1">blacksmith</item>
+    <item name="Craftsman" weight="1">bower</item>
+    <item name="Craftsman" weight="1">brewer</item>
+    <item name="Craftsman" weight="1">butcher</item>
+    <item name="Craftsman" weight="1">candlemaker</item>
+    <item name="Craftsman" weight="1">carpenter</item>
+    <item name="Craftsman" weight="1">cartwright</item>
+    <item name="Craftsman" weight="1">clerk</item>
+    <item name="Craftsman" weight="1">cobler</item>
+    <item name="Craftsman" weight="1">cook</item>
+    <item name="Craftsman" weight="1">cooper</item>
+    <item name="Craftsman" weight="1">cotter</item>
+    <item name="Craftsman" weight="1">ditcher</item>
+    <item name="Craftsman" weight="1">draper</item>
+    <item name="Craftsman" weight="1">falconer</item>
+    <item name="Craftsman" weight="1">farmer</item>
+    <item name="Craftsman" weight="1">farmhand</item>
+    <item name="Craftsman" weight="1">fishmonger</item>
+    <item name="Craftsman" weight="1">fletcher</item>
+    <item name="Craftsman" weight="1">furrier</item>
+    <item name="Craftsman" weight="1">gardener</item>
+    <item name="Craftsman" weight="1">goldsmith</item>
+    <item name="Craftsman" weight="1">gravedigger</item>
+    <item name="Craftsman" weight="1">grocer</item>
+    <item name="Craftsman" weight="1">groom</item>
+    <item name="Craftsman" weight="1">hayward</item>
+    <item name="Craftsman" weight="1">herbalist</item>
+    <item name="Craftsman" weight="1">metalsmith</item>
+    <item name="Craftsman" weight="1">miller</item>
+    <item name="Craftsman" weight="1">minstrel</item>
+    <item name="Craftsman" weight="1">page</item>
+    <item name="Craftsman" weight="1">plowman</item>
+    <item name="Craftsman" weight="1">potter</item>
+    <item name="Craftsman" weight="1">reeve</item>
+    <item name="Craftsman" weight="1">scribe</item>
+    <item name="Craftsman" weight="1">scullion</item>
+    <item name="Craftsman" weight="1">silversmith</item>
+    <item name="Craftsman" weight="1">stonemason</item>
+    <item name="Craftsman" weight="1">tailor</item>
+    <item name="Craftsman" weight="1">tinsmith</item>
+    <item name="Craftsman" weight="1">weaver</item>
+    <item name="Adventurer" weight="1">cleric</item>
+    <item name="Adventurer" weight="1">barbarian</item>
+    <item name="Adventurer" weight="1">fighter</item>
+    <item name="Adventurer" weight="1">druid</item>
+    <item name="Adventurer" weight="1">rogue</item>
+    <item name="Adventurer" weight="1">paladin</item>
+    <item name="Adventurer" weight="1">sorcerer</item>
+    <item name="Adventurer" weight="1">bard</item>
+    <item name="Adventurer" weight="1">wizard</item>
+    <item name="Adventurer" weight="1">monk</item>
+    <item name="Adventurer" weight="1">ranger</item>
+    <item name="Adventurer" weight="1">warlock</item>
+  </items>
+  <imports />
+</generator>

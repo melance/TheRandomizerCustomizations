@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
+  <name>Riddles</name>
+  <author>Lance Boudreaux</author>
+  <description>Selects a riddle</description>
+  <tags>
+    <tag>Other</tag>
+  </tags>
+  <supportsMaxLength>false</supportsMaxLength>
+  <isLibrary>false</isLibrary>
+  <items>
+    <item name="Start" weight="1">A woman has 7 children, half of them are boys.&lt;br /&gt;
+									How can this be possible?&lt;br /&gt; 
+									[Answer]They are all boys.[/Answer]</item>
+    <item name="Start" weight="1">What lies in bed, and stands in bed,&lt;br /&gt;
+									First white, then red.&lt;br /&gt;
+									The plumper it gets&lt;br /&gt;
+									The better the old woman likes it?&lt;br /&gt;
+									[Answer]A strawberry[/Answer]</item>
+    <item name="Start" weight="1">Lighter than what I am made of,&lt;br /&gt;
+									More of me is hidden than is seen,&lt;br /&gt;
+									I am the bane of the mariner,&lt;br /&gt;
+									A tooth within the sea.&lt;br /&gt;
+									Speak my name.&lt;br /&gt;
+									[Answer]Ice[/Answer]</item>
+    <item name="Start" weight="1">I get wetter the more I dry, what am I?&lt;br /&gt;
+									[Answer]A towel[/Answer]</item>
+    <item name="Start" weight="1">The man who built it,&lt;br /&gt;
+									Doesn't want it for himself.&lt;br /&gt;
+									The man who bought it,&lt;br /&gt;
+									Doesn't need it for himself.&lt;br /&gt;
+									The man who needs it,
+									Doesn't know it when he does.&lt;br /&gt;
+									[Answer]A coffin[/Answer]</item>
+    <item name="Start" weight="1">A spirited jig, it dances bright,&lt;br /&gt;
+									Banishing all but darkest night,&lt;br /&gt;
+									Give it food and it will live;&lt;br /&gt;
+									Give it water and it will die.&lt;br /&gt;
+									[Answer]Fire[/Answer]</item>
+    <item name="Start" weight="1">I am free for the taking through all of your life,&lt;br /&gt;
+									Though given but once at birth.&lt;br /&gt;
+									I am less than nothing in weight,&lt;br /&gt;
+									But will fell the strongest of you if held.&lt;br /&gt;
+									[Answer]Breath[/Answer]</item>
+    <item name="Start" weight="1">What has four wheels and flies?&lt;br /&gt;
+									[Answer]The town garbage wagon[/Answer]</item>
+    <item name="Start" weight="1">What has four legs in the morning,&lt;br /&gt;
+									Two legs in the afternoon,&lt;br /&gt;
+									And three legs at night?&lt;br /&gt;
+									[Answer]A human being[/Answer]</item>
+    <item name="Start" weight="1">No sooner spoken than broken.  What is it?&lt;br /&gt;
+									[Answer]Silence[/Answer]</item>
+    <item name="Start" weight="1">We are very little creatures; all of us have different features. One of us in glass is set; one of us you'll find in jet. Another you may see in tin, and a fourth is boxed within. If the fifth you should pursue, it can never fly from you. What are we?&lt;br /&gt;
+									[Answer]A, E, I, O, and U[/Answer]</item>
+    <item name="Start" weight="1">Where can you find roads without cars,&lt;br /&gt;
+									forests without trees,&lt;br /&gt;
+									and cities without buildings?&lt;br /&gt;
+									[Answer]A map[/Answer]</item>
+    <item name="Start" weight="1">Cannot be seen, cannot be felt,&lt;br /&gt;
+									cannot be heard, cannot be smelt.&lt;br /&gt;
+									It lies behind the stars and beneath the hills.&lt;br /&gt;
+									Ends life and daytime kills.&lt;br /&gt;
+									[Answer]Darkness[/Answer]</item>
+    <item name="Start" weight="1">This thing runs but cannot walk,&lt;br /&gt;
+									sometimes sings but never talks.&lt;br /&gt;
+									Lacks arms, has hands;&lt;br /&gt;
+									lacks a head has a face.&lt;br /&gt;
+									[Answer]a clock[/Answer]</item>
+    <item name="Start" weight="1">Man walks over;&lt;br /&gt;
+									Man walks under;&lt;br /&gt;
+									In time of war&lt;br /&gt;
+									He burns asunder.&lt;br /&gt;
+									[Answer]A bridge[/Answer]</item>
+    <item name="Start" weight="1">Walk on the living and they do not mumble.&lt;br /&gt;
+									Walk on the dead, they mutter and grumble.&lt;br /&gt;
+									[Answer]Leaves[/Answer]</item>
+    <item name="Start" weight="1">With no wings, I fly.&lt;br /&gt;
+									With no eyes, I see.&lt;br /&gt;
+									With no arms, I climb.&lt;br /&gt;
+									More frightening than any beast,&lt;br /&gt;
+									Stronger than any foe.&lt;br /&gt;
+									I am cunning, ruthless and tall;&lt;br /&gt;
+									In the end, I rule all.&lt;br /&gt;
+									[Answer]Imagination[/Answer]</item>
+    <item name="Start" weight="1">Without a body, yet I have a head and a tail.&lt;br /&gt;
+									[Answer]A coin[/Answer]</item>
+    <item name="Start" weight="1">It's a part of heaven yet it thouches the Earth.&lt;br /&gt;
+									Some say it's valuable, others say it has no worth.&lt;br /&gt;
+									[Answer]A rainbow[/Answer]</item>
+    <item name="Start" weight="1">What three letters turn a boy into a man?&lt;br /&gt;
+									[Answer]Age[/Answer]</item>
+    <item name="Start" weight="1">What crosses a river yet never moves?&lt;br /&gt;
+									[Answer]A bridge[/Answer]</item>
+    <item name="Start" weight="1">What runs smoother than any rhyme,&lt;br /&gt;
+									Loves to fall yet cannot climb?&lt;br /&gt;
+									[Answer]Water[/Answer]</item>
+    <item name="Start" weight="1">What is always too late?&lt;br /&gt;
+									[Answer]Regret[/Answer]</item>
+    <item name="Start" weight="1">What can travel the world while stuck in a corner?&lt;br /&gt;
+									[Answer]A stamp[/Answer]</item>
+    <item name="Start" weight="1">How many months have 29 days?&lt;br /&gt;
+									[Answer]All of them[/Answer]</item>
+    <item name="Start" weight="1">What can run but never walks,&lt;br /&gt;
+									Has a mouth but never talks,&lt;br /&gt;
+									Has a bed but never sleeps,&lt;br /&gt;
+									Has a head but never weeps?&lt;br /&gt;
+									[Answer]A river[/Answer]</item>
+    <item name="Start" weight="1">When first I appear, I seem mysterious,&lt;br /&gt;
+									But when I’m explained, I’m nothing serious&lt;br /&gt;
+									[Answer]A riddle[/Answer]</item>
+    <item name="Start" weight="1">Alive without breath,&lt;br /&gt;
+									As cold as death;&lt;br /&gt;
+									Never thirsty, ever drinking,&lt;br /&gt;
+									All in mail never clinking.&lt;br /&gt;
+									[Answer]A fish[/Answer]</item>
+    <item name="Start" weight="1">What has roots as nobody sees,&lt;br /&gt;
+									Is taller than trees.&lt;br /&gt;
+									Up, up it goes,&lt;br /&gt;
+									And yet it never grows?&lt;br /&gt;
+									[Answer]A mountain[/Answer]</item>
+    <item name="Start" weight="1">What is greater than God,&lt;br /&gt;
+									More evil than the devil,&lt;br /&gt;
+									The poor have it,&lt;br /&gt;
+									The rich need it,&lt;br /&gt;
+									and if you eat it, you will die?&lt;br /&gt;
+									[Answer]Nothing[/Answer]</item>
+    <item name="Start" weight="1">A house of red carrying babies aplenty,&lt;br /&gt;
+									Lies within a house of white that &lt;br /&gt;
+									Lies within a house of green.  What is it?&lt;br /&gt;
+									[Answer]A watermelon[/Answer]</item>
+    <item name="Start" weight="1">If you have me, you want to share me.&lt;br /&gt;
+									If you share me you haven't got me.&lt;br /&gt;
+									[Answer]A secret[/Answer]</item>
+    <item name="Start" weight="1">I am given from one to another,&lt;br /&gt;
+									Yet I cannot be held.&lt;br /&gt;
+									I cannot be held,&lt;br /&gt;
+									Yet I can be broken.&lt;br /&gt;
+									[Answer]A promise[/Answer]</item>
+    <item name="Start" weight="1">Forward I am heavy, but backwards I am not.&lt;br /&gt;
+									[Answer]A ton[/Answer]</item>
+    <item name="Start" weight="1">He has married many women, yet he has never been married.  Who is he?&lt;br /&gt;
+									[Answer]A priest[/Answer]</item>
+    <item name="Start" weight="1">What can you have but not hold,&lt;br /&gt;
+									Catch but not throw?&lt;br /&gt;
+									[Answer]A cold[/Answer]</item>
+    <item name="Start" weight="1">A man rides into town on Friday, stays for three nights and leaves town on Friday.  How is this?&lt;br /&gt;
+									[Answer]His horse's name is Friday[/Answer]</item>
+    <item name="Start" weight="1">What happens once in a minute, twice in a moment, but never in a million years?&lt;br /&gt;
+									[Answer]The letter M[/Answer]</item>
+    <item name="Start" weight="1">What is full of holes yet still holds water?&lt;br /&gt;
+									[Answer]A sponde[/Answer]</item>
+    <item name="Start" weight="1">Pronounced as one letter,&lt;br /&gt;
+									And written with three,&lt;br /&gt;
+									Two letters there are,&lt;br /&gt; 
+									And two only in me.&lt;br /&gt; 
+									I'm double, I'm single,&lt;br /&gt; 
+									I'm black, blue, and gray,&lt;br /&gt; 
+									I'm read from both ends, 
+									And the same either way. 									
+									What am I?&lt;br /&gt;
+									[Answer]Eye[/Answer]</item>
+    <item name="Start" weight="1">The more you take away, the larger I become.&lt;br /&gt;
+									[Answer]A hole[/Answer]</item>
+    <item name="Start" weight="1">What has three feet but has no legs?&lt;br /&gt;
+									[Answer]A yardstick[/Answer]</item>
+    <item name="Answer" weight="1">&lt;span style="color:green;"&gt;</item>
+    <item name="/Answer" weight="1">&lt;/span&gt;</item>
+  </items>
+  <imports />
+</generator>

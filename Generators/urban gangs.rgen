@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
+  <name>Urban Gangs</name>
+  <author>Lance Boudreaux</author>
+  <description>Generates gangs for urban adventures.</description>
+  <url>https://www.reddit.com/r/DnDBehindTheScreen/comments/3l3ra7/random_tables_urban_gangs/</url>
+  <tags>
+    <tag>Gang</tag>
+    <tag>Encounter</tag>
+  </tags>
+  <supportsMaxLength>false</supportsMaxLength>
+  <isLibrary>false</isLibrary>
+  <items>
+    <item name="Start" weight="1">This gang of [recruits], led by a [leader] who has [leaderFeature], makes its living [schemes].  The leader's long term goal is [goals].  
+		You can spot the gang members by their matching [matching], the gang's color [colors], and sporting their symbol: [symbol].  They make their home [=Pick('near','inside')] 
+		[headquarters].  When in a ruckus, they use [tactics] along with their favored weapons [weapons]. They are [=Pick('feared','admired')] by [admirers].</item>
+    <item name="schemes" weight="1">distributing [=Pick('smokeleaf','a hallucinogenic mushroom','sleepysalt (a downer)','sharpsugar (an upper)','opium')]</item>
+    <item name="schemes" weight="1">[=Pick('running heists','fencing stolen gems and precious metals')]</item>
+    <item name="schemes" weight="1">[=Pick('Petty theft','burglary','pickpocketing')]</item>
+    <item name="schemes" weight="1">performing assassinations that look like accidents or that frame someone else</item>
+    <item name="schemes" weight="1">running [=Pick('exotic','low-end','high-class')] brothels</item>
+    <item name="schemes" weight="1">shaking down legitimate local businesses and/or city officials</item>
+    <item name="schemes" weight="1">serving as muscle for shady [=Pick('merchants','brothel-keepers','pimps')].</item>
+    <item name="schemes" weight="1">holding up outgoing [=Pick('ships','wagons')]</item>
+    <item name="schemes" weight="1">fencing counterfeit [=Pick('art','coinage')]</item>
+    <item name="colors" weight="1">[=Pick('black','gray','charcoal','white')]</item>
+    <item name="colors" weight="1">[=Pick('red','scarlet','crimson','burgandy','maroon')]</item>
+    <item name="colors" weight="1">[=Pick('gold','silver','bronze','copper','platinum','steel')]</item>
+    <item name="colors" weight="1">[=Pick('forest green','hunter green','dark green','green','olive')]</item>
+    <item name="colors" weight="1">[=Pick('blue','royal blue','navy','sky blue')]</item>
+    <item name="colors" weight="1">[=Pick('violet','purple','pink')]</item>
+    <item name="colors" weight="1">[=Pick('tan','khaki','brown','umber','chocolate')]</item>
+    <item name="symbol" weight="1">[=Pick('a skull','crossbones','a drop of blood')]</item>
+    <item name="symbol" weight="1">a ghost</item>
+    <item name="symbol" weight="1">[=Pick('an open hand','a clenched fist','an eye','a finger','a foot')]</item>
+    <item name="symbol" weight="1">[=Pick('an arrow','a dagger','a sword','a hammer','a sickle','an axe')]</item>
+    <item name="symbol" weight="1">[=Pick('a goblet','a crown','a tower','a ring')]</item>
+    <item name="symbol" weight="1">[=Pick('a moon','a sun','a star','a comet','a cloud','a lightning bolt')]</item>
+    <item name="symbol" weight="1">[=Pick('a fish','a bird','a snake','a rat','a badger','a spider','a wolf','a bear','a bird of prey','a lizard')]</item>
+    <item name="matching" weight="1">shirts</item>
+    <item name="matching" weight="1">jackets</item>
+    <item name="matching" weight="1">scarves</item>
+    <item name="matching" weight="1">vests</item>
+    <item name="matching" weight="1">bandanas</item>
+    <item name="matching" weight="1">boots</item>
+    <item name="matching" weight="1">tattoos</item>
+    <item name="matching" weight="1">hats</item>
+    <item name="matching" weight="1">scars</item>
+    <item name="matching" weight="1">hair styles</item>
+    <item name="matching" weight="1">rings</item>
+    <item name="matching" weight="1">necklaces</item>
+    <item name="matching" weight="1">bracelets</item>
+    <item name="leader" weight="1">[leaderAdj] [leaderNoun]</item>
+    <item name="leaderAdj" weight="1">a dangerous</item>
+    <item name="leaderAdj" weight="1">a charismatic</item>
+    <item name="leaderAdj" weight="1">a mysterious</item>
+    <item name="leaderAdj" weight="1">a ruthless</item>
+    <item name="leaderAdj" weight="1">a charming</item>
+    <item name="leaderAdj" weight="1">a dashing</item>
+    <item name="leaderAdj" weight="1">a brutish</item>
+    <item name="leaderAdj" weight="1">an aloof</item>
+    <item name="leaderAdj" weight="1">a deadly</item>
+    <item name="leaderAdj" weight="1">a sharp</item>
+    <item name="leaderAdj" weight="1">a calculating</item>
+    <item name="leaderNoun" weight="1">megalomaniac</item>
+    <item name="leaderNoun" weight="1">demagogue</item>
+    <item name="leaderNoun" weight="1">foreigner</item>
+    <item name="leaderNoun" weight="1">killer</item>
+    <item name="leaderNoun" weight="1">rogue</item>
+    <item name="leaderNoun" weight="1">swashbuckler</item>
+    <item name="leaderNoun" weight="1">thug</item>
+    <item name="leaderNoun" weight="1">cultist</item>
+    <item name="recruits" weight="1">artisans</item>
+    <item name="recruits" weight="1">relocated peasants</item>
+    <item name="recruits" weight="1">sailors</item>
+    <item name="recruits" weight="1">drunks</item>
+    <item name="recruits" weight="1">beggars</item>
+    <item name="recruits" weight="1">thieves</item>
+    <item name="recruits" weight="1">servants and slaves</item>
+    <item name="recruits" weight="1">combat veterans</item>
+    <item name="recruits" weight="1">young children</item>
+    <item name="recruits" weight="1">[=Pick('circus','street')] performers</item>
+    <item name="recruits" weight="1">addicts</item>
+    <item name="recruits" weight="1">foreigners</item>
+    <item name="goals" weight="1">domination of the city's [=Pick('politics','trade','merchants')]</item>
+    <item name="goals" weight="1">revenge against a rival gang in [=Pick('the same','another')] city</item>
+    <item name="goals" weight="1">[=Pick('revenge','rebellion')] against the city's elite</item>
+    <item name="weapons" weight="1">wooden clubs</item>
+    <item name="weapons" weight="1">throwing knives</item>
+    <item name="weapons" weight="1">over-sized daggers</item>
+    <item name="weapons" weight="1">serrated daggers</item>
+    <item name="weapons" weight="1">daggers and crossbows</item>
+    <item name="weapons" weight="1">hammers and daggers</item>
+    <item name="weapons" weight="1">sticks and stones</item>
+    <item name="weapons" weight="1">shortswords</item>
+    <item name="weapons" weight="1">brass knuckles</item>
+    <item name="weapons" weight="1">bare fists</item>
+    <item name="weapons" weight="1">saps</item>
+    <item name="weapons" weight="1">improvised weapons</item>
+    <item name="weapons" weight="1">quarterstaffs</item>
+    <item name="tactics" weight="1">swarm tactics</item>
+    <item name="tactics" weight="1">hit-and-run tactics</item>
+    <item name="tactics" weight="1">ambush tactics</item>
+    <item name="tactics" weight="1">choreographed maneuvers</item>
+    <item name="tactics" weight="1">unpredictable maneuvers</item>
+    <item name="tactics" weight="1">lots of smiles and jokes</item>
+    <item name="tactics" weight="1">lots of fancy footwork</item>
+    <item name="tactics" weight="1">lots of screaming and shouting</item>
+    <item name="tactics" weight="1">kicking and stomping</item>
+    <item name="tactics" weight="1">lots of head-butting</item>
+    <item name="tactics" weight="1">dirty fighting</item>
+    <item name="tactics" weight="1">dance numbers</item>
+    <item name="headquarters" weight="1">the residence of =Pick('the leader','a senior gangmember')]</item>
+    <item name="headquarters" weight="1">an artisan's shop</item>
+    <item name="headquarters" weight="1">a guildhall</item>
+    <item name="headquarters" weight="1">a merchant's office</item>
+    <item name="headquarters" weight="1">a tavern</item>
+    <item name="headquarters" weight="1">a brothel</item>
+    <item name="headquarters" weight="1">a wharehouse</item>
+    <item name="headquarters" weight="1">a shipyard</item>
+    <item name="headquarters" weight="1">a temple</item>
+    <item name="headquarters" weight="1">a temple complex</item>
+    <item name="headquarters" weight="1">the city's sewers</item>
+    <item name="headquarters" weight="1">the town hall</item>
+    <item name="headquarters" weight="1">an abandoned [=Pick('guildhall','wharehouse','residence')]</item>
+    <item name="headquarters" weight="1">a shantytown</item>
+    <item name="headquarters" weight="1">the residence of a wealthy individual</item>
+    <item name="headquarters" weight="1">a house boat</item>
+    <item name="admirers" weight="1">fishermen and sailors</item>
+    <item name="admirers" weight="1">beggars and thieves</item>
+    <item name="admirers" weight="1">merchants and moneychangers</item>
+    <item name="admirers" weight="1">jewelers and gemcutters</item>
+    <item name="admirers" weight="1">politics and magistrates</item>
+    <item name="admirers" weight="1">guards and sheriffs</item>
+    <item name="admirers" weight="1">soldiers and warriors</item>
+    <item name="admirers" weight="1">gladiators and pugilists</item>
+    <item name="admirers" weight="1">servants and slaves</item>
+    <item name="admirers" weight="1">priests and sages</item>
+    <item name="admirers" weight="1">women and children</item>
+    <item name="admirers" weight="1">working men</item>
+    <item name="admirers" weight="1">farmers and hunters</item>
+    <item name="leaderFeature" weight="1">a nose ring</item>
+    <item name="leaderFeature" weight="1">shiney leather boots</item>
+    <item name="leaderFeature" weight="1">a hole in the toe of one boot</item>
+    <item name="leaderFeature" weight="1">a dagger in each boot</item>
+    <item name="leaderFeature" weight="1">a heavy gold chain necklace</item>
+    <item name="leaderFeature" weight="1">a wide-brimmed hat</item>
+    <item name="leaderFeature" weight="1">a dagger tattoo on the forearm</item>
+    <item name="leaderFeature" weight="1">a snake tattoo on the neck</item>
+    <item name="leaderFeature" weight="1">a maniacal laugh</item>
+    <item name="leaderFeature" weight="1">a soft voice</item>
+    <item name="leaderFeature" weight="1">a long, crooked nose</item>
+    <item name="leaderFeature" weight="1">an open shirt and hairy chest</item>
+    <item name="leaderFeature" weight="1">an extravagant mustache</item>
+  </items>
+  <imports />
+</generator>

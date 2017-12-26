@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-16"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
+  <name>Spaceship Names</name>
+  <author>Lance Boudreaux</author>
+  <description>Generates spaceship names.</description>
+  <tags>
+    <tag>Name</tag>
+    <tag>Sci-Fi</tag>
+  </tags>
+  <supportsMaxLength>false</supportsMaxLength>
+  <isLibrary>false</isLibrary>
+  <items>
+    <item name="Start" weight="1">[UpperCase][UpperCase]-[Digit][Digit] [Name]</item>
+    <item name="Start" weight="1">[UpperCase][UpperCase]-[Digit][Digit] [Noun]</item>
+    <item name="Start" weight="1">[UpperCase][UpperCase]-[Digit][Digit] [Class]</item>
+    <item name="Start" weight="1">The [Noun] [Class]</item>
+    <item name="Start" weight="1">The [Noun] [Size] [Class]</item>
+    <item name="Start" weight="1">[Name]'s [Noun]</item>
+    <item name="Start" weight="1">[Name]'s [Noun]</item>
+    <item name="Start" weight="1">The [Adjective] [Noun]</item>
+    <item name="Start" weight="1">The [Noun] of [Name]</item>
+    <item name="Start" weight="1">The [Name]</item>
+    <item name="Start" weight="1">The [Noun]</item>
+    <item name="Start" weight="1">[UpperCase][UpperCase][UpperCase] [Class]</item>
+    <item name="Name" weight="1">Agamemmnon</item>
+    <item name="Name" weight="1">Aldrin</item>
+    <item name="Name" weight="1">Anastasia</item>
+    <item name="Name" weight="1">Archemedes</item>
+    <item name="Name" weight="1">Argonaut</item>
+    <item name="Name" weight="1">Aries</item>
+    <item name="Name" weight="1">Benna</item>
+    <item name="Name" weight="1">Bresa</item>
+    <item name="Name" weight="1">Daedalus</item>
+    <item name="Name" weight="1">Darwin</item>
+    <item name="Name" weight="1">Democritus</item>
+    <item name="Name" weight="1">Einstein</item>
+    <item name="Name" weight="1">Excalibur</item>
+    <item name="Name" weight="1">Falcon</item>
+    <item name="Name" weight="1">Hammurabi</item>
+    <item name="Name" weight="1">Icarus</item>
+    <item name="Name" weight="1">Leonidas</item>
+    <item name="Name" weight="1">Leonov</item>
+    <item name="Name" weight="1">Masamune</item>
+    <item name="Name" weight="1">Miyamoto</item>
+    <item name="Name" weight="1">Nebuchadnezzar</item>
+    <item name="Name" weight="1">Orion</item>
+    <item name="Name" weight="1">Pascal</item>
+    <item name="Name" weight="1">Pythagoras</item>
+    <item name="Name" weight="1">Rosen</item>
+    <item name="Name" weight="1">Saratoga</item>
+    <item name="Name" weight="1">Scorpio</item>
+    <item name="Name" weight="1">Tesla</item>
+    <item name="Name" weight="1">Turing</item>
+    <item name="Name" weight="1">Yamamoto</item>
+    <item name="Name" weight="1">Yamato</item>
+    <item name="Class" weight="1">Assault Ship</item>
+    <item name="Class" weight="1">Battlecruiser</item>
+    <item name="Class" weight="1">Battleship</item>
+    <item name="Class" weight="1">Carrier</item>
+    <item name="Class" weight="1">Clipper</item>
+    <item name="Class" weight="1">Conquistador</item>
+    <item name="Class" weight="1">Corsair</item>
+    <item name="Class" weight="1">Corvette</item>
+    <item name="Class" weight="1">Courier</item>
+    <item name="Class" weight="1">Cruiser</item>
+    <item name="Class" weight="1">Destroyer</item>
+    <item name="Class" weight="1">Dreadnought</item>
+    <item name="Class" weight="1">Explorer</item>
+    <item name="Class" weight="1">Fighter</item>
+    <item name="Class" weight="1">Frigate</item>
+    <item name="Class" weight="1">Landing Ship</item>
+    <item name="Class" weight="1">Medical Frigate</item>
+    <item name="Class" weight="1">Missile Cruiser</item>
+    <item name="Class" weight="1">Patrol Ship</item>
+    <item name="Class" weight="1">Science Vessel</item>
+    <item name="Class" weight="1">Scout</item>
+    <item name="Class" weight="1">Stealth Ship</item>
+    <item name="Class" weight="1">Striker</item>
+    <item name="Noun" weight="1">Adventurer</item>
+    <item name="Noun" weight="1">Andromeda</item>
+    <item name="Noun" weight="1">Ark</item>
+    <item name="Noun" weight="1">Atlantis</item>
+    <item name="Noun" weight="1">Aurora</item>
+    <item name="Noun" weight="1">Axis</item>
+    <item name="Noun" weight="1">Centaur</item>
+    <item name="Noun" weight="1">Challenger</item>
+    <item name="Noun" weight="1">Cicada</item>
+    <item name="Noun" weight="1">Columbia</item>
+    <item name="Noun" weight="1">Destiny</item>
+    <item name="Noun" weight="1">Discover</item>
+    <item name="Noun" weight="1">Dragon</item>
+    <item name="Noun" weight="1">Dragonfly</item>
+    <item name="Noun" weight="1">Drake</item>
+    <item name="Noun" weight="1">Drifter</item>
+    <item name="Noun" weight="1">Eagle</item>
+    <item name="Noun" weight="1">Elysium</item>
+    <item name="Noun" weight="1">Endeavor</item>
+    <item name="Noun" weight="1">Enterprise</item>
+    <item name="Noun" weight="1">Express</item>
+    <item name="Noun" weight="1">Fire</item>
+    <item name="Noun" weight="1">Firefly</item>
+    <item name="Noun" weight="1">Flame</item>
+    <item name="Noun" weight="1">Freedom</item>
+    <item name="Noun" weight="1">Gypsy</item>
+    <item name="Noun" weight="1">Hammer</item>
+    <item name="Noun" weight="1">Hammerhead</item>
+    <item name="Noun" weight="1">Hawk</item>
+    <item name="Noun" weight="1">Heart</item>
+    <item name="Noun" weight="1">Horizon</item>
+    <item name="Noun" weight="1">Hornet</item>
+    <item name="Noun" weight="1">Hunter</item>
+    <item name="Noun" weight="1">Hyperion</item>
+    <item name="Noun" weight="1">Icon</item>
+    <item name="Noun" weight="1">Jewel</item>
+    <item name="Noun" weight="1">Liberator</item>
+    <item name="Noun" weight="1">Maiden</item>
+    <item name="Noun" weight="1">Marauder</item>
+    <item name="Noun" weight="1">Mongoose</item>
+    <item name="Noun" weight="1">Moon</item>
+    <item name="Noun" weight="1">Moth</item>
+    <item name="Noun" weight="1">Nemesis</item>
+    <item name="Noun" weight="1">Nomad</item>
+    <item name="Noun" weight="1">Nostromo</item>
+    <item name="Noun" weight="1">Nostradamus</item>
+    <item name="Noun" weight="1">Opportunity</item>
+    <item name="Noun" weight="1">Pathfinder</item>
+    <item name="Noun" weight="1">Prince</item>
+    <item name="Noun" weight="1">Princess</item>
+    <item name="Noun" weight="1">Queen</item>
+    <item name="Noun" weight="1">Raider</item>
+    <item name="Noun" weight="1">Ranger</item>
+    <item name="Noun" weight="1">Raven</item>
+    <item name="Noun" weight="1">Revenant</item>
+    <item name="Noun" weight="1">Samurai</item>
+    <item name="Noun" weight="1">Scorpion</item>
+    <item name="Noun" weight="1">Serenity</item>
+    <item name="Noun" weight="1">Shepard</item>
+    <item name="Noun" weight="1">Spirit</item>
+    <item name="Noun" weight="1">Sprinter</item>
+    <item name="Noun" weight="1">Star</item>
+    <item name="Noun" weight="1">Swallow</item>
+    <item name="Noun" weight="1">Terra</item>
+    <item name="Noun" weight="1">Thunderbolt</item>
+    <item name="Noun" weight="1">Titan</item>
+    <item name="Noun" weight="1">Valkyrie</item>
+    <item name="Noun" weight="1">Vengence</item>
+    <item name="Noun" weight="1">Venture</item>
+    <item name="Noun" weight="1">Victory</item>
+    <item name="Noun" weight="1">Voyager</item>
+    <item name="Noun" weight="1">Wasp</item>
+    <item name="Noun" weight="1">Wraith</item>
+    <item name="Noun" weight="1">Zephyr</item>
+    <item name="Adjective" weight="1">Astral</item>
+    <item name="Adjective" weight="1">Battle</item>
+    <item name="Adjective" weight="1">Celestial</item>
+    <item name="Adjective" weight="1">Eastern</item>
+    <item name="Adjective" weight="1">Galactic</item>
+    <item name="Adjective" weight="1">Gold</item>
+    <item name="Adjective" weight="1">Great</item>
+    <item name="Adjective" weight="1">Intrepid</item>
+    <item name="Adjective" weight="1">Luna</item>
+    <item name="Adjective" weight="1">Lunar</item>
+    <item name="Adjective" weight="1">Mega</item>
+    <item name="Adjective" weight="1">Northern</item>
+    <item name="Adjective" weight="1">Red</item>
+    <item name="Adjective" weight="1">Silver</item>
+    <item name="Adjective" weight="1">Solar</item>
+    <item name="Adjective" weight="1">Southern</item>
+    <item name="Adjective" weight="1">Stalwart</item>
+    <item name="Adjective" weight="1">Stellar</item>
+    <item name="Adjective" weight="1">Swift</item>
+    <item name="Adjective" weight="1">Valliant</item>
+    <item name="Adjective" weight="1">Western</item>
+    <item name="Adjective" weight="1">White</item>
+    <item name="Size" weight="1">Ultralight</item>
+    <item name="Size" weight="1">Light</item>
+    <item name="Size" weight="1">Medium</item>
+    <item name="Size" weight="1">Heavy</item>
+    <item name="Size" weight="1">Super Heavy</item>
+  </items>
+  <imports>
+    <import>LettersAndDigits</import>
+  </imports>
+</generator>

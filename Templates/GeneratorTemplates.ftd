@@ -110,3 +110,21 @@ GLOBAL
 		<import>$[![Import]!]</import>
 	</import>
 </generator>[>END<]!$[FingerTextData FingerTextData]@#
+TR_Table_Select
+Ext:rgen
+		<selectTable name="$[![Table Name]!]" column="$[![Column]!]" repeat="$[![Repeat]!]" repeatJoin="$[![Repeat Join]!]" skipTable="$[![Skip Table]!]" selectValue="$[![Select Value]!]"><![CDATA[
+		$[0[]0]
+		]]></selectTable>[>END<]!$[FingerTextData FingerTextData]@#
+TR_Table_Random
+Ext:rgen
+		<randomTable name="$[![Table Name]!]" column="$[![Column]!]" repeat="$[![Repeat]!]" repeatJoin="$[![Repeat Join]!]" skipTable="$[![Skip Table]!]" randomModifier="$[![Random Modifier]!]"><![CDATA[
+		$[0[]0]
+		]]></randomTable>[>END<]!$[FingerTextData FingerTextData]@#
+TR_Table_Loop
+Ext:rgen
+		<loopTable name="$[![Table Name]!]" column="$[![Column]!]" repeat="$[![Repeat]!]" repeatJoin="$[![Repeat Join]!]" skipTable="$[![Skip Table]!]"><![CDATA[
+		$[0[]0]
+		]]></loopTable>[>END<]!$[FingerTextData FingerTextData]@#
+TR_Item
+Ext:rgen
+<item name="$[![Start]!]" next="$[![]!]" weight="$[![1]!]" variable="$[![]!]" repeat="$[![1]!]">$[![expression]!]</item>[>END<]!$[FingerTextData FingerTextData]@#

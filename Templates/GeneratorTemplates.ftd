@@ -27,6 +27,21 @@ GLOBAL
 		]]></selectTable>
 	</tables>
 </generator>[>END<]!$[FingerTextData FingerTextData]@#
+TR_List
+GLOBAL
+<?xml version="1.0" encoding="utf-8"?>
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
+	<name>$[![Generator Name]!]</name>
+	<author>$[![Generator Author]!]</author>
+	<description>$[![Generator Description]!]</description>
+	<tags>
+		<tag>$[![Tag 1]!]</tag>
+		<tag>$[![Tag 2]!]</tag>
+	</tags>
+	<items>
+		$[0[]0]
+	</items>
+</generator>[>END<]!$[FingerTextData FingerTextData]@#
 TR_LUA
 GLOBAL
 <?xml version="1.0" encoding="utf-8"?>

@@ -1,7 +1,7 @@
 TR_Table
 GLOBAL
 <?xml version="1.0" encoding="utf-8"?>
-<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Dice" version="2">
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Table" version="2">
   	<name>$[![Generator Name]!]</name>
 	<author>$[![Generator Author]!]</author>
 	<description>$[![Generator Description]!]</description>
@@ -30,7 +30,7 @@ GLOBAL
 TR_List
 GLOBAL
 <?xml version="1.0" encoding="utf-8"?>
-<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Assignment" version="2">
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="List" version="2">
 	<name>$[![Generator Name]!]</name>
 	<author>$[![Generator Author]!]</author>
 	<description>$[![Generator Description]!]</description>
@@ -45,7 +45,7 @@ GLOBAL
 TR_LUA
 GLOBAL
 <?xml version="1.0" encoding="utf-8"?>
-<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Dice" version="2">
+<generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Lua" version="2">
   	<name>$[![Generator Name]!]</name>
 	<author>$[![Generator Author]!]</author>
 	<description>$[![Generator Description]!]</description>
@@ -125,6 +125,9 @@ Ext:rgen
 		<loopTable name="$[![Table Name]!]" column="$[![Column]!]" repeat="$[![Repeat]!]" repeatJoin="$[![Repeat Join]!]" skipTable="$[![Skip Table]!]"><![CDATA[
 		$[0[]0]
 		]]></loopTable>[>END<]!$[FingerTextData FingerTextData]@#
+TR_Item_Full
+Ext:rgen
+<item name="$[![]!]" next="$[![]!]" weight="$[![1]!]" variable="$[![]!]" repeat="$[![1]!]">$[![expression]!]</item>[>END<]!$[FingerTextData FingerTextData]@#
 TR_Item
 Ext:rgen
-<item name="$[![Start]!]" next="$[![]!]" weight="$[![1]!]" variable="$[![]!]" repeat="$[![1]!]">$[![expression]!]</item>[>END<]!$[FingerTextData FingerTextData]@#
+<item name="$[![]!]">$[![expression]!]</item>[>END<]!$[FingerTextData FingerTextData]@#
